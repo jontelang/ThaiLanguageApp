@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="75" id="FzJ-Jo-SZP" customClass="TLAMenuAppVersionCell" customModule="thai_language_app_2" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="75"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FzJ-Jo-SZP" id="jVt-zA-UPV">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="74.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cAE-ol-Yuq" customClass="TLALabel" customModule="thai_language_app_2" customModuleProvider="target">
+                        <rect key="frame" x="16" y="11" width="343" height="53"/>
+                        <constraints>
+                            <constraint firstAttribute="height" priority="999" constant="44" id="TcV-7N-I3a"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="cAE-ol-Yuq" firstAttribute="top" secondItem="jVt-zA-UPV" secondAttribute="topMargin" id="RxI-Zi-nei"/>
+                    <constraint firstItem="cAE-ol-Yuq" firstAttribute="bottom" secondItem="jVt-zA-UPV" secondAttribute="bottomMargin" id="Ui6-L6-X26"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="cAE-ol-Yuq" secondAttribute="trailing" id="XTC-s9-GLJ"/>
+                    <constraint firstItem="cAE-ol-Yuq" firstAttribute="leading" secondItem="jVt-zA-UPV" secondAttribute="leadingMargin" id="ZDO-gn-hfZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="labelVersion" destination="cAE-ol-Yuq" id="94V-Fu-smX"/>
+            </connections>
+            <point key="canvasLocation" x="-193.5" y="108.5"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="TLAMenuWelcomeCell" customModule="thai_language_app_2" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="102"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="101.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcome-cell-buddha" translatesAutoresizingMaskIntoConstraints="NO" id="INc-Rs-VVP">
+                        <rect key="frame" x="16" y="11" width="30" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="1f1-qT-47s"/>
+                            <constraint firstAttribute="height" priority="999" constant="100" id="hBI-YV-puJ"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9EK-18-giS">
+                        <rect key="frame" x="62" y="28.5" width="242" height="45"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="orD-iX-Bf8" customClass="TLALabel" customModule="thai_language_app_2" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="242" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="WQK-Xb-oTE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vmk-OZ-L5l" customClass="TLALabel" customModule="thai_language_app_2" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="24" width="242" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="4Q4-CT-wiZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Vmk-OZ-L5l" firstAttribute="leading" secondItem="9EK-18-giS" secondAttribute="leading" id="0CX-VJ-hco"/>
+                            <constraint firstAttribute="bottom" secondItem="Vmk-OZ-L5l" secondAttribute="bottom" id="6aQ-ii-gVi"/>
+                            <constraint firstAttribute="trailing" secondItem="Vmk-OZ-L5l" secondAttribute="trailing" id="IJy-dp-n5p"/>
+                            <constraint firstItem="Vmk-OZ-L5l" firstAttribute="top" secondItem="orD-iX-Bf8" secondAttribute="bottom" id="O5i-yb-R3O"/>
+                            <constraint firstItem="orD-iX-Bf8" firstAttribute="leading" secondItem="9EK-18-giS" secondAttribute="leading" id="k7L-Sr-GZ1"/>
+                            <constraint firstItem="orD-iX-Bf8" firstAttribute="top" secondItem="9EK-18-giS" secondAttribute="top" id="sz0-hV-xBi"/>
+                            <constraint firstAttribute="trailing" secondItem="orD-iX-Bf8" secondAttribute="trailing" id="xSI-Ke-CFV"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="INc-Rs-VVP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="7vK-t2-NSh"/>
+                    <constraint firstItem="INc-Rs-VVP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="PG5-2D-kPb"/>
+                    <constraint firstItem="INc-Rs-VVP" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="S4L-wy-ZtS"/>
+                    <constraint firstItem="9EK-18-giS" firstAttribute="centerY" secondItem="INc-Rs-VVP" secondAttribute="centerY" id="SGc-1f-hHx"/>
+                    <constraint firstItem="9EK-18-giS" firstAttribute="leading" secondItem="INc-Rs-VVP" secondAttribute="trailing" constant="16" id="m91-dI-jDN"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="9EK-18-giS" secondAttribute="trailing" id="tTT-mB-oCF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="labelSubtitle" destination="Vmk-OZ-L5l" id="UrE-9m-pw2"/>
+                <outlet property="labelTitle" destination="orD-iX-Bf8" id="uBQ-ca-bo6"/>
+            </connections>
+            <point key="canvasLocation" x="37" y="68"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="welcome-cell-buddha" width="22" height="26"/>
+    </resources>
+</document>

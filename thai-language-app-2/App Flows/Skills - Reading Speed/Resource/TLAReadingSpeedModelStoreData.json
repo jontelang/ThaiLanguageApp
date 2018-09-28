@@ -1,0 +1,552 @@
+[
+  {
+    "english": "Welcome",
+    "thai": "ยินดีต้อนรับ",
+    "transliteration": "yin dee dtôn ráp"
+  },
+  {
+    "english": "Hello (General greeting)",
+    "thai": "สวัสดี",
+    "transliteration": "sà-wàt-dee"
+  },
+  {
+    "english": "Hello (on phone)",
+    "thai": "ฮัลโหล",
+    "transliteration": "hanlǒh"
+  },
+  {
+    "english": "How are you?",
+    "thai": "สบายดีไหม",
+    "transliteration": "sà-baai dee măi"
+  },
+  {
+    "english": "How are you?",
+    "thai": "เป็นอย่างไรบ้าง?",
+    "transliteration": "bpen yàang rai bâang?"
+  },
+  {
+    "english": "How are you?",
+    "thai": "สบายดีหรือ?",
+    "transliteration": "sà-baai dee rĕu?"
+  },
+  {
+    "english": "Reply to 'How are you?' - m",
+    "thai": "สบายดีคร้บ",
+    "transliteration": "sà-baai dee króp"
+  },
+  {
+    "english": "Reply to 'How are you?' - f",
+    "thai": "สบายดีค่ะ",
+    "transliteration": "sà-baai dee kâ"
+  },
+  {
+    "english": "What's your name?",
+    "thai": "คุณชีออะไร?",
+    "transliteration": "kun chêu a-rai ?"
+  },
+  {
+    "english": "My name is ___ - m",
+    "thai": "ผมชื่อ ___",
+    "transliteration": "pŏm chêu ___"
+  },
+  {
+    "english": "My name is ___ - f",
+    "thai": "เราชื่อ ___",
+    "transliteration": "rao chêu ___"
+  },
+  {
+    "english": "Where are you from?",
+    "thai": "คุณมาจากไหน",
+    "transliteration": "kun maa jàak năi"
+  },
+  {
+    "english": "Where are you from?",
+    "thai": "คุณมาจากทีไหน?",
+    "transliteration": "kun maa jàak tee năi?"
+  },
+  {
+    "english": "I'm from ___ - m",
+    "thai": "ผมมาจาก ___",
+    "transliteration": "pŏm maa jàak ___"
+  },
+  {
+    "english": "I'm from ___ - f",
+    "thai": "เรามาจาก ___",
+    "transliteration": "rao maa jàak ___"
+  },
+  {
+    "english": "Pleased to meet you",
+    "thai": "ยินดีที่ได้รู้จัก",
+    "transliteration": "yin dee têe dâi róo jàk"
+  },
+  {
+    "english": "Good morning (Morning greeting) - m",
+    "thai": "สวัสดีครับ",
+    "transliteration": "sà-wàt-dee kráp"
+  },
+  {
+    "english": "Good morning (Morning greeting) - f",
+    "thai": "สวัสดีค่ะ",
+    "transliteration": "sà-wàt-dee kâ"
+  },
+  {
+    "english": "Good evening (Evening greeting) - m",
+    "thai": "สวัสดีครับ",
+    "transliteration": "sà-wàt-dee kráp"
+  },
+  {
+    "english": "Good evening (Evening greeting) - f",
+    "thai": "สวัสดีค่ะ",
+    "transliteration": "sà-wàt-dee kâ"
+  },
+  {
+    "english": "Good night",
+    "thai": "ราตรีสวัสดิ์",
+    "transliteration": "raa-dtree sà-wàt"
+  },
+  {
+    "english": "Goodbye (Parting phrases)",
+    "thai": "บ๊ายบาย",
+    "transliteration": "báai baai"
+  },
+  {
+    "english": "Goodbye (Parting phrases)",
+    "thai": "ลาก่อนนะ",
+    "transliteration": "laa gòn ná"
+  },
+  {
+    "english": "Good luck!",
+    "thai": "ขอให้โชคดี!",
+    "transliteration": "kŏr hâi chôhk dee"
+  },
+  {
+    "english": "Cheers! Good Health! (Toasts used when drinking)",
+    "thai": "ไชโย!",
+    "transliteration": "chai-yoh"
+  },
+  {
+    "english": "Have a nice day",
+    "thai": "มีวันที่ดี!",
+    "transliteration": "Mī wạn thī̀ dī"
+  },
+  {
+    "english": "Bon appetit / Have a nice meal",
+    "thai": "กินให้อร่อย",
+    "transliteration": "gin hâi a-ròi"
+  },
+  {
+    "english": "Bon appetit / Have a nice meal",
+    "thai": "ทานให้อร่อย",
+    "transliteration": "taan hâi a-ròi"
+  },
+  {
+    "english": "Bon voyage / Have a good journey",
+    "thai": "ขอให้เดินทางโดยสวัสดิภาพ",
+    "transliteration": "kŏr hâi dern taang doi sà-wàt-dì-pâap"
+  },
+  {
+    "english": "Bon voyage / Have a good journey",
+    "thai": "เดินทางโดยสวัสดิภาพ",
+    "transliteration": "dern taang doi sà-wàt-dì-pâap"
+  },
+  {
+    "english": "Bon voyage / Have a good journey",
+    "thai": "เที่ยวให้สนุก",
+    "transliteration": "tîeow hâi sà-nùk"
+  },
+  {
+    "english": "I don't know",
+    "thai": "ฉันไม่รู้",
+    "transliteration": "chăn mâi róo"
+  },
+  {
+    "english": "I understand",
+    "thai": "เข้าใจแล้ว",
+    "transliteration": "kâo jai láew"
+  },
+  {
+    "english": "I don't understand",
+    "thai": "ไม่เข้าใจ",
+    "transliteration": "mâi khâo jai"
+  },
+  {
+    "english": "Please speak more slowly",
+    "thai": "พูดช้าลงหน่อย",
+    "transliteration": "pôot cháa long nòi"
+  },
+  {
+    "english": "Please say that again",
+    "thai": "พูดอีกทีได้ไหม",
+    "transliteration": "pôot èek tee dâai măi"
+  },
+  {
+    "english": "Please write it down",
+    "thai": "เขียนลงบนกระดาษได้ไหม?",
+    "transliteration": "kĭan long bon grà-dàat dâi măi?"
+  },
+  {
+    "english": "Please write it down",
+    "thai": "ช่วยเขียนลงให้หน่อย้ไหม",
+    "transliteration": "chûay kĭan long hâi nòi dâai măi"
+  },
+  {
+    "english": "Do you speak English?",
+    "thai": "พูดอังกฤษได้ไหม",
+    "transliteration": "pôot ang-grìt dâai măi"
+  },
+  {
+    "english": "Do you speak English?",
+    "thai": "คุณพูดภาษาอังกฤษหรือเป",
+    "transliteration": "(kun pôot paa-săa ang-grìt rĕu bplào?)"
+  },
+  {
+    "english": "Do you speak Thai?",
+    "thai": "คุณพูดไทยได้ไหม",
+    "transliteration": "kun pôot tai dâai măi"
+  },
+  {
+    "english": "Do you speak Thai?",
+    "thai": "คุณพูดภาษาไทยเป็นไหม?",
+    "transliteration": "kun pôot paa-săa tai bpen măi?"
+  },
+  {
+    "english": "How do you say ___ in Thai?",
+    "thai": "ภาษาไทย ___ พูดว่าอย่างไร",
+    "transliteration": "paasăa tai ___ pôot wâa yàang-rai"
+  },
+  {
+    "english": "Excuse me",
+    "thai": "ขอโทษ",
+    "transliteration": "kŏr tôht"
+  },
+  {
+    "english": "How much is this?",
+    "thai": "ราคาเท่าไหร่",
+    "transliteration": "raa-kaa tâo rài?"
+  },
+  {
+    "english": "Sorry",
+    "thai": "ขอโทษ",
+    "transliteration": "kŏr tôht"
+  },
+  {
+    "english": "Please",
+    "thai": "ขอ ___",
+    "transliteration": "Kor ___"
+  },
+  {
+    "english": "Thank you",
+    "thai": "ขอบคุณ",
+    "transliteration": "kòp kun"
+  },
+  {
+    "english": "Thank you",
+    "thai": "ขอบคุณมาก",
+    "transliteration": "kòp kun mâak"
+  },
+  {
+    "english": "Reply to thank you",
+    "thai": "ไม่เป็นไร",
+    "transliteration": "mâi bpen rai"
+  },
+  {
+    "english": "Where's the toilet?",
+    "thai": "ห้องน้ำอยู่ไหน",
+    "transliteration": "hông náam yòo năi"
+  },
+  {
+    "english": "Where's the toilet?",
+    "thai": "ห้องน้ำอยู่ที่ไหน?",
+    "transliteration": "hông náam yòo têe năi?"
+  },
+  {
+    "english": "Would you like to dance with me?",
+    "thai": "เต้นกันไหม",
+    "transliteration": "dtên gan măi"
+  },
+  {
+    "english": "Do you come here often?",
+    "thai": "คุณมาที่นี่บ่อยหรือเปล่า?",
+    "transliteration": "khuṇ mā thī̀ nī̀ b̀xy h̄rụ̄x pel̀ā?"
+  },
+  {
+    "english": "I miss you - m",
+    "thai": "ผมคิดถึงคุณ",
+    "transliteration": "poŏm kít teŏung kun"
+  },
+  {
+    "english": "I miss you (intimate)",
+    "thai": "ฉันคิดถึงเธอ",
+    "transliteration": "chaŏn kít teŏung ter"
+  },
+  {
+    "english": "I love you - m",
+    "thai": "ผมรักคุณ",
+    "transliteration": "pŏm rák kun"
+  },
+  {
+    "english": "I love you - f",
+    "thai": "ฉันรักคุณ",
+    "transliteration": "chăn rák kun"
+  },
+  {
+    "english": "Leave me alone! - m",
+    "thai": "อย่ายุ่งกับ ผม!",
+    "transliteration": "Yā yung kap phom"
+  },
+  {
+    "english": "Leave me alone! - f",
+    "thai": "อย่ายุ่งกับ ฉัน!",
+    "transliteration": "Yā yung kap chan!"
+  },
+  {
+    "english": "Go away! - m",
+    "thai": "อย่ายุ่งกับ ผม!",
+    "transliteration": "Yaa yung kap phom"
+  },
+  {
+    "english": "Go away! - f",
+    "thai": "อย่ายุ่งกับ ฉัน!",
+    "transliteration": "Yaa yung kap chan!"
+  },
+  {
+    "english": "Help!",
+    "thai": "ช่วยด้วย!",
+    "transliteration": "chûay dûay!"
+  },
+  {
+    "english": "Fire!",
+    "thai": "ไฟไหม้!",
+    "transliteration": "fai mâi!"
+  },
+  {
+    "english": "Stop!",
+    "thai": "หยุด!",
+    "transliteration": "yùt!"
+  },
+  {
+    "english": "Call the police!",
+    "thai": "เรียกตำรวจมา!",
+    "transliteration": "rîak dtam-rùat maa!"
+  },
+  {
+    "english": "Christmas and New Year greetings",
+    "thai": "เมอร์รี่คริสต์มาส",
+    "transliteration": "mer-rêe krít-mâat"
+  },
+  {
+    "english": "Christmas and New Year greetings",
+    "thai": "สุขสันต์วันคริสต์มาส และสวัสดีปีใหม่",
+    "transliteration": "sùk săn wan-krít-mâat láe sà-wàt-dee bpee mài"
+  },
+  {
+    "english": "Easter greetings",
+    "thai": "สุขสันต์วันอีสเตอร์",
+    "transliteration": "sùk săn wan èet-dtêr"
+  },
+  {
+    "english": "Birthday greetings",
+    "thai": "สุขสันต์วันเกิด",
+    "transliteration": "sùk san wan gèrt"
+  },
+  {
+    "english": "One language is never enough",
+    "thai": "ภาษาเดียวไม่เคยพอ",
+    "transliteration": "paa-săa dieow mâi koie por"
+  },
+  {
+    "english": "Does anyone speak English?",
+    "thai": "มีใครพูดอังกฤษได้ไหม",
+    "transliteration": "mee krai pôot ang-grìt dâai măi"
+  },
+  {
+    "english": "I don't speak Thai",
+    "thai": "ฉันพูดไทยไม่เป็น",
+    "transliteration": "chăn pôot tai mâi bpen"
+  },
+  {
+    "english": "I don't speak Thai",
+    "thai": "ผมพูดไทยไม่ได้",
+    "transliteration": "pŏm pôot tai mâi dâai"
+  },
+  {
+    "english": "Sorry",
+    "thai": "I didn't get that",
+    "transliteration": "ขอโทษฉันไม่เข้าใจ"
+  },
+  {
+    "english": "What did you say?",
+    "thai": "คุณพูดว่าอะไรนะ?",
+    "transliteration": "kun pôot wâa à-rai ná?"
+  },
+  {
+    "english": "Can you translate it for me?",
+    "thai": "แปลให้หน่อยได้ไหม",
+    "transliteration": "bplae hâi nòi dâai măi"
+  },
+  {
+    "english": "What does this mean?",
+    "thai": "อันนี้แปลว่าอะไร?",
+    "transliteration": "an née bplae wâa à-rai?"
+  },
+  {
+    "english": "How do you pronounce that?",
+    "thai": "คำนั้นออกเสียงว่าอย่างไร?",
+    "transliteration": "kam nán òk sĭang wâa yàang rai?"
+  },
+  {
+    "english": "Do you understand?",
+    "thai": "เข้าใจไหม?",
+    "transliteration": "khâo jai mái"
+  },
+  {
+    "english": "There's a problem in the room",
+    "thai": "ห้องมีปัญหา",
+    "transliteration": "hông mee bpan-hăa"
+  },
+  {
+    "english": "There's no hot water",
+    "thai": "น้ำร้อนไม่ไหล",
+    "transliteration": "náam rón mâi lăi"
+  },
+  {
+    "english": "The tap/faucet is leaking",
+    "thai": "ท่อรั่ว",
+    "transliteration": "tôr rûa"
+  },
+  {
+    "english": "The drain is blocked",
+    "thai": "ท่อตัน",
+    "transliteration": "tôr dtan"
+  },
+  {
+    "english": "The air conditioner is too noisy",
+    "thai": "แอร์เสียงดัง",
+    "transliteration": "ae sĭang dang"
+  },
+  {
+    "english": "Can I have another room?",
+    "thai": "เปลี่ยนห้องได้ไหม?",
+    "transliteration": "bplìan hông dâi măi?"
+  },
+  {
+    "english": "When should I vacate the room?",
+    "thai": "ฉันต้องออกจากห้องกี่โมง?",
+    "transliteration": "chăn dtông òk jàak hông gèe mohng?"
+  },
+  {
+    "english": "I'd like to check out",
+    "thai": "ฉันจะเช็คเอาท์",
+    "transliteration": "chăn jà chék ao"
+  },
+  {
+    "english": "I'd check out on this date",
+    "thai": "ฉันจะเช็คเอาท์วันที่เท่านี้",
+    "transliteration": "chăn jà chék ao wan têe tâo née"
+  },
+  {
+    "english": "Could you please call a taxi for me?",
+    "thai": "เรียกแท็กซี่ให้หน่อย?",
+    "transliteration": "rîak táek-sêe hâi nòi?"
+  },
+  {
+    "english": "May I see the bill please?",
+    "thai": "ขอดูบิลหน่อย?",
+    "transliteration": "kŏr doo bin nòi?"
+  },
+  {
+    "english": "How much is the total bill?",
+    "thai": "ทั้งหมดเท่าไร?",
+    "transliteration": "táng mòt tâo-rai?"
+  },
+  {
+    "english": "Can I have an itemised bill?",
+    "thai": "ขอบิลแบบละเอียด?",
+    "transliteration": "kŏr bin bàep lá-ìat?"
+  },
+  {
+    "english": "I think there's a mistake on this bill",
+    "thai": "ฉันว่าบิลผิดนะ",
+    "transliteration": "chăn wâa bin pìt ná"
+  },
+  {
+    "english": "Are you free for lunch?",
+    "thai": "ว่างไปทานอาหารกลางวันไหม?",
+    "transliteration": "wâang bpai taan aa-hăan glaang wan măi?"
+  },
+  {
+    "english": "Are you free this evening?",
+    "thai": "เย็นนี้ว่างไหม?",
+    "transliteration": "yen née wâang măi?"
+  },
+  {
+    "english": "Can you suggest a place for lunch?",
+    "thai": "แนะนำร้านอาหารเที่ยงให้หน่อย?",
+    "transliteration": "náe nam ráan aa-hăan tîang hâi nòi?"
+  },
+  {
+    "english": "Can you suggest a place for dinner?",
+    "thai": "แนะนำร้านอาหารเย็นให้หน่อย?",
+    "transliteration": "náe nam ráan aa-hăan yen hâi nòi?"
+  },
+  {
+    "english": "I'll meet you there",
+    "thai": "ไปเจอกันที่นั่น",
+    "transliteration": "bpai jer gan têe nân"
+  },
+  {
+    "english": "I'll meet you then",
+    "thai": "เดี๋ยวเจอกัน",
+    "transliteration": "dĭeow jer gan"
+  },
+  {
+    "english": "Can I have your phone number?",
+    "thai": "ขอเบอร์โทรศัพท์หน่อย?",
+    "transliteration": "kŏr ber toh-rá sàp nòi?"
+  },
+  {
+    "english": "Can I have your address?",
+    "thai": "ขอที่อยู่ได้ไหม?",
+    "transliteration": "kŏr têe yòo dâi măi?"
+  },
+  {
+    "english": "This is my phone number",
+    "thai": "นี่เบอร์โทรฉัน",
+    "transliteration": "nêe ber toh chăn"
+  },
+  {
+    "english": "This is my address",
+    "thai": "นี่ที่อยู่ฉัน",
+    "transliteration": "nêe têe yòo chăn"
+  },
+  {
+    "english": "Is there a restaurant near here?",
+    "thai": "ร้านอาหารที่ใกล้ที่สุดอยู่ไหน?",
+    "transliteration": "ráan aa-hăan têe glâi sùt yòo năi?"
+  },
+  {
+    "english": "I'd like to reserve a table",
+    "thai": "จองโต๊ะหน่อย",
+    "transliteration": "jong dtó nòi"
+  },
+  {
+    "english": "We have a reservation",
+    "thai": "เราจองไว้แล้ว",
+    "transliteration": "rao jong wái láew"
+  },
+  {
+    "english": "Do you have an English menu?",
+    "thai": "มีเมนูภาษาอังกฤษไหม",
+    "transliteration": "mee may-noo paa-săa ang-grìt măi"
+  },
+  {
+    "english": "Can I see the wine list?",
+    "thai": "ขอรายการไวน์หน่อย?",
+    "transliteration": "kŏr raai gaan wai nòi?"
+  },
+  {
+    "english": "I am a vegetarian",
+    "thai": "ผมกินมังสวิรัติ",
+    "transliteration": "pŏm gin mang-sà-wí-rát"
+  }
+]

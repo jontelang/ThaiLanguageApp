@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cUm-x3-kdi">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Onboarding View Controller-->
+        <scene sceneID="cwF-TJ-Sie">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="cUm-x3-kdi" customClass="TLAOnboardingViewController" customModule="thai_language_app_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YWd-Sc-qeu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboarding-buddha" translatesAutoresizingMaskIntoConstraints="NO" id="ciI-MB-WUm">
+                                <rect key="frame" x="132.5" y="243.5" width="109" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="It2-Xw-nPl"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" สวัส ดี ครับ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KaG-Oe-IFH" customClass="TLALabel" customModule="thai_language_app_2" customModuleProvider="target">
+                                <rect key="frame" x="87" y="353.5" width="200" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="EWl-UN-C4Y"/>
+                                    <constraint firstAttribute="width" constant="200" id="Iug-w9-ZCF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ju3-sn-2TT" customClass="TLAButton" customModule="thai_language_app_2" customModuleProvider="target">
+                                <rect key="frame" x="156.5" y="583" width="62" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="30" id="MJz-nN-cJQ"/>
+                                    <constraint firstAttribute="height" constant="54" id="NyW-iA-5yG"/>
+                                </constraints>
+                                <state key="normal" title="Continue"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ciI-MB-WUm" firstAttribute="centerY" secondItem="fBF-57-al2" secondAttribute="centerY" constant="-60" id="Fbx-w2-HWc"/>
+                            <constraint firstItem="KaG-Oe-IFH" firstAttribute="top" secondItem="ciI-MB-WUm" secondAttribute="bottom" constant="30" id="FiL-gl-L4a"/>
+                            <constraint firstItem="Ju3-sn-2TT" firstAttribute="centerX" secondItem="fBF-57-al2" secondAttribute="centerX" id="RoV-fG-Vap"/>
+                            <constraint firstItem="fBF-57-al2" firstAttribute="bottom" secondItem="Ju3-sn-2TT" secondAttribute="bottom" constant="30" id="T2y-AB-rnS"/>
+                            <constraint firstItem="ciI-MB-WUm" firstAttribute="centerX" secondItem="fBF-57-al2" secondAttribute="centerX" id="dIN-lt-LLf"/>
+                            <constraint firstItem="KaG-Oe-IFH" firstAttribute="centerX" secondItem="ciI-MB-WUm" secondAttribute="centerX" id="tVr-4s-5kl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fBF-57-al2"/>
+                    </view>
+                    <connections>
+                        <outlet property="buttonContinue" destination="Ju3-sn-2TT" id="i4T-hL-MyZ"/>
+                        <outlet property="labelWelcome" destination="KaG-Oe-IFH" id="Ypa-X1-8lb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SgX-Va-AMH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-170.40000000000001" y="26.53673163418291"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="onboarding-buddha" width="109" height="127"/>
+    </resources>
+</document>

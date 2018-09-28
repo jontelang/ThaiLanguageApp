@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uk9-qW-HGQ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Reading Practice View Controller-->
+        <scene sceneID="L4S-og-shG">
+            <objects>
+                <viewController id="uk9-qW-HGQ" customClass="TLAReadingPracticeViewController" customModule="thai_language_app_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4Xj-IE-MY4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E9M-g3-c3P" customClass="TLALabel" customModule="thai_language_app_2" customModuleProvider="target">
+                                <rect key="frame" x="20" y="60" width="335" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="OXK-3R-8kX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="V63-7c-miQ" customClass="TLATextView" customModule="thai_language_app_2" customModuleProvider="target">
+                                <rect key="frame" x="20" y="108" width="335" height="459"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3jj-hj-KRc" customClass="TLAButton" customModule="thai_language_app_2" customModuleProvider="target">
+                                <rect key="frame" x="295" y="583" width="60" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="tsa-Ga-oag"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="erp-Jj-Tjz" customClass="TLAButton" customModule="thai_language_app_2" customModuleProvider="target">
+                                <rect key="frame" x="227" y="583" width="60" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="Pdx-aw-ESi"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="x9a-AY-PJ8" firstAttribute="trailing" secondItem="3jj-hj-KRc" secondAttribute="trailing" constant="20" id="7fD-CE-Tb9"/>
+                            <constraint firstItem="E9M-g3-c3P" firstAttribute="top" secondItem="x9a-AY-PJ8" secondAttribute="top" constant="40" id="Em5-gk-GfO"/>
+                            <constraint firstItem="erp-Jj-Tjz" firstAttribute="top" secondItem="V63-7c-miQ" secondAttribute="bottom" constant="16" id="GEK-X9-4yp"/>
+                            <constraint firstItem="x9a-AY-PJ8" firstAttribute="bottom" secondItem="3jj-hj-KRc" secondAttribute="bottom" constant="20" id="I2D-1v-Hd5"/>
+                            <constraint firstItem="x9a-AY-PJ8" firstAttribute="trailing" secondItem="E9M-g3-c3P" secondAttribute="trailing" constant="20" id="JU3-Mo-DV0"/>
+                            <constraint firstItem="E9M-g3-c3P" firstAttribute="leading" secondItem="x9a-AY-PJ8" secondAttribute="leading" constant="20" id="MnA-z8-4eU"/>
+                            <constraint firstItem="x9a-AY-PJ8" firstAttribute="bottom" secondItem="erp-Jj-Tjz" secondAttribute="bottom" constant="20" id="QQK-cP-lT0"/>
+                            <constraint firstItem="V63-7c-miQ" firstAttribute="leading" secondItem="x9a-AY-PJ8" secondAttribute="leading" constant="20" id="ZHr-1k-rvs"/>
+                            <constraint firstItem="x9a-AY-PJ8" firstAttribute="bottom" secondItem="V63-7c-miQ" secondAttribute="bottom" constant="100" id="eJp-XS-Z93"/>
+                            <constraint firstItem="V63-7c-miQ" firstAttribute="top" secondItem="E9M-g3-c3P" secondAttribute="bottom" constant="8" id="eLT-hg-yuV"/>
+                            <constraint firstItem="x9a-AY-PJ8" firstAttribute="trailing" secondItem="V63-7c-miQ" secondAttribute="trailing" constant="20" id="fgp-xT-NeV"/>
+                            <constraint firstItem="3jj-hj-KRc" firstAttribute="top" secondItem="V63-7c-miQ" secondAttribute="bottom" constant="16" id="iFL-fL-2Hp"/>
+                            <constraint firstItem="3jj-hj-KRc" firstAttribute="leading" secondItem="erp-Jj-Tjz" secondAttribute="trailing" constant="8" id="tHG-XN-QZg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="x9a-AY-PJ8"/>
+                    </view>
+                    <connections>
+                        <outlet property="buttonFontSizeDecrease" destination="erp-Jj-Tjz" id="uhl-57-0r0"/>
+                        <outlet property="buttonFontSizeIncrease" destination="3jj-hj-KRc" id="xyV-1C-ktm"/>
+                        <outlet property="labelTitle" destination="E9M-g3-c3P" id="6bI-Ph-Hx3"/>
+                        <outlet property="textViewText" destination="V63-7c-miQ" id="3kO-iv-vQO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eox-NP-eqC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-186.40000000000001" y="288.30584707646182"/>
+        </scene>
+    </scenes>
+</document>

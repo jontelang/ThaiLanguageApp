@@ -1,0 +1,904 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D0193D7209B604D008DCDCF /* TLASettingsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0193D6209B604D008DCDCF /* TLASettingsViewController.storyboard */; };
+		4D0193D9209B6070008DCDCF /* TLASettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0193D8209B6070008DCDCF /* TLASettingsViewController.swift */; };
+		4D0193DE209B6304008DCDCF /* TLAContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0193DD209B6304008DCDCF /* TLAContactViewController.swift */; };
+		4D0193E0209B631B008DCDCF /* TLAContactViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0193DF209B631B008DCDCF /* TLAContactViewController.storyboard */; };
+		4D129E6B20B1A88C00488202 /* TLAReadingSpeedModelEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D129E6A20B1A88C00488202 /* TLAReadingSpeedModelEntry.swift */; };
+		4D129E7020B1C93D00488202 /* TLAReadingSpeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D129E6F20B1C93D00488202 /* TLAReadingSpeedModel.swift */; };
+		4D1DA27E215BD90C00C58625 /* TLANavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1DA27D215BD90C00C58625 /* TLANavigationController.swift */; };
+		4D1DA281215BD95400C58625 /* NavigationHidable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1DA280215BD95400C58625 /* NavigationHidable.swift */; };
+		4D2577AA2157851700155BF8 /* TLAReadingPracticeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2577A92157851700155BF8 /* TLAReadingPracticeCoordinator.swift */; };
+		4D2577AC215785B100155BF8 /* TLAReadingPracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2577AB215785B100155BF8 /* TLAReadingPracticeViewController.swift */; };
+		4D2577AE215785D200155BF8 /* TLAReadingPracticeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D2577AD215785D200155BF8 /* TLAReadingPracticeViewController.storyboard */; };
+		4D2577B021578BB400155BF8 /* TLATextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2577AF21578BB400155BF8 /* TLATextView.swift */; };
+		4D2577B52157C2E000155BF8 /* TLAReadingPracticeModelStoreData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D2577B42157C2E000155BF8 /* TLAReadingPracticeModelStoreData.json */; };
+		4D2577B72157C34600155BF8 /* TLAModelEntryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2577B62157C34600155BF8 /* TLAModelEntryStore.swift */; };
+		4D2577BA2157CACD00155BF8 /* TLAReadingPracticeModelEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2577B92157CACD00155BF8 /* TLAReadingPracticeModelEntry.swift */; };
+		4D3DE60720B46C6A001A01ED /* TLASkillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3DE60620B46C6A001A01ED /* TLASkillsViewController.swift */; };
+		4D3DE60920B46C8E001A01ED /* TLASkillsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3DE60820B46C8E001A01ED /* TLASkillsViewController.storyboard */; };
+		4D3DE60C20B47548001A01ED /* TLAReadingSpeedCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3DE60B20B47548001A01ED /* TLAReadingSpeedCoordinator.swift */; };
+		4D3DE61020B47F4A001A01ED /* TLASkillsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3DE60E20B47F4A001A01ED /* TLASkillsCell.swift */; };
+		4D3DE61120B47F4A001A01ED /* TLASkillsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D3DE60F20B47F4A001A01ED /* TLASkillsCell.xib */; };
+		4D3DE61420B4820C001A01ED /* TLASkillsCellEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3DE61320B4820C001A01ED /* TLASkillsCellEntry.swift */; };
+		4D4A5F792157F3F600AE5719 /* TLAVerticalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4A5F782157F3F600AE5719 /* TLAVerticalButton.swift */; };
+		4D4CE9BE208F8FD200971EB3 /* TLATableViewCellEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4CE9BD208F8FD200971EB3 /* TLATableViewCellEntry.swift */; };
+		4D4CE9C4208F925700971EB3 /* TLAMenuAppVersionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D4CE9C3208F925700971EB3 /* TLAMenuAppVersionCell.xib */; };
+		4D4CE9C6208F928300971EB3 /* TLAMenuAppVersionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4CE9C5208F928300971EB3 /* TLAMenuAppVersionCell.swift */; };
+		4D58153820AC863C00A9822C /* TLAReadingSpeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D58153720AC863C00A9822C /* TLAReadingSpeedViewController.swift */; };
+		4D58153A20AC865F00A9822C /* TLAReadingSpeedViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D58153920AC865F00A9822C /* TLAReadingSpeedViewController.storyboard */; };
+		4D58153E20AC8AE300A9822C /* TLAReadingSpeedModelStoreData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D58153D20AC8AE300A9822C /* TLAReadingSpeedModelStoreData.json */; };
+		4D58154220AC8B7300A9822C /* TLASkillsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D58154120AC8B7300A9822C /* TLASkillsCoordinator.swift */; };
+		4D5B3B73208C5795004C319E /* TLAAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B3B72208C5795004C319E /* TLAAppDelegate.swift */; };
+		4D5B3B7A208C5796004C319E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D5B3B79208C5796004C319E /* Assets.xcassets */; };
+		4D5B3B7D208C5796004C319E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5B3B7B208C5796004C319E /* LaunchScreen.storyboard */; };
+		4D5B3B86208C57FA004C319E /* TLACoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B3B85208C57FA004C319E /* TLACoordinator.swift */; };
+		4D5B3B8A208C5C3A004C319E /* TLAAppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B3B89208C5C3A004C319E /* TLAAppCoordinator.swift */; };
+		4D5B3B8F208C5E13004C319E /* TLAOnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B3B8E208C5E13004C319E /* TLAOnboardingViewController.swift */; };
+		4D5B3B92208C5EEF004C319E /* UIViewController+Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B3B91208C5EEF004C319E /* UIViewController+Storyboard.swift */; };
+		4D5B3B94208C62D0004C319E /* TLAOnboardingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5B3B93208C62D0004C319E /* TLAOnboardingViewController.storyboard */; };
+		4D5B3B97208C747C004C319E /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D5B3B96208C747C004C319E /* NotoSans-Regular.ttf */; };
+		4D5B3B99208C7488004C319E /* NotoSerifThai-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D5B3B98208C7488004C319E /* NotoSerifThai-Regular.ttf */; };
+		4D5B3B9E208C76D7004C319E /* TLALabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B3B9D208C76D7004C319E /* TLALabel.swift */; };
+		4D5B3BA1208C7D9F004C319E /* TLAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B3BA0208C7D9F004C319E /* TLAButton.swift */; };
+		4D5B3BA5208C82A6004C319E /* UIColor+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B3BA4208C82A6004C319E /* UIColor+Defaults.swift */; };
+		4D5B3BA7208C83E7004C319E /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B3BA6208C83E7004C319E /* UIColor+Hex.swift */; };
+		4D5B3BA9208C8523004C319E /* TLAMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B3BA8208C8523004C319E /* TLAMenuViewController.swift */; };
+		4D5B3BAB208C8549004C319E /* TLAMenuViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5B3BAA208C8549004C319E /* TLAMenuViewController.storyboard */; };
+		4D5B3BAF208CB4DC004C319E /* TLAMenuCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B3BAE208CB4DC004C319E /* TLAMenuCoordinator.swift */; };
+		4D5B3BB7208CBCE1004C319E /* TLAMenuWelcomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B3BB5208CBCE1004C319E /* TLAMenuWelcomeCell.swift */; };
+		4D5B3BB8208CBCE1004C319E /* TLAMenuWelcomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D5B3BB6208CBCE1004C319E /* TLAMenuWelcomeCell.xib */; };
+		4D5B3BBC208CBFD9004C319E /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D5B3BB9208CBFD9004C319E /* NotoSans-Bold.ttf */; };
+		4D5B3BBD208CBFD9004C319E /* NotoSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D5B3BBA208CBFD9004C319E /* NotoSans-Medium.ttf */; };
+		4D5B3BBE208CBFD9004C319E /* NotoSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D5B3BBB208CBFD9004C319E /* NotoSans-SemiBold.ttf */; };
+		4D5B3BC0208CC907004C319E /* UIFont+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B3BBF208CC907004C319E /* UIFont+Defaults.swift */; };
+		4D5B3BC2208CCB79004C319E /* TLATheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B3BC1208CCB79004C319E /* TLATheme.swift */; };
+		4D5B3BC5208CD33B004C319E /* TLAMenuUsageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B3BC3208CD33B004C319E /* TLAMenuUsageCell.swift */; };
+		4D5B3BC6208CD33B004C319E /* TLAMenuUsageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D5B3BC4208CD33B004C319E /* TLAMenuUsageCell.xib */; };
+		4D5B3BC9208CDAE8004C319E /* TLAMenuLabelEntryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B3BC7208CDAE8004C319E /* TLAMenuLabelEntryCell.swift */; };
+		4D5B3BCA208CDAE8004C319E /* TLAMenuLabelEntryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D5B3BC8208CDAE8004C319E /* TLAMenuLabelEntryCell.xib */; };
+		4D6D49F8208E47840022F61B /* TLATableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D49F7208E47840022F61B /* TLATableView.swift */; };
+		4D6D49FA208E4A630022F61B /* TLATableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D49F9208E4A630022F61B /* TLATableViewCell.swift */; };
+		4D6D49FC208E4E980022F61B /* TLATableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D49FB208E4E980022F61B /* TLATableViewController.swift */; };
+		4DEFE38B209F07EA00476E4E /* TLASettingsSwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFE389209F07EA00476E4E /* TLASettingsSwitchCell.swift */; };
+		4DEFE38C209F07EA00476E4E /* TLASettingsSwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DEFE38A209F07EA00476E4E /* TLASettingsSwitchCell.xib */; };
+		4DEFE391209F13DF00476E4E /* TLASettingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFE390209F13DF00476E4E /* TLASettingModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D0193D6209B604D008DCDCF /* TLASettingsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TLASettingsViewController.storyboard; sourceTree = "<group>"; };
+		4D0193D8209B6070008DCDCF /* TLASettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLASettingsViewController.swift; sourceTree = "<group>"; };
+		4D0193DD209B6304008DCDCF /* TLAContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAContactViewController.swift; sourceTree = "<group>"; };
+		4D0193DF209B631B008DCDCF /* TLAContactViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TLAContactViewController.storyboard; sourceTree = "<group>"; };
+		4D129E6A20B1A88C00488202 /* TLAReadingSpeedModelEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAReadingSpeedModelEntry.swift; sourceTree = "<group>"; };
+		4D129E6F20B1C93D00488202 /* TLAReadingSpeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAReadingSpeedModel.swift; sourceTree = "<group>"; };
+		4D1DA27D215BD90C00C58625 /* TLANavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLANavigationController.swift; sourceTree = "<group>"; };
+		4D1DA280215BD95400C58625 /* NavigationHidable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationHidable.swift; sourceTree = "<group>"; };
+		4D2577A92157851700155BF8 /* TLAReadingPracticeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TLAReadingPracticeCoordinator.swift; path = "thai-language-app-2/App Flows/Skills - Reading Practice/Coordinator/TLAReadingPracticeCoordinator.swift"; sourceTree = SOURCE_ROOT; };
+		4D2577AB215785B100155BF8 /* TLAReadingPracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TLAReadingPracticeViewController.swift; path = "thai-language-app-2/App Flows/Skills - Reading Practice/ViewController/TLAReadingPracticeViewController.swift"; sourceTree = SOURCE_ROOT; };
+		4D2577AD215785D200155BF8 /* TLAReadingPracticeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = TLAReadingPracticeViewController.storyboard; path = "thai-language-app-2/App Flows/Skills - Reading Practice/ViewController/TLAReadingPracticeViewController.storyboard"; sourceTree = SOURCE_ROOT; };
+		4D2577AF21578BB400155BF8 /* TLATextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLATextView.swift; sourceTree = "<group>"; };
+		4D2577B42157C2E000155BF8 /* TLAReadingPracticeModelStoreData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TLAReadingPracticeModelStoreData.json; sourceTree = "<group>"; };
+		4D2577B62157C34600155BF8 /* TLAModelEntryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAModelEntryStore.swift; sourceTree = "<group>"; };
+		4D2577B92157CACD00155BF8 /* TLAReadingPracticeModelEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAReadingPracticeModelEntry.swift; sourceTree = "<group>"; };
+		4D3DE60620B46C6A001A01ED /* TLASkillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLASkillsViewController.swift; sourceTree = "<group>"; };
+		4D3DE60820B46C8E001A01ED /* TLASkillsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TLASkillsViewController.storyboard; sourceTree = "<group>"; };
+		4D3DE60B20B47548001A01ED /* TLAReadingSpeedCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAReadingSpeedCoordinator.swift; sourceTree = "<group>"; };
+		4D3DE60E20B47F4A001A01ED /* TLASkillsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLASkillsCell.swift; sourceTree = "<group>"; };
+		4D3DE60F20B47F4A001A01ED /* TLASkillsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TLASkillsCell.xib; sourceTree = "<group>"; };
+		4D3DE61320B4820C001A01ED /* TLASkillsCellEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLASkillsCellEntry.swift; sourceTree = "<group>"; };
+		4D4A5F782157F3F600AE5719 /* TLAVerticalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAVerticalButton.swift; sourceTree = "<group>"; };
+		4D4CE9BD208F8FD200971EB3 /* TLATableViewCellEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLATableViewCellEntry.swift; sourceTree = "<group>"; };
+		4D4CE9C3208F925700971EB3 /* TLAMenuAppVersionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TLAMenuAppVersionCell.xib; sourceTree = "<group>"; };
+		4D4CE9C5208F928300971EB3 /* TLAMenuAppVersionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAMenuAppVersionCell.swift; sourceTree = "<group>"; };
+		4D58153720AC863C00A9822C /* TLAReadingSpeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAReadingSpeedViewController.swift; sourceTree = "<group>"; };
+		4D58153920AC865F00A9822C /* TLAReadingSpeedViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TLAReadingSpeedViewController.storyboard; sourceTree = "<group>"; };
+		4D58153D20AC8AE300A9822C /* TLAReadingSpeedModelStoreData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TLAReadingSpeedModelStoreData.json; sourceTree = "<group>"; };
+		4D58154120AC8B7300A9822C /* TLASkillsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLASkillsCoordinator.swift; sourceTree = "<group>"; };
+		4D5B3B6F208C5795004C319E /* thai-language-app-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "thai-language-app-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5B3B72208C5795004C319E /* TLAAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAAppDelegate.swift; sourceTree = "<group>"; };
+		4D5B3B79208C5796004C319E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D5B3B7C208C5796004C319E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D5B3B7E208C5796004C319E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D5B3B85208C57FA004C319E /* TLACoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLACoordinator.swift; sourceTree = "<group>"; };
+		4D5B3B89208C5C3A004C319E /* TLAAppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAAppCoordinator.swift; sourceTree = "<group>"; };
+		4D5B3B8E208C5E13004C319E /* TLAOnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAOnboardingViewController.swift; sourceTree = "<group>"; };
+		4D5B3B91208C5EEF004C319E /* UIViewController+Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Storyboard.swift"; sourceTree = "<group>"; };
+		4D5B3B93208C62D0004C319E /* TLAOnboardingViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TLAOnboardingViewController.storyboard; sourceTree = "<group>"; };
+		4D5B3B96208C747C004C319E /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		4D5B3B98208C7488004C319E /* NotoSerifThai-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerifThai-Regular.ttf"; sourceTree = "<group>"; };
+		4D5B3B9D208C76D7004C319E /* TLALabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLALabel.swift; sourceTree = "<group>"; };
+		4D5B3BA0208C7D9F004C319E /* TLAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAButton.swift; sourceTree = "<group>"; };
+		4D5B3BA4208C82A6004C319E /* UIColor+Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Defaults.swift"; sourceTree = "<group>"; };
+		4D5B3BA6208C83E7004C319E /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		4D5B3BA8208C8523004C319E /* TLAMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAMenuViewController.swift; sourceTree = "<group>"; };
+		4D5B3BAA208C8549004C319E /* TLAMenuViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TLAMenuViewController.storyboard; sourceTree = "<group>"; };
+		4D5B3BAE208CB4DC004C319E /* TLAMenuCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAMenuCoordinator.swift; sourceTree = "<group>"; };
+		4D5B3BB5208CBCE1004C319E /* TLAMenuWelcomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAMenuWelcomeCell.swift; sourceTree = "<group>"; };
+		4D5B3BB6208CBCE1004C319E /* TLAMenuWelcomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TLAMenuWelcomeCell.xib; sourceTree = "<group>"; };
+		4D5B3BB9208CBFD9004C319E /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		4D5B3BBA208CBFD9004C319E /* NotoSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Medium.ttf"; sourceTree = "<group>"; };
+		4D5B3BBB208CBFD9004C319E /* NotoSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		4D5B3BBF208CC907004C319E /* UIFont+Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Defaults.swift"; sourceTree = "<group>"; };
+		4D5B3BC1208CCB79004C319E /* TLATheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLATheme.swift; sourceTree = "<group>"; };
+		4D5B3BC3208CD33B004C319E /* TLAMenuUsageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAMenuUsageCell.swift; sourceTree = "<group>"; };
+		4D5B3BC4208CD33B004C319E /* TLAMenuUsageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TLAMenuUsageCell.xib; sourceTree = "<group>"; };
+		4D5B3BC7208CDAE8004C319E /* TLAMenuLabelEntryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAMenuLabelEntryCell.swift; sourceTree = "<group>"; };
+		4D5B3BC8208CDAE8004C319E /* TLAMenuLabelEntryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TLAMenuLabelEntryCell.xib; sourceTree = "<group>"; };
+		4D6D49F7208E47840022F61B /* TLATableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLATableView.swift; sourceTree = "<group>"; };
+		4D6D49F9208E4A630022F61B /* TLATableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLATableViewCell.swift; sourceTree = "<group>"; };
+		4D6D49FB208E4E980022F61B /* TLATableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLATableViewController.swift; sourceTree = "<group>"; };
+		4DE3DFEA209A1054001DCAC8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4DEFE389209F07EA00476E4E /* TLASettingsSwitchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLASettingsSwitchCell.swift; sourceTree = "<group>"; };
+		4DEFE38A209F07EA00476E4E /* TLASettingsSwitchCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TLASettingsSwitchCell.xib; sourceTree = "<group>"; };
+		4DEFE390209F13DF00476E4E /* TLASettingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLASettingModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D5B3B6C208C5795004C319E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D0193D5209B6029008DCDCF /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				4D0193DB209B62CD008DCDCF /* ViewController */,
+				4DEFE388209F07B200476E4E /* Cells */,
+				4DEFE38D209F099700476E4E /* Models */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		4D0193DA209B62B8008DCDCF /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				4D0193DC209B62DA008DCDCF /* ViewController */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		4D0193DB209B62CD008DCDCF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4D0193D8209B6070008DCDCF /* TLASettingsViewController.swift */,
+				4D0193D6209B604D008DCDCF /* TLASettingsViewController.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4D0193DC209B62DA008DCDCF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4D0193DD209B6304008DCDCF /* TLAContactViewController.swift */,
+				4D0193DF209B631B008DCDCF /* TLAContactViewController.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4D129E6920B1A86000488202 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D129E6A20B1A88C00488202 /* TLAReadingSpeedModelEntry.swift */,
+				4D129E6F20B1C93D00488202 /* TLAReadingSpeedModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D129E6E20B1B19C00488202 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				4D58153D20AC8AE300A9822C /* TLAReadingSpeedModelStoreData.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		4D1DA27C215BD8F600C58625 /* TLANavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				4D1DA27D215BD90C00C58625 /* TLANavigationController.swift */,
+			);
+			path = TLANavigationController;
+			sourceTree = "<group>";
+		};
+		4D1DA27F215BD93C00C58625 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4D1DA280215BD95400C58625 /* NavigationHidable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		4D2577A6215784A800155BF8 /* Skills - Reading Practice */ = {
+			isa = PBXGroup;
+			children = (
+				4D2577A7215784BD00155BF8 /* Coordinator */,
+				4D2577A8215784CC00155BF8 /* ViewController */,
+				4D2577B22157C28D00155BF8 /* Model */,
+				4D2577B12157C28600155BF8 /* Resource */,
+			);
+			name = "Skills - Reading Practice";
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		4D2577A7215784BD00155BF8 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				4D2577A92157851700155BF8 /* TLAReadingPracticeCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		4D2577A8215784CC00155BF8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4D2577AB215785B100155BF8 /* TLAReadingPracticeViewController.swift */,
+				4D2577AD215785D200155BF8 /* TLAReadingPracticeViewController.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4D2577B12157C28600155BF8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				4D2577B42157C2E000155BF8 /* TLAReadingPracticeModelStoreData.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		4D2577B22157C28D00155BF8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D2577B92157CACD00155BF8 /* TLAReadingPracticeModelEntry.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D3DE60520B46C3A001A01ED /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4D3DE60620B46C6A001A01ED /* TLASkillsViewController.swift */,
+				4D3DE60820B46C8E001A01ED /* TLASkillsViewController.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4D3DE60A20B4752A001A01ED /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				4D3DE60B20B47548001A01ED /* TLAReadingSpeedCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		4D3DE60D20B47EFD001A01ED /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4D3DE60E20B47F4A001A01ED /* TLASkillsCell.swift */,
+				4D3DE60F20B47F4A001A01ED /* TLASkillsCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4D3DE61220B48072001A01ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D3DE61320B4820C001A01ED /* TLASkillsCellEntry.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D4A5F772157EE5D00AE5719 /* TLAModelEntryStore */ = {
+			isa = PBXGroup;
+			children = (
+				4D2577B62157C34600155BF8 /* TLAModelEntryStore.swift */,
+			);
+			path = TLAModelEntryStore;
+			sourceTree = "<group>";
+		};
+		4D4CE9BC208F8FAB00971EB3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D4CE9BD208F8FD200971EB3 /* TLATableViewCellEntry.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4D4CE9BF208F909700971EB3 /* TLATableView */ = {
+			isa = PBXGroup;
+			children = (
+				4D4CE9C0208F90A700971EB3 /* Views */,
+				4D4CE9BC208F8FAB00971EB3 /* Models */,
+			);
+			path = TLATableView;
+			sourceTree = "<group>";
+		};
+		4D4CE9C0208F90A700971EB3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D6D49F7208E47840022F61B /* TLATableView.swift */,
+				4D6D49F9208E4A630022F61B /* TLATableViewCell.swift */,
+				4D6D49FB208E4E980022F61B /* TLATableViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4D4CE9C1208F90C400971EB3 /* Pillars */ = {
+			isa = PBXGroup;
+			children = (
+				4D1DA27C215BD8F600C58625 /* TLANavigationController */,
+				4D4A5F772157EE5D00AE5719 /* TLAModelEntryStore */,
+				4D5B3B84208C57A3004C319E /* TLACoordinator */,
+				4D4CE9BF208F909700971EB3 /* TLATableView */,
+			);
+			path = Pillars;
+			sourceTree = "<group>";
+		};
+		4D4CE9C2208F90FB00971EB3 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				4D5B3B89208C5C3A004C319E /* TLAAppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		4D58153420AC85E200A9822C /* Skills List */ = {
+			isa = PBXGroup;
+			children = (
+				4D58153F20AC8B3000A9822C /* Coordinator */,
+				4D3DE60520B46C3A001A01ED /* ViewController */,
+				4D3DE60D20B47EFD001A01ED /* Cells */,
+				4D3DE61220B48072001A01ED /* Model */,
+			);
+			path = "Skills List";
+			sourceTree = "<group>";
+		};
+		4D58153520AC85F600A9822C /* Skills - Reading Speed */ = {
+			isa = PBXGroup;
+			children = (
+				4D3DE60A20B4752A001A01ED /* Coordinator */,
+				4D58153620AC860F00A9822C /* ViewController */,
+				4D129E6920B1A86000488202 /* Model */,
+				4D129E6E20B1B19C00488202 /* Resource */,
+			);
+			path = "Skills - Reading Speed";
+			sourceTree = "<group>";
+		};
+		4D58153620AC860F00A9822C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4D58153720AC863C00A9822C /* TLAReadingSpeedViewController.swift */,
+				4D58153920AC865F00A9822C /* TLAReadingSpeedViewController.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4D58153F20AC8B3000A9822C /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				4D58154120AC8B7300A9822C /* TLASkillsCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		4D5B3B66208C5795004C319E = {
+			isa = PBXGroup;
+			children = (
+				4D5B3B71208C5795004C319E /* thai-language-app-2 */,
+				4D5B3B70208C5795004C319E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D5B3B70208C5795004C319E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D5B3B6F208C5795004C319E /* thai-language-app-2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D5B3B71208C5795004C319E /* thai-language-app-2 */ = {
+			isa = PBXGroup;
+			children = (
+				4DE3DFE9209A103A001DCAC8 /* Resources */,
+				4D5B3B95208C7334004C319E /* Fonts */,
+				4D5B3B90208C5E5B004C319E /* Extensions */,
+				4D5B3B9C208C76BA004C319E /* Views */,
+				4D4CE9C1208F90C400971EB3 /* Pillars */,
+				4D1DA27F215BD93C00C58625 /* Protocols */,
+				4D5B3B87208C5C21004C319E /* App Flows */,
+				4D5B3B72208C5795004C319E /* TLAAppDelegate.swift */,
+				4D5B3B79208C5796004C319E /* Assets.xcassets */,
+				4D5B3B7B208C5796004C319E /* LaunchScreen.storyboard */,
+				4D5B3B7E208C5796004C319E /* Info.plist */,
+			);
+			path = "thai-language-app-2";
+			sourceTree = "<group>";
+		};
+		4D5B3B84208C57A3004C319E /* TLACoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				4D5B3B85208C57FA004C319E /* TLACoordinator.swift */,
+			);
+			path = TLACoordinator;
+			sourceTree = "<group>";
+		};
+		4D5B3B87208C5C21004C319E /* App Flows */ = {
+			isa = PBXGroup;
+			children = (
+				4D5B3B88208C5C25004C319E /* App Coordinator */,
+				4D5B3B8B208C5DD4004C319E /* Onboarding */,
+				4D5B3B9F208C7D43004C319E /* Menu */,
+				4D0193D5209B6029008DCDCF /* Settings */,
+				4D58153420AC85E200A9822C /* Skills List */,
+				4D58153520AC85F600A9822C /* Skills - Reading Speed */,
+				4D2577A6215784A800155BF8 /* Skills - Reading Practice */,
+				4D0193DA209B62B8008DCDCF /* Contact */,
+			);
+			path = "App Flows";
+			sourceTree = "<group>";
+		};
+		4D5B3B88208C5C25004C319E /* App Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				4D4CE9C2208F90FB00971EB3 /* Coordinator */,
+			);
+			path = "App Coordinator";
+			sourceTree = "<group>";
+		};
+		4D5B3B8B208C5DD4004C319E /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				4D5B3BB0208CB816004C319E /* ViewController */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		4D5B3B90208C5E5B004C319E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4D5B3BBF208CC907004C319E /* UIFont+Defaults.swift */,
+				4D5B3BA4208C82A6004C319E /* UIColor+Defaults.swift */,
+				4D5B3B91208C5EEF004C319E /* UIViewController+Storyboard.swift */,
+				4D5B3BA6208C83E7004C319E /* UIColor+Hex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4D5B3B95208C7334004C319E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4D5B3BB9208CBFD9004C319E /* NotoSans-Bold.ttf */,
+				4D5B3BBA208CBFD9004C319E /* NotoSans-Medium.ttf */,
+				4D5B3BBB208CBFD9004C319E /* NotoSans-SemiBold.ttf */,
+				4D5B3B96208C747C004C319E /* NotoSans-Regular.ttf */,
+				4D5B3B98208C7488004C319E /* NotoSerifThai-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4D5B3B9C208C76BA004C319E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D5B3BC1208CCB79004C319E /* TLATheme.swift */,
+				4D5B3B9D208C76D7004C319E /* TLALabel.swift */,
+				4D5B3BA0208C7D9F004C319E /* TLAButton.swift */,
+				4D2577AF21578BB400155BF8 /* TLATextView.swift */,
+				4D4A5F782157F3F600AE5719 /* TLAVerticalButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4D5B3B9F208C7D43004C319E /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				4D5B3BAC208CB4A6004C319E /* Coordinator */,
+				4D5B3BAD208CB4B1004C319E /* ViewController */,
+				4D5B3BB4208CBCB7004C319E /* Cells */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		4D5B3BAC208CB4A6004C319E /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				4D5B3BAE208CB4DC004C319E /* TLAMenuCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		4D5B3BAD208CB4B1004C319E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4D5B3BA8208C8523004C319E /* TLAMenuViewController.swift */,
+				4D5B3BAA208C8549004C319E /* TLAMenuViewController.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4D5B3BB0208CB816004C319E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4D5B3B8E208C5E13004C319E /* TLAOnboardingViewController.swift */,
+				4D5B3B93208C62D0004C319E /* TLAOnboardingViewController.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4D5B3BB4208CBCB7004C319E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4D5B3BB5208CBCE1004C319E /* TLAMenuWelcomeCell.swift */,
+				4D5B3BB6208CBCE1004C319E /* TLAMenuWelcomeCell.xib */,
+				4D5B3BC3208CD33B004C319E /* TLAMenuUsageCell.swift */,
+				4D5B3BC4208CD33B004C319E /* TLAMenuUsageCell.xib */,
+				4D5B3BC7208CDAE8004C319E /* TLAMenuLabelEntryCell.swift */,
+				4D5B3BC8208CDAE8004C319E /* TLAMenuLabelEntryCell.xib */,
+				4D4CE9C5208F928300971EB3 /* TLAMenuAppVersionCell.swift */,
+				4D4CE9C3208F925700971EB3 /* TLAMenuAppVersionCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4DE3DFE9209A103A001DCAC8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4DE3DFEA209A1054001DCAC8 /* README.md */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4DEFE388209F07B200476E4E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4DEFE389209F07EA00476E4E /* TLASettingsSwitchCell.swift */,
+				4DEFE38A209F07EA00476E4E /* TLASettingsSwitchCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4DEFE38D209F099700476E4E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4DEFE390209F13DF00476E4E /* TLASettingModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D5B3B6E208C5795004C319E /* thai-language-app-2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D5B3B81208C5796004C319E /* Build configuration list for PBXNativeTarget "thai-language-app-2" */;
+			buildPhases = (
+				4D5B3B6B208C5795004C319E /* Sources */,
+				4D5B3B6C208C5795004C319E /* Frameworks */,
+				4D5B3B6D208C5795004C319E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "thai-language-app-2";
+			productName = "thai-language-app-2";
+			productReference = 4D5B3B6F208C5795004C319E /* thai-language-app-2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D5B3B67208C5795004C319E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Jonathan Winger Lang";
+				TargetAttributes = {
+					4D5B3B6E208C5795004C319E = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 4D5B3B6A208C5795004C319E /* Build configuration list for PBXProject "thai-language-app-2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D5B3B66208C5795004C319E;
+			productRefGroup = 4D5B3B70208C5795004C319E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D5B3B6E208C5795004C319E /* thai-language-app-2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D5B3B6D208C5795004C319E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5B3BC6208CD33B004C319E /* TLAMenuUsageCell.xib in Resources */,
+				4D5B3BBC208CBFD9004C319E /* NotoSans-Bold.ttf in Resources */,
+				4D5B3B97208C747C004C319E /* NotoSans-Regular.ttf in Resources */,
+				4D5B3B94208C62D0004C319E /* TLAOnboardingViewController.storyboard in Resources */,
+				4D58153E20AC8AE300A9822C /* TLAReadingSpeedModelStoreData.json in Resources */,
+				4D2577B52157C2E000155BF8 /* TLAReadingPracticeModelStoreData.json in Resources */,
+				4D5B3BAB208C8549004C319E /* TLAMenuViewController.storyboard in Resources */,
+				4D5B3BB8208CBCE1004C319E /* TLAMenuWelcomeCell.xib in Resources */,
+				4D5B3B7D208C5796004C319E /* LaunchScreen.storyboard in Resources */,
+				4D5B3BBE208CBFD9004C319E /* NotoSans-SemiBold.ttf in Resources */,
+				4D0193D7209B604D008DCDCF /* TLASettingsViewController.storyboard in Resources */,
+				4D2577AE215785D200155BF8 /* TLAReadingPracticeViewController.storyboard in Resources */,
+				4D5B3B7A208C5796004C319E /* Assets.xcassets in Resources */,
+				4D0193E0209B631B008DCDCF /* TLAContactViewController.storyboard in Resources */,
+				4D4CE9C4208F925700971EB3 /* TLAMenuAppVersionCell.xib in Resources */,
+				4D3DE61120B47F4A001A01ED /* TLASkillsCell.xib in Resources */,
+				4D3DE60920B46C8E001A01ED /* TLASkillsViewController.storyboard in Resources */,
+				4D5B3B99208C7488004C319E /* NotoSerifThai-Regular.ttf in Resources */,
+				4D58153A20AC865F00A9822C /* TLAReadingSpeedViewController.storyboard in Resources */,
+				4D5B3BCA208CDAE8004C319E /* TLAMenuLabelEntryCell.xib in Resources */,
+				4DEFE38C209F07EA00476E4E /* TLASettingsSwitchCell.xib in Resources */,
+				4D5B3BBD208CBFD9004C319E /* NotoSans-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D5B3B6B208C5795004C319E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4CE9C6208F928300971EB3 /* TLAMenuAppVersionCell.swift in Sources */,
+				4D5B3B8F208C5E13004C319E /* TLAOnboardingViewController.swift in Sources */,
+				4D6D49FA208E4A630022F61B /* TLATableViewCell.swift in Sources */,
+				4D58153820AC863C00A9822C /* TLAReadingSpeedViewController.swift in Sources */,
+				4D5B3BAF208CB4DC004C319E /* TLAMenuCoordinator.swift in Sources */,
+				4D5B3B8A208C5C3A004C319E /* TLAAppCoordinator.swift in Sources */,
+				4D2577BA2157CACD00155BF8 /* TLAReadingPracticeModelEntry.swift in Sources */,
+				4D5B3B9E208C76D7004C319E /* TLALabel.swift in Sources */,
+				4D5B3BA1208C7D9F004C319E /* TLAButton.swift in Sources */,
+				4D5B3BA7208C83E7004C319E /* UIColor+Hex.swift in Sources */,
+				4D2577B72157C34600155BF8 /* TLAModelEntryStore.swift in Sources */,
+				4D3DE61020B47F4A001A01ED /* TLASkillsCell.swift in Sources */,
+				4D5B3BC0208CC907004C319E /* UIFont+Defaults.swift in Sources */,
+				4D1DA27E215BD90C00C58625 /* TLANavigationController.swift in Sources */,
+				4D1DA281215BD95400C58625 /* NavigationHidable.swift in Sources */,
+				4D3DE60720B46C6A001A01ED /* TLASkillsViewController.swift in Sources */,
+				4D0193D9209B6070008DCDCF /* TLASettingsViewController.swift in Sources */,
+				4D3DE61420B4820C001A01ED /* TLASkillsCellEntry.swift in Sources */,
+				4DEFE38B209F07EA00476E4E /* TLASettingsSwitchCell.swift in Sources */,
+				4D4CE9BE208F8FD200971EB3 /* TLATableViewCellEntry.swift in Sources */,
+				4D5B3BB7208CBCE1004C319E /* TLAMenuWelcomeCell.swift in Sources */,
+				4D6D49F8208E47840022F61B /* TLATableView.swift in Sources */,
+				4D5B3B86208C57FA004C319E /* TLACoordinator.swift in Sources */,
+				4D5B3BA9208C8523004C319E /* TLAMenuViewController.swift in Sources */,
+				4D5B3B73208C5795004C319E /* TLAAppDelegate.swift in Sources */,
+				4D129E6B20B1A88C00488202 /* TLAReadingSpeedModelEntry.swift in Sources */,
+				4D2577AA2157851700155BF8 /* TLAReadingPracticeCoordinator.swift in Sources */,
+				4D129E7020B1C93D00488202 /* TLAReadingSpeedModel.swift in Sources */,
+				4D3DE60C20B47548001A01ED /* TLAReadingSpeedCoordinator.swift in Sources */,
+				4D58154220AC8B7300A9822C /* TLASkillsCoordinator.swift in Sources */,
+				4D5B3BC2208CCB79004C319E /* TLATheme.swift in Sources */,
+				4D0193DE209B6304008DCDCF /* TLAContactViewController.swift in Sources */,
+				4D6D49FC208E4E980022F61B /* TLATableViewController.swift in Sources */,
+				4D2577AC215785B100155BF8 /* TLAReadingPracticeViewController.swift in Sources */,
+				4D5B3B92208C5EEF004C319E /* UIViewController+Storyboard.swift in Sources */,
+				4DEFE391209F13DF00476E4E /* TLASettingModel.swift in Sources */,
+				4D2577B021578BB400155BF8 /* TLATextView.swift in Sources */,
+				4D5B3BA5208C82A6004C319E /* UIColor+Defaults.swift in Sources */,
+				4D5B3BC9208CDAE8004C319E /* TLAMenuLabelEntryCell.swift in Sources */,
+				4D4A5F792157F3F600AE5719 /* TLAVerticalButton.swift in Sources */,
+				4D5B3BC5208CD33B004C319E /* TLAMenuUsageCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D5B3B7B208C5796004C319E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D5B3B7C208C5796004C319E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D5B3B7F208C5796004C319E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D5B3B80208C5796004C319E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D5B3B82208C5796004C319E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VCT3MGYXB;
+				INFOPLIST_FILE = "thai-language-app-2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jontelang.thai-language-app-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D5B3B83208C5796004C319E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VCT3MGYXB;
+				INFOPLIST_FILE = "thai-language-app-2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jontelang.thai-language-app-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D5B3B6A208C5795004C319E /* Build configuration list for PBXProject "thai-language-app-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5B3B7F208C5796004C319E /* Debug */,
+				4D5B3B80208C5796004C319E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D5B3B81208C5796004C319E /* Build configuration list for PBXNativeTarget "thai-language-app-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5B3B82208C5796004C319E /* Debug */,
+				4D5B3B83208C5796004C319E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D5B3B67208C5795004C319E /* Project object */;
+}
