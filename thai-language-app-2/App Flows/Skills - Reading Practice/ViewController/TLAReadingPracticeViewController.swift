@@ -10,7 +10,6 @@ import UIKit
 
 class TLAReadingPracticeViewController: UIViewController {
 
-    @IBOutlet weak var labelTitle: TLALabel!
     @IBOutlet weak var textViewText: TLATextView!
     @IBOutlet weak var buttonFontSizeDecrease: TLAButton!
     @IBOutlet weak var buttonFontSizeIncrease: TLAButton!
@@ -18,7 +17,7 @@ class TLAReadingPracticeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        labelTitle.text = "Reading Practice"
+        title = "Reading Practice"
         buttonFontSizeDecrease.setTitle("A-", for: UIControlState.normal)
         buttonFontSizeIncrease.setTitle("A+", for: UIControlState.normal)
         
