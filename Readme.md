@@ -1,0 +1,1 @@
+This is an application for learning the Thai language. It (will) contain flashcards and other things.
