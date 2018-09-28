@@ -13,9 +13,10 @@ class TLAReadingPracticeCoordinator: TLACoordinator {
     override func start() {
         let readingPracticeViewController = TLAReadingPracticeViewController.instantiateFromStoryboard() as! TLAReadingPracticeViewController
         
+        // TODO: Is this possible easily?
         // Here we let the coordinator tell the controller how to be presented,
         // the controller itself doesn't need to know.
-        //readingPracticeViewController.prefersStatusBarHidden
+        //readingPracticeViewController.prefersNavigationBarHidden
         
         // Calling just 'loadView()' prevents 'viewDidLoad()' from being called
         // so we use 'loadViewIfNeeded()' instead. In any case, we do this to
