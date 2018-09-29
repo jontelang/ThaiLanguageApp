@@ -49,6 +49,11 @@ class TLAAppDelegate: UIResponder, UIApplicationDelegate {
         navigationBarAppearance.setBackgroundImage(UIImage.init(), for: UIBarMetrics.default)
         navigationBarAppearance.shadowImage = UIImage.init()
         
+        // This sets the title. I don't specify the font size to use the default one
+        navigationBarAppearance.titleTextAttributes = [
+            NSAttributedStringKey.font: UIFont.appBoldFont()
+        ]
+        
         // Nice rounded edges on the whole app. At least on non iPhone X devices
         window?.layer.cornerRadius = 4.0
         window?.layer.masksToBounds = true
