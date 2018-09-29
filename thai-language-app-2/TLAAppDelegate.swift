@@ -43,6 +43,17 @@ class TLAAppDelegate: UIResponder, UIApplicationDelegate {
         // Set the tintcolor as a default for items
         window?.tintColor = UIColor.appTintColor()
         
+        // The back button image needs a 1pt empty pixel on the right size, as
+        // we create a resizable version where the resizing stretches the right side
+        var backButtonImage = UIImage.init(named: "chevron-left")
+        let insets = UIEdgeInsetsMake(0, backButtonImage?.size.width ?? 0, 0, 0)
+        backButtonImage = backButtonImage?.resizableImage(withCapInsets: insets)
+        let barButtonAppearance = UIBarButtonItem.appearance()
+        barButtonAppearance.setBackButtonBackgroundImage(backButtonImage,
+                                                         for: UIControlState.normal,
+                                                         barMetrics: UIBarMetrics.default)
+        
+
         // Removes the shadow. The 'setShadowImage' doesn't work unless we also set
         // the backgroundImage to an empty image. For one reasons or another.
         let navigationBarAppearance = UINavigationBar.appearance()
