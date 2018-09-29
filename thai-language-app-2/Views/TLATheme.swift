@@ -220,7 +220,6 @@ extension TLATheme {
             let theme = TLATheme()
             theme.themeTextColor = UIColor.black
             theme.themeFont = UIFont.appRegularThaiFont().withSize(fontSize)
-            theme.themeBackgroundColor = UIColor.lightGray
             return theme
         }
         
