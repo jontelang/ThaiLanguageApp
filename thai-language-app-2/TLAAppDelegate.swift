@@ -15,9 +15,6 @@ class TLAAppDelegate: UIResponder, UIApplicationDelegate {
     var appCoordinator: TLAAppCoordinator?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Then setup some appearances
-        setupAppearance()
-        
         // Create a UINavigationController that will be the main controller
         // throughout the application lifetime.
         let navigationController = TLANavigationController.init()
@@ -36,12 +33,19 @@ class TLAAppDelegate: UIResponder, UIApplicationDelegate {
         // And present it all on the screen
         window?.makeKeyAndVisible()
         
+        // Then setup some appearances
+        setupAppearance()
+        
         return true
     }
     
     func setupAppearance() {
         // Set the tintcolor as a default for items
         window?.tintColor = UIColor.appTintColor()
+        
+        // Nice rounded edges on the whole app. At least on non iPhone X devices
+        window?.layer.cornerRadius = 4.0
+        window?.layer.masksToBounds = true
     }
 
 }
