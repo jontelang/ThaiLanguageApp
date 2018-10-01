@@ -199,3 +199,10 @@ That means
 - No 'this image view's contentMode should be aspect fit'
 
 Again. Only set these through `.theme`. If there is no `TLASubclassView` for a specific type of view, you make one. **No exceptions!**
+
+
+## Comments
+
+### Commenting out code
+
+Under no circumstance should we comment out code that is not being used for the sake of "maybe it will be used later". We have git and if we need something back, we can do so through it.
