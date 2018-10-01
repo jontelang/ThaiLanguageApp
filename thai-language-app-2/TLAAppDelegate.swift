@@ -53,15 +53,6 @@ class TLAAppDelegate: UIResponder, UIApplicationDelegate {
         navigationBarAppearance.titleTextAttributes = [
             NSAttributedStringKey.font: UIFont.appBoldFont()
         ]
-
-        // The back button image needs a 1pt empty pixel on the right size, as
-        // we create a resizable version where the resizing stretches the right side
-        var backButtonImage = UIImage.init(named: "chevron-left")
-        let insets = UIEdgeInsetsMake(0, backButtonImage?.size.width ?? 0, 0, 0)
-        backButtonImage = backButtonImage?.resizableImage(withCapInsets: insets)
-        backButtonImage = backButtonImage?.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
-        navigationBarAppearance.backIndicatorImage = backButtonImage
-        navigationBarAppearance.backIndicatorTransitionMaskImage = backButtonImage
         
         // Hack to remove the title
         UIBarButtonItem.appearance().setBackButtonTitlePositionAdjustment(UIOffsetMake(-999, 0), for: .default)
