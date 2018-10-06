@@ -135,7 +135,6 @@
 		4D6D49F7208E47840022F61B /* TLATableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLATableView.swift; sourceTree = "<group>"; };
 		4D6D49F9208E4A630022F61B /* TLATableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLATableViewCell.swift; sourceTree = "<group>"; };
 		4D6D49FB208E4E980022F61B /* TLATableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLATableViewController.swift; sourceTree = "<group>"; };
-		4DE3DFEA209A1054001DCAC8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4DEFE389209F07EA00476E4E /* TLASettingsSwitchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLASettingsSwitchCell.swift; sourceTree = "<group>"; };
 		4DEFE38A209F07EA00476E4E /* TLASettingsSwitchCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TLASettingsSwitchCell.xib; sourceTree = "<group>"; };
 		4DEFE390209F13DF00476E4E /* TLASettingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLASettingModel.swift; sourceTree = "<group>"; };
@@ -412,7 +411,6 @@
 		4D5B3B71208C5795004C319E /* thai-language-app-2 */ = {
 			isa = PBXGroup;
 			children = (
-				4DE3DFE9209A103A001DCAC8 /* Resources */,
 				4D5B3B95208C7334004C319E /* Fonts */,
 				4D5B3B90208C5E5B004C319E /* Extensions */,
 				4D5B3B9C208C76BA004C319E /* Views */,
@@ -550,14 +548,6 @@
 				4D4CE9C3208F925700971EB3 /* TLAMenuAppVersionCell.xib */,
 			);
 			path = Cells;
-			sourceTree = "<group>";
-		};
-		4DE3DFE9209A103A001DCAC8 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				4DE3DFEA209A1054001DCAC8 /* README.md */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		4DEFE388209F07B200476E4E /* Cells */ = {
