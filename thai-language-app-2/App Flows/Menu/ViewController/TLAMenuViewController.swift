@@ -20,13 +20,7 @@ protocol TLAMenuViewControllerDelegate: class {
 class TLAMenuViewController: TLATableViewController {
     
     public weak var delegate: TLAMenuViewControllerDelegate?
-    
-    // TODO: Make this settable from outside the VC, so that the coordinator
-    // can handle the presentation. Or possibly add this as a .. something
-    //override var prefersStatusBarHidden: Bool {
-    //    return true
-    //}
-    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         

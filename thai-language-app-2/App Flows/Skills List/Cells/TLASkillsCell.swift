@@ -20,10 +20,6 @@ class TLASkillsCell: TLATableViewCell {
         labelSubtitle.theme = TLATheme.Skills.Label.Subtitle()
     }
     
-    //todo:
-    //    - Make "reading speed" just present text. Nothing else. Also remove the "speed" in the name, as it will only be reading text and nothing else.
-    //    - Move current reading speed (with tones) move into tone drill
-    
     override func configureCell(data: Any?) {
         let skillsCellEntry = data as? TLASkillsCellEntry
         labelTitle.text = skillsCellEntry?.title

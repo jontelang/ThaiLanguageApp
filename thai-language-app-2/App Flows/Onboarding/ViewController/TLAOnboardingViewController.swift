@@ -24,10 +24,8 @@ class TLAOnboardingViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // TODO: Do I want this kind of manual tinkering?
         labelWelcome.theme = TLATheme.Onboarding.Label.Title()
         
-        // TODO: Do I want a specific button for this?
         buttonContinue.addTarget(self, action: #selector(continueOnboarding), for: UIControlEvents.touchUpInside)
         buttonContinue.theme = TLATheme.Onboarding.Button.Continue()
     }
