@@ -21,6 +21,8 @@ class TLASkillsViewController: TLATableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        title = "Skills"
 
         tableViewEntries = [
             TLATableViewCellEntry(cellClass: TLASkillsCell.self, cellData: TLASkillsCellEntry(title: "Reading Speed", subtitle: "Read full sentences with the proper tone"), cellSelectedData:(self, #selector(pressReadingSpeed))),
