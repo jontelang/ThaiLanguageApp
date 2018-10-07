@@ -191,6 +191,16 @@ extension TLATheme {
         
     }
     
+    enum Characters {
+        
+        static func CollectionView() -> TLATheme {
+            let theme = TLATheme()
+            theme.themeBackgroundColor = UIColor.clear
+            return theme
+        }
+        
+    }
+    
     enum Skills {
         
         enum Label {

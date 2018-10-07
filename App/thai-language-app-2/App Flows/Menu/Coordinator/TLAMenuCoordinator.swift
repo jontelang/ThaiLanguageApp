@@ -27,7 +27,9 @@ extension TLAMenuCoordinator: TLAMenuViewControllerDelegate {
     }
     
     func didPressCharacters(fromController: TLAMenuViewController) {
-        print(fromController)
+        let charactersCoordinator = TLACharactersCoordinator(navigationController: navigationController)
+        childCoordinator = charactersCoordinator
+        childCoordinator?.start()
     }
     
     func didPressContact(fromController: TLAMenuViewController) {
