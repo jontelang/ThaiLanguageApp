@@ -11,6 +11,7 @@ import UIKit
 protocol TLAMenuViewControllerDelegate: class {
     
     func didPressLessons(fromController: TLAMenuViewController)
+    func didPressCharacters(fromController: TLAMenuViewController)
     func didPressSkills(fromController: TLAMenuViewController)
     func didPressContact(fromController: TLAMenuViewController)
     func didPressSettings(fromController: TLAMenuViewController)
@@ -28,6 +29,7 @@ class TLAMenuViewController: TLATableViewController {
             TLATableViewCellEntry(cellClass: TLAMenuWelcomeCell.self, cellData: nil),
             TLATableViewCellEntry(cellClass: TLAMenuUsageCell.self, cellData: nil),
             TLATableViewCellEntry(cellClass: TLAMenuLabelEntryCell.self, cellData: "Lessons", cellSelectedData:(self, #selector(pressLessons))),
+            TLATableViewCellEntry(cellClass: TLAMenuLabelEntryCell.self, cellData: "Characters กขบ", cellSelectedData:(self, #selector(pressCharacters))),
             TLATableViewCellEntry(cellClass: TLAMenuLabelEntryCell.self, cellData: "Skills", cellSelectedData:(self, #selector(pressSkills))),
             TLATableViewCellEntry(cellClass: TLAMenuLabelEntryCell.self, cellData: "Contact", cellSelectedData:(self, #selector(pressContact))),
             TLATableViewCellEntry(cellClass: TLAMenuLabelEntryCell.self, cellData: "App Settings", cellSelectedData:(self, #selector(pressSettings))),
@@ -37,6 +39,10 @@ class TLAMenuViewController: TLATableViewController {
     
     @objc func pressLessons() {
         delegate?.didPressLessons(fromController: self)
+    }
+    
+    @objc func pressCharacters() {
+        delegate?.didPressCharacters(fromController: self)
     }
     
     @objc func pressSkills() {

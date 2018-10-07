@@ -26,6 +26,10 @@ extension TLAMenuCoordinator: TLAMenuViewControllerDelegate {
         childCoordinator?.start()
     }
     
+    func didPressCharacters(fromController: TLAMenuViewController) {
+        print(fromController)
+    }
+    
     func didPressContact(fromController: TLAMenuViewController) {
         let contactViewController = TLAContactViewController.instantiateFromStoryboard() as! TLAContactViewController
         navigationController.show(contactViewController, sender: nil)
