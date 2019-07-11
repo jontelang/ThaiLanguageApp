@@ -36,6 +36,9 @@ class TLAAppDelegate: UIResponder, UIApplicationDelegate {
         // Then setup some appearances
         setupAppearance()
         
+        // This automatically takes screenshots for progress
+        AutoScreenshotLogger.kickOffAutomaticScreenShot(afterSeconds: 10)
+        
         return true
     }
     
