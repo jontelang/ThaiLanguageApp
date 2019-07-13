@@ -31,5 +31,14 @@ extension UIView {
             bottomAnchor.constraint(equalTo: view.bottomAnchor)
         ])
     }
+    
+    func pinHeight(_ height: CGFloat) {
+        heightAnchor.constraint(equalToConstant: height).isActive = true
+    }
+    
+    func pinXAxisTo(_ view: UIView) {
+        leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
+        trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+    }
 
 }

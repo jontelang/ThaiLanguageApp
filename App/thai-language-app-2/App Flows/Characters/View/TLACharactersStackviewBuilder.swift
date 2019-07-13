@@ -15,22 +15,19 @@ class TLACharactersStackviewBuilder {
         stackview.alignment = .center
         stackview.axis = .vertical
         stackview.spacing = 1
-        stackview.translatesAutoresizingMaskIntoConstraints = false
         
         for row in displayRows {
             let hStack = UIStackView()
-            hStack.distribution = UIStackViewDistribution.fillEqually
+            hStack.distribution = .fillEqually
             hStack.spacing = 1
             stackview.addArrangedSubview(hStack)
-            
-            hStack.leadingAnchor.constraint(equalTo: stackview.leadingAnchor).isActive = true
-            hStack.trailingAnchor.constraint(equalTo: stackview.trailingAnchor).isActive = true
+            hStack.pinXAxisTo(stackview)
             
             // The height is an optional variable so that if we don't specify it,
             // the height of the stack will be based on the automatic height from
             // the content (means it needs an intrinsic content size)
             if let height = row.height {
-                hStack.heightAnchor.constraint(equalToConstant: height).isActive = true
+                hStack.pinHeight(height)
             }
             
             for item in row.items {
