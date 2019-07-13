@@ -31,13 +31,8 @@ class CharacterLabel: TLAView {
         characterNameLabel.theme = TLATheme.Characters.Cell.Name()
         addSubview(verticalStack)
         
-        verticalStack.translatesAutoresizingMaskIntoConstraints = false
-        NSLayoutConstraint.activate([
-            verticalStack.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 10),
-            verticalStack.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -10),
-            verticalStack.topAnchor.constraint(equalTo: topAnchor, constant: 10),
-            verticalStack.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -10)
-        ])
+        let padding = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
+        verticalStack.pinTo(self, padding: padding)
     }
     
     required init?(coder aDecoder: NSCoder) {
