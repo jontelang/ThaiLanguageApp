@@ -28,6 +28,7 @@
 		4D384EC722DA2E3200F0152F /* TLACharactersStackview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D384EC622DA2E3200F0152F /* TLACharactersStackview.swift */; };
 		4D384EC922DA36BB00F0152F /* TLAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D384EC822DA36BB00F0152F /* TLAView.swift */; };
 		4D384ECC22DA46B200F0152F /* TLACharactersStackviewModelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D384ECB22DA46B200F0152F /* TLACharactersStackviewModelProvider.swift */; };
+		4D384ECE22DA4CE000F0152F /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D384ECD22DA4CE000F0152F /* UIView+AutoLayout.swift */; };
 		4D3DE60720B46C6A001A01ED /* TLASkillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3DE60620B46C6A001A01ED /* TLASkillsViewController.swift */; };
 		4D3DE60920B46C8E001A01ED /* TLASkillsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3DE60820B46C8E001A01ED /* TLASkillsViewController.storyboard */; };
 		4D3DE60C20B47548001A01ED /* TLAReadingSpeedCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3DE60B20B47548001A01ED /* TLAReadingSpeedCoordinator.swift */; };
@@ -105,6 +106,7 @@
 		4D384EC622DA2E3200F0152F /* TLACharactersStackview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLACharactersStackview.swift; sourceTree = "<group>"; };
 		4D384EC822DA36BB00F0152F /* TLAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAView.swift; sourceTree = "<group>"; };
 		4D384ECB22DA46B200F0152F /* TLACharactersStackviewModelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLACharactersStackviewModelProvider.swift; sourceTree = "<group>"; };
+		4D384ECD22DA4CE000F0152F /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
 		4D3DE60620B46C6A001A01ED /* TLASkillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLASkillsViewController.swift; sourceTree = "<group>"; };
 		4D3DE60820B46C8E001A01ED /* TLASkillsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TLASkillsViewController.storyboard; sourceTree = "<group>"; };
 		4D3DE60B20B47548001A01ED /* TLAReadingSpeedCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAReadingSpeedCoordinator.swift; sourceTree = "<group>"; };
@@ -522,6 +524,7 @@
 				4D5B3BA4208C82A6004C319E /* UIColor+Defaults.swift */,
 				4D5B3B91208C5EEF004C319E /* UIViewController+Storyboard.swift */,
 				4D5B3BA6208C83E7004C319E /* UIColor+Hex.swift */,
+				4D384ECD22DA4CE000F0152F /* UIView+AutoLayout.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -730,6 +733,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D4CE9C6208F928300971EB3 /* TLAMenuAppVersionCell.swift in Sources */,
+				4D384ECE22DA4CE000F0152F /* UIView+AutoLayout.swift in Sources */,
 				4D5B3B8F208C5E13004C319E /* TLAOnboardingViewController.swift in Sources */,
 				4D6D49FA208E4A630022F61B /* TLATableViewCell.swift in Sources */,
 				4D58153820AC863C00A9822C /* TLAReadingSpeedViewController.swift in Sources */,

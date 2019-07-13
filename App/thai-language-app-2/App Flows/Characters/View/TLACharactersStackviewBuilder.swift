@@ -17,7 +17,7 @@ class TLACharactersStackviewBuilder {
         stackview.spacing = 1
         stackview.translatesAutoresizingMaskIntoConstraints = false
         
-        for row in rows {
+        for row in displayRows {
             let hStack = UIStackView()
             hStack.distribution = UIStackViewDistribution.fillEqually
             hStack.spacing = 1
