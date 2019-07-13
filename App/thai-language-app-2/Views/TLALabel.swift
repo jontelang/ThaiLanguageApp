@@ -18,10 +18,10 @@ class TLALabel: UILabel {
         didSet {
             textColor = theme?.themeTextColor
             font = theme?.themeFont
+            backgroundColor = theme?.themeBackgroundColor
             textAlignment = theme!.themeTextAlignment
             numberOfLines = theme!.themeNumberOfLines
             adjustsFontSizeToFitWidth = theme!.themeAdjustFontToSize
-            self.adjustsFontSizeToFitWidth = theme!.themeAdjustFontToSize
         }
     }
     

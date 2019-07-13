@@ -11,7 +11,7 @@ import UIKit
 class TLACharactersCoordinator: TLACoordinator {
     
     override func start() {
-        let charactersViewController = TLACharactersViewController.instantiateFromStoryboard() as! TLACharactersViewController
+        let charactersViewController = TLACharactersViewController()
         navigationController.show(charactersViewController, sender: nil)
     }
 }

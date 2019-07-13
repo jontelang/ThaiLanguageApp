@@ -23,6 +23,11 @@
 		4D2577B72157C34600155BF8 /* TLAModelEntryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2577B62157C34600155BF8 /* TLAModelEntryStore.swift */; };
 		4D2577BA2157CACD00155BF8 /* TLAReadingPracticeModelEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2577B92157CACD00155BF8 /* TLAReadingPracticeModelEntry.swift */; };
 		4D384EC022D796B400F0152F /* AutoScreenshotLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D384EBD22D7965900F0152F /* AutoScreenshotLogger.m */; };
+		4D384EC322DA271900F0152F /* TLACharacterLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D384EC222DA271900F0152F /* TLACharacterLabel.swift */; };
+		4D384EC522DA27AD00F0152F /* TLACharactersStackviewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D384EC422DA27AD00F0152F /* TLACharactersStackviewBuilder.swift */; };
+		4D384EC722DA2E3200F0152F /* TLACharactersStackview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D384EC622DA2E3200F0152F /* TLACharactersStackview.swift */; };
+		4D384EC922DA36BB00F0152F /* TLAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D384EC822DA36BB00F0152F /* TLAView.swift */; };
+		4D384ECC22DA46B200F0152F /* TLACharactersStackviewModelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D384ECB22DA46B200F0152F /* TLACharactersStackviewModelProvider.swift */; };
 		4D3DE60720B46C6A001A01ED /* TLASkillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3DE60620B46C6A001A01ED /* TLASkillsViewController.swift */; };
 		4D3DE60920B46C8E001A01ED /* TLASkillsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3DE60820B46C8E001A01ED /* TLASkillsViewController.storyboard */; };
 		4D3DE60C20B47548001A01ED /* TLAReadingSpeedCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3DE60B20B47548001A01ED /* TLAReadingSpeedCoordinator.swift */; };
@@ -70,7 +75,6 @@
 		4D6D49FC208E4E980022F61B /* TLATableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D49FB208E4E980022F61B /* TLATableViewController.swift */; };
 		4D8455A9216A04B0001E48EB /* TLACharactersCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8455A8216A04B0001E48EB /* TLACharactersCoordinator.swift */; };
 		4D8455AB216A1596001E48EB /* TLACharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8455AA216A1596001E48EB /* TLACharactersViewController.swift */; };
-		4D8455AD216A15D6001E48EB /* TLACharactersViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8455AC216A15D6001E48EB /* TLACharactersViewController.storyboard */; };
 		4D8455AF216A1C13001E48EB /* TLACollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8455AE216A1C13001E48EB /* TLACollectionView.swift */; };
 		4DEFE38B209F07EA00476E4E /* TLASettingsSwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFE389209F07EA00476E4E /* TLASettingsSwitchCell.swift */; };
 		4DEFE38C209F07EA00476E4E /* TLASettingsSwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DEFE38A209F07EA00476E4E /* TLASettingsSwitchCell.xib */; };
@@ -96,6 +100,11 @@
 		4D384EBC22D7965800F0152F /* thai-language-app-2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "thai-language-app-2-Bridging-Header.h"; sourceTree = "<group>"; };
 		4D384EBD22D7965900F0152F /* AutoScreenshotLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoScreenshotLogger.m; sourceTree = "<group>"; };
 		4D384EBE22D7965900F0152F /* AutoScreenshotLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoScreenshotLogger.h; sourceTree = "<group>"; };
+		4D384EC222DA271900F0152F /* TLACharacterLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLACharacterLabel.swift; sourceTree = "<group>"; };
+		4D384EC422DA27AD00F0152F /* TLACharactersStackviewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLACharactersStackviewBuilder.swift; sourceTree = "<group>"; };
+		4D384EC622DA2E3200F0152F /* TLACharactersStackview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLACharactersStackview.swift; sourceTree = "<group>"; };
+		4D384EC822DA36BB00F0152F /* TLAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAView.swift; sourceTree = "<group>"; };
+		4D384ECB22DA46B200F0152F /* TLACharactersStackviewModelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLACharactersStackviewModelProvider.swift; sourceTree = "<group>"; };
 		4D3DE60620B46C6A001A01ED /* TLASkillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLASkillsViewController.swift; sourceTree = "<group>"; };
 		4D3DE60820B46C8E001A01ED /* TLASkillsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TLASkillsViewController.storyboard; sourceTree = "<group>"; };
 		4D3DE60B20B47548001A01ED /* TLAReadingSpeedCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAReadingSpeedCoordinator.swift; sourceTree = "<group>"; };
@@ -144,8 +153,7 @@
 		4D6D49F9208E4A630022F61B /* TLATableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLATableViewCell.swift; sourceTree = "<group>"; };
 		4D6D49FB208E4E980022F61B /* TLATableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLATableViewController.swift; sourceTree = "<group>"; };
 		4D8455A8216A04B0001E48EB /* TLACharactersCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLACharactersCoordinator.swift; sourceTree = "<group>"; };
-		4D8455AA216A1596001E48EB /* TLACharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TLACharactersViewController.swift; path = "thai-language-app-2/App Flows/Characters/ViewController/TLACharactersViewController.swift"; sourceTree = SOURCE_ROOT; };
-		4D8455AC216A15D6001E48EB /* TLACharactersViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = TLACharactersViewController.storyboard; path = "thai-language-app-2/App Flows/Characters/ViewController/TLACharactersViewController.storyboard"; sourceTree = SOURCE_ROOT; };
+		4D8455AA216A1596001E48EB /* TLACharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TLACharactersViewController.swift; path = "thai-language-app-2/App Flows/Characters/View/TLACharactersViewController.swift"; sourceTree = SOURCE_ROOT; };
 		4D8455AE216A1C13001E48EB /* TLACollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLACollectionView.swift; sourceTree = "<group>"; };
 		4DEFE389209F07EA00476E4E /* TLASettingsSwitchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLASettingsSwitchCell.swift; sourceTree = "<group>"; };
 		4DEFE38A209F07EA00476E4E /* TLASettingsSwitchCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TLASettingsSwitchCell.xib; sourceTree = "<group>"; };
@@ -285,6 +293,25 @@
 				4D384EBC22D7965800F0152F /* thai-language-app-2-Bridging-Header.h */,
 			);
 			path = AutoScreenshotLogger;
+			sourceTree = "<group>";
+		};
+		4D384EC122DA26E600F0152F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D8455AA216A1596001E48EB /* TLACharactersViewController.swift */,
+				4D384EC222DA271900F0152F /* TLACharacterLabel.swift */,
+				4D384EC422DA27AD00F0152F /* TLACharactersStackviewBuilder.swift */,
+				4D384EC622DA2E3200F0152F /* TLACharactersStackview.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4D384ECA22DA469500F0152F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D384ECB22DA46B200F0152F /* TLACharactersStackviewModelProvider.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		4D3DE60520B46C3A001A01ED /* ViewController */ = {
@@ -515,6 +542,7 @@
 			isa = PBXGroup;
 			children = (
 				4D5B3BC1208CCB79004C319E /* TLATheme.swift */,
+				4D384EC822DA36BB00F0152F /* TLAView.swift */,
 				4D5B3B9D208C76D7004C319E /* TLALabel.swift */,
 				4D5B3BA0208C7D9F004C319E /* TLAButton.swift */,
 				4D2577AF21578BB400155BF8 /* TLATextView.swift */,
@@ -579,7 +607,8 @@
 			isa = PBXGroup;
 			children = (
 				4D8455A6216A045B001E48EB /* Coordinator */,
-				4D8455A7216A0460001E48EB /* ViewController */,
+				4D384EC122DA26E600F0152F /* View */,
+				4D384ECA22DA469500F0152F /* Model */,
 			);
 			path = Characters;
 			sourceTree = "<group>";
@@ -590,16 +619,6 @@
 				4D8455A8216A04B0001E48EB /* TLACharactersCoordinator.swift */,
 			);
 			path = Coordinator;
-			sourceTree = "<group>";
-		};
-		4D8455A7216A0460001E48EB /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				4D8455AA216A1596001E48EB /* TLACharactersViewController.swift */,
-				4D8455AC216A15D6001E48EB /* TLACharactersViewController.storyboard */,
-			);
-			name = ViewController;
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 		4DEFE388209F07B200476E4E /* Cells */ = {
@@ -688,7 +707,6 @@
 				4D5B3BB8208CBCE1004C319E /* TLAMenuWelcomeCell.xib in Resources */,
 				4D5B3B7D208C5796004C319E /* LaunchScreen.storyboard in Resources */,
 				4D5B3BBE208CBFD9004C319E /* NotoSans-SemiBold.ttf in Resources */,
-				4D8455AD216A15D6001E48EB /* TLACharactersViewController.storyboard in Resources */,
 				4D0193D7209B604D008DCDCF /* TLASettingsViewController.storyboard in Resources */,
 				4D2577AE215785D200155BF8 /* TLAReadingPracticeViewController.storyboard in Resources */,
 				4D5B3B7A208C5796004C319E /* Assets.xcassets in Resources */,
@@ -717,6 +735,7 @@
 				4D58153820AC863C00A9822C /* TLAReadingSpeedViewController.swift in Sources */,
 				4D5B3BAF208CB4DC004C319E /* TLAMenuCoordinator.swift in Sources */,
 				4D5B3B8A208C5C3A004C319E /* TLAAppCoordinator.swift in Sources */,
+				4D384EC922DA36BB00F0152F /* TLAView.swift in Sources */,
 				4D2577BA2157CACD00155BF8 /* TLAReadingPracticeModelEntry.swift in Sources */,
 				4D5B3B9E208C76D7004C319E /* TLALabel.swift in Sources */,
 				4D5B3BA1208C7D9F004C319E /* TLAButton.swift in Sources */,
@@ -729,12 +748,15 @@
 				4D3DE60720B46C6A001A01ED /* TLASkillsViewController.swift in Sources */,
 				4D0193D9209B6070008DCDCF /* TLASettingsViewController.swift in Sources */,
 				4D3DE61420B4820C001A01ED /* TLASkillsCellEntry.swift in Sources */,
+				4D384EC522DA27AD00F0152F /* TLACharactersStackviewBuilder.swift in Sources */,
+				4D384ECC22DA46B200F0152F /* TLACharactersStackviewModelProvider.swift in Sources */,
 				4D8455A9216A04B0001E48EB /* TLACharactersCoordinator.swift in Sources */,
 				4DEFE38B209F07EA00476E4E /* TLASettingsSwitchCell.swift in Sources */,
 				4D4CE9BE208F8FD200971EB3 /* TLATableViewCellEntry.swift in Sources */,
 				4D5B3BB7208CBCE1004C319E /* TLAMenuWelcomeCell.swift in Sources */,
 				4D6D49F8208E47840022F61B /* TLATableView.swift in Sources */,
 				4D5B3B86208C57FA004C319E /* TLACoordinator.swift in Sources */,
+				4D384EC722DA2E3200F0152F /* TLACharactersStackview.swift in Sources */,
 				4D5B3BA9208C8523004C319E /* TLAMenuViewController.swift in Sources */,
 				4D5B3B73208C5795004C319E /* TLAAppDelegate.swift in Sources */,
 				4D8455AF216A1C13001E48EB /* TLACollectionView.swift in Sources */,
@@ -747,6 +769,7 @@
 				4D58154220AC8B7300A9822C /* TLASkillsCoordinator.swift in Sources */,
 				4D5B3BC2208CCB79004C319E /* TLATheme.swift in Sources */,
 				4D0193DE209B6304008DCDCF /* TLAContactViewController.swift in Sources */,
+				4D384EC322DA271900F0152F /* TLACharacterLabel.swift in Sources */,
 				4D6D49FC208E4E980022F61B /* TLATableViewController.swift in Sources */,
 				4D2577AC215785B100155BF8 /* TLAReadingPracticeViewController.swift in Sources */,
 				4D5B3B92208C5EEF004C319E /* UIViewController+Storyboard.swift in Sources */,
@@ -895,7 +918,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7VCT3MGYXB;
 				INFOPLIST_FILE = "thai-language-app-2/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -917,7 +940,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7VCT3MGYXB;
 				INFOPLIST_FILE = "thai-language-app-2/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
