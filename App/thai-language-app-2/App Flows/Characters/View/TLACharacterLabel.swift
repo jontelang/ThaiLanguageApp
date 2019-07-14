@@ -8,8 +8,8 @@
 
 import UIKit
 
-class CharacterLabel: TLAView {
-    init(with data: DisplayData) {
+class TLACharacterDisplayLabel: TLAView {
+    init(with data: TLACharacter) {
         super.init(frame: .zero)
         
         let verticalStack = UIStackView()
@@ -17,17 +17,16 @@ class CharacterLabel: TLAView {
         
         let characterLabel = TLALabel()
         verticalStack.addArrangedSubview(characterLabel)
-        characterLabel.text = data.title
+        characterLabel.text = data.thaiCharacter
         characterLabel.theme = TLATheme.Characters.Cell.Main()
         
-        if let title = data.title,
-            let alt = data.altTitle {
-            characterLabel.text = "\(title) / \(alt)"
+        if let alt = data.alternativeThaiCharacter {
+            characterLabel.text = "\(data.thaiCharacter) / \(alt)"
         }
         
         let characterNameLabel = TLALabel()
         verticalStack.addArrangedSubview(characterNameLabel)
-        characterNameLabel.text = data.subtitle
+        characterNameLabel.text = data.thaiNameInEnglish
         characterNameLabel.theme = TLATheme.Characters.Cell.Name()
         addSubview(verticalStack)
         

@@ -10,171 +10,171 @@ import Foundation
 
 class TLACharactersStackviewModelProvider {
     
-    static func buildRows() -> [DisplayRow] {
+    static func buildRows() -> [TLADisplayRow] {
         return [
-            DisplayRow(height: 50, items: [
-                DisplayData(title: "Consonants", type: .title)
+            TLADisplayRow(height: 50, items: [
+                TLATitleDisplay(text: "Consonants")
                 ]),
-            DisplayRow(items: [
-                DisplayData(title: "ก", subtitle: "ko kai", type: .consonant),
-                DisplayData(title: "ข", subtitle: "kho khai", type: .consonant),
-                DisplayData(title: "ฃ", subtitle: "kho khuat", type: .consonant)
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: TLACharacter("ก", name: "ko kai")),
+                TLACharacterDisplay(character: TLACharacter("ข", name: "kho khai")),
+                TLACharacterDisplay(character: TLACharacter("ฃ", name: "kho khuat")),
                 ]),
-            DisplayRow(items: [
-                DisplayData(title: "ค", subtitle: "kho khwai", type: .consonant),
-                DisplayData(title: "ฅ", subtitle: "kho khon", type: .consonant),
-                DisplayData(title: "ฆ", subtitle: "kho ra khang", type: .consonant),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: TLACharacter("ค", name: "kho khwai")),
+                TLACharacterDisplay(character: TLACharacter("ฅ", name: "kho khon")),
+                TLACharacterDisplay(character: TLACharacter("ฆ", name: "kho ra khang")),
                 ]),
-            DisplayRow(items: [
-                DisplayData(title: "ง", subtitle: "ngo ngu", type: .consonant),
-                DisplayData(title: "จ", subtitle: "cho chan", type: .consonant),
-                DisplayData(title: "ฉ", subtitle: "cho ching", type: .consonant),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: TLACharacter("ง", name: "ngo ngu")),
+                TLACharacterDisplay(character: TLACharacter("จ", name: "cho chan")),
+                TLACharacterDisplay(character: TLACharacter("ฉ", name: "cho ching")),
                 ]),
-            DisplayRow(items: [
-                DisplayData(title: "ช", subtitle: "cho chang", type: .consonant),
-                DisplayData(title: "ซ", subtitle: "so so", type: .consonant),
-                DisplayData(title: "ฌ", subtitle: "cho choe", type: .consonant),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: TLACharacter("ช", name: "cho chang")),
+                TLACharacterDisplay(character: TLACharacter("ซ", name: "so so")),
+                TLACharacterDisplay(character: TLACharacter("ฌ", name: "cho choe")),
                 ]),
-            DisplayRow(items: [
-                DisplayData(title: "ญ", subtitle: "yo ying", type: .consonant),
-                DisplayData(title: "ฎ", subtitle: "do cha da", type: .consonant),
-                DisplayData(title: "ฏ", subtitle: "to pa tak", type: .consonant),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: TLACharacter("ญ", name: "yo ying")),
+                TLACharacterDisplay(character: TLACharacter("ฎ", name: "do cha da")),
+                TLACharacterDisplay(character: TLACharacter("ฏ", name: "to pa tak")),
                 ]),
-            DisplayRow(items: [
-                DisplayData(title: "ฐ", subtitle: "tho than", type: .consonant),
-                DisplayData(title: "ฑ", subtitle: "tho montho", type: .consonant),
-                DisplayData(title: "ฒ", subtitle: "tho phu-thao", type: .consonant),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: TLACharacter("ฐ", name: "tho than")),
+                TLACharacterDisplay(character: TLACharacter("ฑ", name: "tho montho")),
+                TLACharacterDisplay(character: TLACharacter("ฒ", name: "tho phu-thao")),
                 ]),
-            DisplayRow(items: [
-                DisplayData(title: "ณ", subtitle: "no nen", type: .consonant),
-                DisplayData(title: "ด", subtitle: "do dek", type: .consonant),
-                DisplayData(title: "ต", subtitle: "to tao", type: .consonant),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: TLACharacter("ณ", name: "no nen")),
+                TLACharacterDisplay(character: TLACharacter("ด", name: "do dek")),
+                TLACharacterDisplay(character: TLACharacter("ต", name: "to tao")),
                 ]),
-            DisplayRow(items: [
-                DisplayData(title: "ถ", subtitle: "tho thung", type: .consonant),
-                DisplayData(title: "ท", subtitle: "tho thahan", type: .consonant),
-                DisplayData(title: "ธ", subtitle: "tho thong", type: .consonant),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: TLACharacter("ถ", name: "tho thung")),
+                TLACharacterDisplay(character: TLACharacter("ท", name: "tho thahan")),
+                TLACharacterDisplay(character: TLACharacter("ธ", name: "tho thong")),
                 ]),
-            DisplayRow(items: [
-                DisplayData(title: "น", subtitle: "no nu", type: .consonant),
-                DisplayData(title: "บ", subtitle: "bo baimai", type: .consonant),
-                DisplayData(title: "ป", subtitle: "po pla", type: .consonant),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: TLACharacter("น", name: "no nu")),
+                TLACharacterDisplay(character: TLACharacter("บ", name: "bo baimai")),
+                TLACharacterDisplay(character: TLACharacter("ป", name: "po pla")),
                 ]),
-            DisplayRow(items: [
-                DisplayData(title: "ผ", subtitle: "pho phung", type: .consonant),
-                DisplayData(title: "ฝ", subtitle: "fo fa", type: .consonant),
-                DisplayData(title: "พ", subtitle: "pho phan", type: .consonant),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: TLACharacter("ผ", name: "pho phung")),
+                TLACharacterDisplay(character: TLACharacter("ฝ", name: "fo fa")),
+                TLACharacterDisplay(character: TLACharacter("พ", name: "pho phan")),
                 ]),
-            DisplayRow(items: [
-                DisplayData(title: "ฟ", subtitle: "fo fan", type: .consonant),
-                DisplayData(title: "ภ", subtitle: "pho sam-phao", type: .consonant),
-                DisplayData(title: "ม", subtitle: "mo ma", type: .consonant),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: TLACharacter("ฟ", name: "fo fan")),
+                TLACharacterDisplay(character: TLACharacter("ภ", name: "pho sam-phao")),
+                TLACharacterDisplay(character: TLACharacter("ม", name: "mo ma")),
                 ]),
-            DisplayRow(items: [
-                DisplayData(title: "ย", subtitle: "yo yak", type: .consonant),
-                DisplayData(title: "ร", subtitle: "ro ruea", type: .consonant),
-                DisplayData(title: "ล", subtitle: "lo ling", type: .consonant),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: TLACharacter("ย", name: "yo yak")),
+                TLACharacterDisplay(character: TLACharacter("ร", name: "ro ruea")),
+                TLACharacterDisplay(character: TLACharacter("ล", name: "lo ling")),
                 ]),
-            DisplayRow(items: [
-                DisplayData(title: "ว", subtitle: "wo waen", type: .consonant),
-                DisplayData(title: "ศ", subtitle: "so sala", type: .consonant),
-                DisplayData(title: "ษ", subtitle: "so rue-si", type: .consonant),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: TLACharacter("ว", name: "wo waen")),
+                TLACharacterDisplay(character: TLACharacter("ศ", name: "so sala")),
+                TLACharacterDisplay(character: TLACharacter("ษ", name: "so rue-si")),
                 ]),
-            DisplayRow(items: [
-                DisplayData(title: "ส", subtitle: "so suea", type: .consonant),
-                DisplayData(title: "ห", subtitle: "ho hip", type: .consonant),
-                DisplayData(title: "ฬ", subtitle: "lo chu-la", type: .consonant),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: TLACharacter("ส", name: "so suea")),
+                TLACharacterDisplay(character: TLACharacter("ห", name: "ho hip")),
+                TLACharacterDisplay(character: TLACharacter("ฬ", name: "lo chu-la")),
                 ]),
-            DisplayRow(items: [
-                DisplayData(title: "อ", subtitle: "o ang", type: .consonant),
-                DisplayData(title: "ฮ", subtitle: "ho nok-huk", type: .consonant),
-                DisplayData(title: "ฮ", subtitle: "ho nok-huk", type: .filler),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: TLACharacter("อ", name: "o ang")),
+                TLACharacterDisplay(character: TLACharacter("ฮ", name: "ho nok-huk")),
+                TLAFillerDisplay(),
                 ]),
-            DisplayRow(height: 40, items: [
-                DisplayData(type: .spacer)
+            TLADisplayRow(height: 40, items: [
+                TLAFillerDisplay()
                 ]),
-            DisplayRow(height: 50, items: [
-                DisplayData(title: "Vowels", type: .title),
+            TLADisplayRow(height: 50, items: [
+                TLATitleDisplay(text: "Vowels"),
                 ]),
-            DisplayRow(height: 30, items: [
-                DisplayData(title: "Monopthongs", type: .subtitle),
+            TLADisplayRow(height: 30, items: [
+                TLASubtitleDisplay(text: "Monopthongs"),
                 ]),
-            DisplayRow(height: 30, items: [
-                DisplayData(title: "Short", type: .subtitle),
-                DisplayData(title: "Long", type: .subtitle),
+            TLADisplayRow(height: 30, items: [
+                TLASubtitleDisplay(text: "Short"),
+                TLASubtitleDisplay(text: "Long"),
                 ]),
-            DisplayRow(items: [
-                DisplayData(title: "◌ะ", subtitle: "sara a", altTitle: "◌ั◌", type: .vowel),
-                DisplayData(title: "◌า", subtitle: "sara aa", type: .vowel),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: TLACharacter("◌ะ", name: "sara a", alt: "◌ั◌")),
+                TLACharacterDisplay(character: TLACharacter("◌า", name: "sara aa")),
                 ]),
-            DisplayRow(items: [
-                DisplayData(title: "◌ิ", subtitle: "i", type: .vowel),
-                DisplayData(title: "◌ี", subtitle: "ee", type: .vowel),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: TLACharacter("◌ิ", name: "i")),
+                TLACharacterDisplay(character: TLACharacter("◌ี", name: "ee")),
                 ]),
-            DisplayRow(items: [
-                DisplayData(title: "◌ึ", subtitle: "eu", type: .vowel),
-                DisplayData(title: "◌ือ", subtitle: "euu", altTitle: "◌ื◌", type: .vowel),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: TLACharacter("◌ึ", name: "eu")),
+                TLACharacterDisplay(character: TLACharacter("◌ือ", name: "euu", alt: "◌ื◌")),
                 ]),
-            DisplayRow(items: [
-                DisplayData(title: "◌ุ", subtitle: "u", type: .vowel),
-                DisplayData(title: "◌ุ", subtitle: "uu", type: .vowel),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: TLACharacter("◌ุ", name: "u")),
+                TLACharacterDisplay(character: TLACharacter("◌ุ", name: "uu")),
                 ]),
-            DisplayRow(items: [
-                DisplayData(title: "เ◌ะ", subtitle: "e.", altTitle: "เ◌็◌", type: .vowel),
-                DisplayData(title: "เ◌", subtitle: "ee", type: .vowel),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: TLACharacter("เ◌ะ", name: "e.", alt: "เ◌็◌")),
+                TLACharacterDisplay(character: TLACharacter("เ◌", name: "ee")),
                 ]),
-            DisplayRow(items: [
-                DisplayData(title: "แ◌ะ", subtitle: "ae.", altTitle: "แ◌็◌", type: .vowel),
-                DisplayData(title: "แ◌", subtitle: "aee", type: .vowel),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: TLACharacter("แ◌ะ", name: "ae.", alt: "แ◌็◌")),
+                TLACharacterDisplay(character: TLACharacter("แ◌", name: "aee")),
                 ]),
-            DisplayRow(items: [
-                DisplayData(title: "โ◌ะ", subtitle: "oh", type: .vowel),
-                DisplayData(title: "โ◌", subtitle: "ooh", type: .vowel),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: TLACharacter("โ◌ะ", name: "oh")),
+                TLACharacterDisplay(character: TLACharacter("โ◌", name: "ooh")),
                 ]),
-            DisplayRow(items: [
-                DisplayData(title: "เ◌าะ", subtitle: "oh.", type: .vowel),
-                DisplayData(title: "◌อ", subtitle: "aaw", type: .vowel),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: TLACharacter("เ◌าะ", name: "oh.")),
+                TLACharacterDisplay(character: TLACharacter("◌อ", name: "aaw")),
                 ]),
-            DisplayRow(items: [
-                DisplayData(title: "เ◌อะ", subtitle: "uh", type: .vowel),
-                DisplayData(title: "เ◌อ", subtitle: "uuhr", altTitle: "เ◌ิ", type: .vowel),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: TLACharacter("เ◌อะ", name: "uh")),
+                TLACharacterDisplay(character: TLACharacter("เ◌อ", name: "uuhr", alt: "เ◌ิ")),
                 ]),
-            DisplayRow(height: 30, items: [
-                DisplayData(title: "Special", type: .subtitle),
+            TLADisplayRow(height: 30, items: [
+                TLASubtitleDisplay(text: "Special"),
                 ]),
-            DisplayRow(height: 30, items: [
-                DisplayData(title: "Sound length varies", type: .subtitle),
+            TLADisplayRow(height: 30, items: [
+                TLASubtitleDisplay(text: "Sound length varies"),
                 ]),
-            DisplayRow(items: [
-                DisplayData(title: "ใ◌", subtitle: "ai", type: .vowel),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: TLACharacter("ใ◌", name: "ai")),
                 ]),
-            DisplayRow(items: [
-                DisplayData(title: "ไ◌", subtitle: "ai", type: .vowel),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: TLACharacter("ไ◌", name: "ai")),
                 ]),
-            DisplayRow(items: [
-                DisplayData(title: "เ◌า", subtitle: "ao", type: .vowel),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: TLACharacter("เ◌า", name: "ao")),
                 ]),
-            DisplayRow(items: [
-                DisplayData(title: " ำ ",subtitle: "am", type: .vowel),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: TLACharacter(" ำ ",name: "am")),
                 ]),
-            DisplayRow(height: 30, items: [
-                DisplayData(title: "Dipthongs", type: .subtitle),
+            TLADisplayRow(height: 30, items: [
+                TLASubtitleDisplay(text: "Dipthongs"),
                 ]),
-            DisplayRow(height: 30, items: [
-                DisplayData(title: "Short", type: .subtitle),
-                DisplayData(title: "Long", type: .subtitle),
+            TLADisplayRow(height: 30, items: [
+                TLASubtitleDisplay(text: "Short"),
+                TLASubtitleDisplay(text: "Long"),
                 ]),
-            DisplayRow(items: [
-                DisplayData(title: "เ◌ียะ", subtitle: "ia.", type: .vowel),
-                DisplayData(title: "เ◌ีย", subtitle: "iia", type: .vowel),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: TLACharacter("เ◌ียะ", name: "ia.")),
+                TLACharacterDisplay(character: TLACharacter("เ◌ีย", name: "iia")),
                 ]),
-            DisplayRow(items: [
-                DisplayData(title: "เ◌ือะ", subtitle: "eua.", type: .vowel),
-                DisplayData(title: "เ◌ือ", subtitle: "euua", type: .vowel),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: TLACharacter("เ◌ือะ", name: "eua.")),
+                TLACharacterDisplay(character: TLACharacter("เ◌ือ", name: "euua")),
                 ]),
-            DisplayRow(items: [
-                DisplayData(title: "วัะ", subtitle: "ua.", type: .vowel),
-                DisplayData(title: "◌ัว", subtitle: "uua", altTitle: "◌ว◌", type: .vowel),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: TLACharacter("วัะ", name: "ua.")),
+                TLACharacterDisplay(character: TLACharacter("◌ัว", name: "uua", alt: "◌ว◌")),
                 ])
         ]
     }

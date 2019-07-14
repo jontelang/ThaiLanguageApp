@@ -11,7 +11,7 @@ import UIKit
 class TLACharactersCoordinator: TLACoordinator {
     
     override func start() {
-        let charactersViewController = TLACharactersViewController()
+        let charactersViewController = TLACharactersModuleBuilder.build()
         navigationController.show(charactersViewController, sender: nil)
     }
 }
