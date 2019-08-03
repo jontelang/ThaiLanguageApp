@@ -11,10 +11,11 @@ import UIKit
 class TLAStackviewBuilder {
     
     static func buildView(displayRows: [TLADisplayRow]) -> UIScrollView {
-        let stackview = UIStackView()
+        let stackview = TLAStackView()
         stackview.alignment = .center
         stackview.axis = .vertical
         stackview.spacing = 1
+        stackview.storedRows = displayRows
         
         for row in displayRows {
             let hStack = UIStackView()
@@ -39,10 +40,7 @@ class TLAStackviewBuilder {
                     gesture.numberOfTapsRequired = 1
                     view.addGestureRecognizer(gesture)
                     view.isUserInteractionEnabled = true
-                    view.backgroundColor = .red
-                    print("==\nitem \(item) is conforming to tappable - so we add a gesture \(gesture) to view \(view)")
                 } else {
-                    print("==\nis NOT conforming to tappable \(item)")
                 }
             }
         }
@@ -58,4 +56,10 @@ class TLAStackviewBuilder {
     @objc static func test() {
         print("test")
     }
+}
+
+/// Purpose is to keep the display rows alive, so that the TLAStackViewTappable
+/// ones does not get deallocated before we want to use them.
+class TLAStackView: UIStackView {
+    var storedRows: [TLADisplayRow]?
 }

@@ -10,6 +10,8 @@ import UIKit
 
 final class TLACharactersModuleBuilder {
     
+    var d: [TLADisplayRow]?
+    
     static func build() -> UIViewController {
         let viewController = UIViewController()
         let displayRows = TLACharactersStackviewModelProvider.buildRows()

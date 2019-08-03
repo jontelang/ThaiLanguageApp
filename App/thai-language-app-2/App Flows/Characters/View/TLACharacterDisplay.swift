@@ -17,10 +17,8 @@ class TLACharacterDisplay: TLAStackViewDisplayable {
     }
     
     func view() -> UIView {
-        let label = UILabel()
-        label.text = character.thaiCharacter
-        //let label = TLACharacterDisplayLabel(with: character)
-        //label.theme = TLATheme.Characters.Cell.CharacterView()
+        let label = TLACharacterDisplayLabel(with: character)
+        label.theme = TLATheme.Characters.Cell.CharacterView()
         return label
     }
 }
