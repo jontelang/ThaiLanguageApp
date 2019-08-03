@@ -10,7 +10,7 @@ import UIKit
 
 /// This structs purpose is to display one or more TLAStackViewDisplayable objects
 /// in a "row" style, i.e. it adds them from left to right.
-struct TLADisplayRow {
+class TLADisplayRow {
     var height: CGFloat?
     var items: [TLAStackViewDisplayable]
     

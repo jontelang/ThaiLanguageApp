@@ -30,3 +30,15 @@ import UIKit
 protocol TLAStackViewDisplayable {
     func view() -> UIView
 }
+
+
+// TEMP LOCATION
+@objc protocol TLAStackViewTappable {
+    func tapped()
+}
+
+extension TLAStackViewTappable {
+    func tapped() {
+        print("a")
+    }
+}

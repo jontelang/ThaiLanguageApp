@@ -16,6 +16,13 @@ final class TLACharactersModuleBuilder {
         let stackview = TLAStackviewBuilder.buildView(displayRows: displayRows)
         viewController.view = stackview
         return viewController
+        
+//        TLADisplayCgaracter/Title/Etc should not need to have their own tap thing
+//        stackview should be able to tap all views?
+//           send what type, which data, what kinda displayable it is
+//           send it TO a dedicated -per screen?- "interactor" object built here in the module builder
+        
+        
     }
     
 }

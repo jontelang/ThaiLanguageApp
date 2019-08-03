@@ -33,6 +33,17 @@ class TLAStackviewBuilder {
             for item in row.items {
                 let view = item.view()
                 hStack.addArrangedSubview(view)
+                
+                if let i = item as? TLAStackViewTappable {
+                    let gesture = UITapGestureRecognizer(target: item, action: #selector(i.tapped))
+                    gesture.numberOfTapsRequired = 1
+                    view.addGestureRecognizer(gesture)
+                    view.isUserInteractionEnabled = true
+                    view.backgroundColor = .red
+                    print("==\nitem \(item) is conforming to tappable - so we add a gesture \(gesture) to view \(view)")
+                } else {
+                    print("==\nis NOT conforming to tappable \(item)")
+                }
             }
         }
         
@@ -43,4 +54,8 @@ class TLAStackviewBuilder {
         return scrollView
     }
     
+    /// temp
+    @objc static func test() {
+        print("test")
+    }
 }
