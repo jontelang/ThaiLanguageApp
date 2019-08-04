@@ -9,13 +9,16 @@
 import UIKit
 
 /// This is a wrapper to be able to display a TLACharacter model in a TLAStackView
-class TLACharacterDisplay: TLAStackViewDisplayable {
+class TLACharacterDisplay {
     var character: TLACharacter
+    private var _tappableDestination: TLAStackViewTappableDestination?
     
     init(character: TLACharacter) {
         self.character = character
     }
-    
+}
+
+extension TLACharacterDisplay: TLAStackViewDisplayable {
     func view() -> UIView {
         let label = TLACharacterDisplayLabel(with: character)
         label.theme = TLATheme.Characters.Cell.CharacterView()
@@ -24,7 +27,14 @@ class TLACharacterDisplay: TLAStackViewDisplayable {
 }
 
 @objc extension TLACharacterDisplay: TLAStackViewTappable {
+    var tappableDestination: TLAStackViewTappableDestination? {
+        get { return _tappableDestination }
+        set { _tappableDestination = newValue }
+    }
+    
     func tapped() {
-        print("tapped character: \(character.thaiCharacter)")
+        if let destination = _tappableDestination {
+            destination.tapped(from: self, with: character)
+        }
     }
 }

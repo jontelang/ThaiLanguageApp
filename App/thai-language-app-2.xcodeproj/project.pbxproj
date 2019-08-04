@@ -80,6 +80,8 @@
 		4D5B3BCA208CDAE8004C319E /* TLAMenuLabelEntryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D5B3BC8208CDAE8004C319E /* TLAMenuLabelEntryCell.xib */; };
 		4D628D8422F5C9A000A82624 /* TLAStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D628D8322F5C9A000A82624 /* TLAStackView.swift */; };
 		4D628D8622F5CA3100A82624 /* TLAStackViewTappabe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D628D8522F5CA3100A82624 /* TLAStackViewTappabe.swift */; };
+		4D628D8922F5E41C00A82624 /* TLAStackViewTappableDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D628D8822F5E41C00A82624 /* TLAStackViewTappableDestination.swift */; };
+		4D628D8C22F5E63300A82624 /* TLACharactersModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D628D8B22F5E63300A82624 /* TLACharactersModuleInteractor.swift */; };
 		4D6D49F8208E47840022F61B /* TLATableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D49F7208E47840022F61B /* TLATableView.swift */; };
 		4D6D49FA208E4A630022F61B /* TLATableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D49F9208E4A630022F61B /* TLATableViewCell.swift */; };
 		4D6D49FC208E4E980022F61B /* TLATableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D49FB208E4E980022F61B /* TLATableViewController.swift */; };
@@ -168,6 +170,8 @@
 		4D5B3BC8208CDAE8004C319E /* TLAMenuLabelEntryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TLAMenuLabelEntryCell.xib; sourceTree = "<group>"; };
 		4D628D8322F5C9A000A82624 /* TLAStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAStackView.swift; sourceTree = "<group>"; };
 		4D628D8522F5CA3100A82624 /* TLAStackViewTappabe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAStackViewTappabe.swift; sourceTree = "<group>"; };
+		4D628D8822F5E41C00A82624 /* TLAStackViewTappableDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAStackViewTappableDestination.swift; sourceTree = "<group>"; };
+		4D628D8B22F5E63300A82624 /* TLACharactersModuleInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLACharactersModuleInteractor.swift; sourceTree = "<group>"; };
 		4D6D49F7208E47840022F61B /* TLATableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLATableView.swift; sourceTree = "<group>"; };
 		4D6D49F9208E4A630022F61B /* TLATableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLATableViewCell.swift; sourceTree = "<group>"; };
 		4D6D49FB208E4E980022F61B /* TLATableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLATableViewController.swift; sourceTree = "<group>"; };
@@ -363,6 +367,7 @@
 			children = (
 				4D384EE322DB8AC900F0152F /* TLAStackViewDisplayable.swift */,
 				4D628D8522F5CA3100A82624 /* TLAStackViewTappabe.swift */,
+				4D628D8822F5E41C00A82624 /* TLAStackViewTappableDestination.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -692,10 +697,19 @@
 			path = Displayable;
 			sourceTree = "<group>";
 		};
+		4D628D8A22F5E61200A82624 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				4D628D8B22F5E63300A82624 /* TLACharactersModuleInteractor.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
 		4D8455A5216A043B001E48EB /* Characters */ = {
 			isa = PBXGroup;
 			children = (
 				4D384ECF22DB785E00F0152F /* Builder */,
+				4D628D8A22F5E61200A82624 /* Logic */,
 				4D8455A6216A045B001E48EB /* Coordinator */,
 				4D628D8722F5CADD00A82624 /* Displayable */,
 				4D384EC122DA26E600F0152F /* View */,
@@ -845,6 +859,7 @@
 				4D384ECC22DA46B200F0152F /* TLACharactersStackviewModelProvider.swift in Sources */,
 				4D8455A9216A04B0001E48EB /* TLACharactersCoordinator.swift in Sources */,
 				4DEFE38B209F07EA00476E4E /* TLASettingsSwitchCell.swift in Sources */,
+				4D628D8922F5E41C00A82624 /* TLAStackViewTappableDestination.swift in Sources */,
 				4D384EE122DB8A5600F0152F /* TLADisplayRow.swift in Sources */,
 				4D4CE9BE208F8FD200971EB3 /* TLATableViewCellEntry.swift in Sources */,
 				4D5B3BB7208CBCE1004C319E /* TLAMenuWelcomeCell.swift in Sources */,
@@ -871,6 +886,7 @@
 				4D384EC322DA271900F0152F /* TLACharacterLabel.swift in Sources */,
 				4D384ED122DB787300F0152F /* TLACharactersModuleBuilder.swift in Sources */,
 				4D6D49FC208E4E980022F61B /* TLATableViewController.swift in Sources */,
+				4D628D8C22F5E63300A82624 /* TLACharactersModuleInteractor.swift in Sources */,
 				4D2577AC215785B100155BF8 /* TLAReadingPracticeViewController.swift in Sources */,
 				4D5B3B92208C5EEF004C319E /* UIViewController+Storyboard.swift in Sources */,
 				4DEFE391209F13DF00476E4E /* TLASettingModel.swift in Sources */,

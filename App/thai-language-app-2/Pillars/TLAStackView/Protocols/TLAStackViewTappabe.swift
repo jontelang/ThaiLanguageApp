@@ -11,5 +11,15 @@ import Foundation
 /// This protocol should be conformed to if you have a TLAStackViewDisplayable
 /// that also wants to be tappable when built by a TLAStackViewBuilder class
 @objc protocol TLAStackViewTappable {
+    
+    /// At the moment the objects conforming to TLAStackViewTappable need to keep
+    /// their own internal references to the tappableDestination.
+    ///
+    /// Note: I could implement something like associated objects, maybe?
+    var tappableDestination: TLAStackViewTappableDestination? { get set }
+    
+    /// This method is supposed to only be implemented to pass forward the data
+    /// of the object conforming to this protocol into the functions defined in
+    /// the protocol TLAStackViewTappableDestination
     func tapped()
 }

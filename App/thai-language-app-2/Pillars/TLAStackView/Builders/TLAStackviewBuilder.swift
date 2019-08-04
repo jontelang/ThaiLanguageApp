@@ -10,7 +10,7 @@ import UIKit
 
 class TLAStackviewBuilder {
     
-    static func buildView(displayRows: [TLADisplayRow]) -> UIScrollView {
+    static func buildView(displayRows: [TLADisplayRow], tapDestination: TLAStackViewTappableDestination) -> UIScrollView {
         let stackview = TLAStackView()
         stackview.alignment = .center
         stackview.axis = .vertical
@@ -36,7 +36,8 @@ class TLAStackviewBuilder {
                 hStack.addArrangedSubview(view)
                 
                 if let i = item as? TLAStackViewTappable {
-                    let gesture = UITapGestureRecognizer(target: item, action: #selector(i.tapped))
+                    i.tappableDestination = tapDestination
+                    let gesture = UITapGestureRecognizer(target: i, action: #selector(i.tapped))
                     gesture.numberOfTapsRequired = 1
                     view.addGestureRecognizer(gesture)
                     view.isUserInteractionEnabled = true
