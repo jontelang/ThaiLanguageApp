@@ -10,7 +10,7 @@ import Foundation
 
 class TLACharactersStackviewModelProvider {
     
-    static func buildRows() -> [TLADisplayRow] {
+    static func rows() -> [TLADisplayRow] {
         return [
             TLADisplayRow(height: 50, items: [
                 TLATitleDisplay(text: "Consonants")

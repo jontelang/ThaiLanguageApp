@@ -11,7 +11,7 @@ import UIKit
 /// This is a wrapper to be able to display a TLACharacter model in a TLAStackView
 class TLACharacterDisplay {
     var character: TLACharacter
-    private var _tappableDestination: TLAStackViewTappableDestination?
+    private var _tappableHandler: TLAStackViewTappableHandler?
     
     init(character: TLACharacter) {
         self.character = character
@@ -27,14 +27,14 @@ extension TLACharacterDisplay: TLAStackViewDisplayable {
 }
 
 @objc extension TLACharacterDisplay: TLAStackViewTappable {
-    var tappableDestination: TLAStackViewTappableDestination? {
-        get { return _tappableDestination }
-        set { _tappableDestination = newValue }
+    var tappableHandler: TLAStackViewTappableHandler? {
+        get { return _tappableHandler }
+        set { _tappableHandler = newValue }
     }
     
     func tapped() {
-        if let destination = _tappableDestination {
-            destination.tapped(from: self, with: character)
+        if let handler = _tappableHandler {
+            handler.tapped(from: self, with: character)
         }
     }
 }

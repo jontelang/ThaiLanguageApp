@@ -10,8 +10,8 @@ import Foundation
 
 /// This protocol allows an object to properly handle tap events from objects
 /// conforming to TLAStackViewTappable. When TLAStackViewTappable are built they
-/// require an object conforming to this protocol to be set as their 'tappableDestination'
+/// require an object conforming to this protocol to be set as their 'tappableHandler'
 /// object which is defined in that protocol.
-@objc protocol TLAStackViewTappableDestination {
+@objc protocol TLAStackViewTappableHandler {
     func tapped(from source: TLAStackViewTappable, with data: Any)
 }

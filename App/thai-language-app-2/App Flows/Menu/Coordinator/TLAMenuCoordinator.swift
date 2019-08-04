@@ -14,6 +14,8 @@ class TLAMenuCoordinator: TLACoordinator {
         let menuViewController = TLAMenuViewController.instantiateFromStoryboard() as! TLAMenuViewController
         menuViewController.delegate = self
         navigationController.setViewControllers([menuViewController], animated: true)
+        
+        didPressCharacters(fromController: menuViewController)
     }
     
 }

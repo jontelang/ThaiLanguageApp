@@ -13,13 +13,13 @@ import Foundation
 @objc protocol TLAStackViewTappable {
     
     /// At the moment the objects conforming to TLAStackViewTappable need to keep
-    /// their own internal references to the tappableDestination.
+    /// their own internal references to the tappableHandler.
     ///
     /// Note: I could implement something like associated objects, maybe?
-    var tappableDestination: TLAStackViewTappableDestination? { get set }
+    var tappableHandler: TLAStackViewTappableHandler? { get set }
     
     /// This method is supposed to only be implemented to pass forward the data
     /// of the object conforming to this protocol into the functions defined in
-    /// the protocol TLAStackViewTappableDestination
+    /// the protocol TLAStackViewTappableHandler
     func tapped()
 }

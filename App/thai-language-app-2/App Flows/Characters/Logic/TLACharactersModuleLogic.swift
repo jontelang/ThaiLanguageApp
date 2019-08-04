@@ -1,5 +1,5 @@
 //
-//  TLACharactersModuleInteractor.swift
+//  TLACharactersModuleLogic.swift
 //  thai-language-app-2
 //
 //  Created by Jonathan on 8/3/19.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-final class TLACharactersModuleInteractor: TLAStackViewTappableDestination {
+final class TLACharactersModuleLogic: TLAStackViewTappableHandler {
     func tapped(from source: TLAStackViewTappable, with data: Any) {
         print("This is in the destination/interactor\nsource: \(source)\ndata: \(data)")
         

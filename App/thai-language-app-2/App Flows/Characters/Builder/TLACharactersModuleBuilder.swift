@@ -12,9 +12,9 @@ final class TLACharactersModuleBuilder {
     
     static func build() -> UIViewController {
         let viewController = UIViewController()
-        let displayRows = TLACharactersStackviewModelProvider.buildRows()
-        let tapDestination = TLACharactersModuleInteractor()
-        let stackview = TLAStackviewBuilder.buildView(displayRows: displayRows, tapDestination: tapDestination)
+        let displayRows = TLACharactersStackviewModelProvider.rows()
+        let moduleLogic = TLACharactersModuleLogic()
+        let stackview = TLAStackviewBuilder.buildView(displayRows: displayRows, tapHandler: moduleLogic)
         viewController.view = stackview
         return viewController
     }
