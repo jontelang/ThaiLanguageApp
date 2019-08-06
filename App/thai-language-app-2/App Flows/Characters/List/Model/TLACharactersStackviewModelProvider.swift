@@ -8,6 +8,10 @@
 
 import Foundation
 
+//
+// TODO: This is kind of a model but also a view related code.. how to split? need a split?
+//
+
 class TLACharactersStackviewModelProvider {
     
     static func rows() -> [TLADisplayRow] {
@@ -175,7 +179,21 @@ class TLACharactersStackviewModelProvider {
             TLADisplayRow(items: [
                 TLACharacterDisplay(character: TLACharacter("วัะ", name: "ua.", type: .vowel)),
                 TLACharacterDisplay(character: TLACharacter("◌ัว", name: "uua", alt: "◌ว◌", type: .vowel)),
-                ])
+                ]),
+            TLADisplayRow(height: 40, items: [
+                TLAFillerDisplay()
+                ]),
+            TLADisplayRow(height: 50, items: [
+                TLATitleDisplay(text: "Tone markers"),
+                ]),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: TLACharacter(" ่ ", name: "mai ek", type: .toneMarker)),
+                TLACharacterDisplay(character: TLACharacter(" ้ ", name: "mai tho", type: .toneMarker)),
+                ]),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: TLACharacter(" ๊ ", name: "mai tri", type: .toneMarker)),
+                TLACharacterDisplay(character: TLACharacter(" ๋", name: "mai chattawa", type: .toneMarker)),
+                ]),
         ]
     }
     
