@@ -33,12 +33,18 @@ extension UIView {
     }
     
     func pinHeight(_ height: CGFloat) {
+        translatesAutoresizingMaskIntoConstraints = false
         heightAnchor.constraint(equalToConstant: height).isActive = true
     }
     
     func pinXAxisTo(_ view: UIView) {
+        translatesAutoresizingMaskIntoConstraints = false
         leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
         trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
     }
 
+    func pinBottomTo(_ view: UIView) {
+        translatesAutoresizingMaskIntoConstraints = false
+        bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+    }
 }
