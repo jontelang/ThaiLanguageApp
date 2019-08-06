@@ -90,6 +90,8 @@
 		4DDEFCC522F88B5700F95A5E /* TLASeparatorDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDEFCC422F88B5700F95A5E /* TLASeparatorDisplay.swift */; };
 		4DDEFCC822F9BC3200F95A5E /* TLADebugUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDEFCC722F9BC3200F95A5E /* TLADebugUIViewController.swift */; };
 		4DDEFCCA22F9BCA600F95A5E /* TLADebugStackViewTappableHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDEFCC922F9BCA600F95A5E /* TLADebugStackViewTappableHandler.swift */; };
+		4DE0122322F7269D00F3B200 /* TLACharacterDetailModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE0122222F7269D00F3B200 /* TLACharacterDetailModuleBuilder.swift */; };
+		4DE0122722F72A0A00F3B200 /* TLACharactersDetailStackviewModelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE0122622F72A0A00F3B200 /* TLACharactersDetailStackviewModelProvider.swift */; };
 		4DE0122A22F72B0A00F3B200 /* TLACharacterPropertyDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE0122922F72B0A00F3B200 /* TLACharacterPropertyDisplay.swift */; };
 		4DEFE38B209F07EA00476E4E /* TLASettingsSwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFE389209F07EA00476E4E /* TLASettingsSwitchCell.swift */; };
 		4DEFE38C209F07EA00476E4E /* TLASettingsSwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DEFE38A209F07EA00476E4E /* TLASettingsSwitchCell.xib */; };
@@ -184,6 +186,8 @@
 		4DDEFCC422F88B5700F95A5E /* TLASeparatorDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLASeparatorDisplay.swift; sourceTree = "<group>"; };
 		4DDEFCC722F9BC3200F95A5E /* TLADebugUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLADebugUIViewController.swift; sourceTree = "<group>"; };
 		4DDEFCC922F9BCA600F95A5E /* TLADebugStackViewTappableHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLADebugStackViewTappableHandler.swift; sourceTree = "<group>"; };
+		4DE0122222F7269D00F3B200 /* TLACharacterDetailModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLACharacterDetailModuleBuilder.swift; sourceTree = "<group>"; };
+		4DE0122622F72A0A00F3B200 /* TLACharactersDetailStackviewModelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLACharactersDetailStackviewModelProvider.swift; sourceTree = "<group>"; };
 		4DE0122922F72B0A00F3B200 /* TLACharacterPropertyDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLACharacterPropertyDisplay.swift; sourceTree = "<group>"; };
 		4DEFE389209F07EA00476E4E /* TLASettingsSwitchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLASettingsSwitchCell.swift; sourceTree = "<group>"; };
 		4DEFE38A209F07EA00476E4E /* TLASettingsSwitchCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TLASettingsSwitchCell.xib; sourceTree = "<group>"; };
@@ -717,7 +721,6 @@
 		4D8455A5216A043B001E48EB /* Characters */ = {
 			isa = PBXGroup;
 			children = (
-				4D384ECF22DB785E00F0152F /* Builder */,
 				4D628D8A22F5E61200A82624 /* Logic */,
 				4D8455A6216A045B001E48EB /* Coordinator */,
 				4D628D8722F5CADD00A82624 /* Displayable */,
@@ -748,9 +751,26 @@
 		4DE0121F22F716F600F3B200 /* List */ = {
 			isa = PBXGroup;
 			children = (
+				4D384ECF22DB785E00F0152F /* Builder */,
 				4D384EC122DA26E600F0152F /* View */,
 			);
 			path = List;
+			sourceTree = "<group>";
+		};
+		4DE0122122F7268200F3B200 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				4DE0122222F7269D00F3B200 /* TLACharacterDetailModuleBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		4DE0122522F729DE00F3B200 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4DE0122622F72A0A00F3B200 /* TLACharactersDetailStackviewModelProvider.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		4DE0122822F72AEC00F3B200 /* View */ = {
@@ -889,6 +909,7 @@
 				4D1DA281215BD95400C58625 /* NavigationHidable.swift in Sources */,
 				4D3DE60720B46C6A001A01ED /* TLASkillsViewController.swift in Sources */,
 				4D0193D9209B6070008DCDCF /* TLASettingsViewController.swift in Sources */,
+				4DE0122322F7269D00F3B200 /* TLACharacterDetailModuleBuilder.swift in Sources */,
 				4DDEFCCA22F9BCA600F95A5E /* TLADebugStackViewTappableHandler.swift in Sources */,
 				4D3DE61420B4820C001A01ED /* TLASkillsCellEntry.swift in Sources */,
 				4D384EE422DB8AC900F0152F /* TLAStackViewDisplayable.swift in Sources */,
@@ -933,6 +954,7 @@
 				4D5B3BA5208C82A6004C319E /* UIColor+Defaults.swift in Sources */,
 				4D5B3BC9208CDAE8004C319E /* TLAMenuLabelEntryCell.swift in Sources */,
 				4D4A5F792157F3F600AE5719 /* TLAVerticalButton.swift in Sources */,
+				4DE0122722F72A0A00F3B200 /* TLACharactersDetailStackviewModelProvider.swift in Sources */,
 				4D5B3BC5208CD33B004C319E /* TLAMenuUsageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
