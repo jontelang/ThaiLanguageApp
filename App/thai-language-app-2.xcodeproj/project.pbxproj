@@ -537,7 +537,7 @@
 		4D5B3B71208C5795004C319E /* thai-language-app-2 */ = {
 			isa = PBXGroup;
 			children = (
-				4D384EBB22D7963000F0152F /* AutoScreenshotLogger */,
+				4DDEFCC622F9BC0D00F95A5E /* Debug */,
 				4D5B3B95208C7334004C319E /* Fonts */,
 				4D5B3B90208C5E5B004C319E /* Extensions */,
 				4D5B3B9C208C76BA004C319E /* Views */,
@@ -724,6 +724,16 @@
 				4D8455A8216A04B0001E48EB /* TLACharactersCoordinator.swift */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		4DDEFCC622F9BC0D00F95A5E /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				4D384EBB22D7963000F0152F /* AutoScreenshotLogger */,
+				4DDEFCC722F9BC3200F95A5E /* TLADebugUIViewController.swift */,
+				4DDEFCC922F9BCA600F95A5E /* TLADebugStackViewTappableHandler.swift */,
+			);
+			path = Debug;
 			sourceTree = "<group>";
 		};
 		4DEFE388209F07B200476E4E /* Cells */ = {
@@ -1041,7 +1051,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jontelang.thai-language-app-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "thai-language-app-2/AutoScreenshotLogger/thai-language-app-2-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "thai-language-app-2/Debug/AutoScreenshotLogger/thai-language-app-2-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1063,7 +1073,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jontelang.thai-language-app-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "thai-language-app-2/AutoScreenshotLogger/thai-language-app-2-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "thai-language-app-2/Debug/AutoScreenshotLogger/thai-language-app-2-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
