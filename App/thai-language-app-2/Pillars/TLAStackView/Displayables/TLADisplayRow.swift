@@ -14,8 +14,12 @@ struct TLADisplayRow {
     var height: CGFloat?
     var items: [TLAStackViewDisplayable]
     
-    init(height: CGFloat? = nil, items: [TLAStackViewDisplayable]) {
+    /// Adds a separator below the rows when built through `TLAStackViewBuilder`
+    var showsSeparator: Bool
+    
+    init(height: CGFloat? = nil, showsSeparator: Bool = false, items: [TLAStackViewDisplayable]) {
         self.height = height
         self.items = items
+        self.showsSeparator = showsSeparator
     }
 }

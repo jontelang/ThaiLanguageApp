@@ -43,6 +43,14 @@ class TLAStackviewBuilder {
                     view.isUserInteractionEnabled = true
                 }
             }
+            
+            // TODO: Make this somewhat nicer? Do I even need the TLASeparatorDisplay?
+            if row.showsSeparator {
+                let separator = TLASeparatorDisplay()
+                let view = separator.view()
+                stackview.addArrangedSubview(view)
+                view.pinXAxisTo(stackview)
+            }
         }
         
         let scrollView = UIScrollView()
