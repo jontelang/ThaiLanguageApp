@@ -341,7 +341,6 @@
 			isa = PBXGroup;
 			children = (
 				4D384ECB22DA46B200F0152F /* TLACharactersStackviewModelProvider.swift */,
-				4D384ED622DB856F00F0152F /* TLACharacter.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -721,11 +720,10 @@
 		4D8455A5216A043B001E48EB /* Characters */ = {
 			isa = PBXGroup;
 			children = (
-				4D628D8A22F5E61200A82624 /* Logic */,
+				4DE0122422F729AB00F3B200 /* Model */,
 				4D8455A6216A045B001E48EB /* Coordinator */,
-				4D628D8722F5CADD00A82624 /* Displayable */,
-				4D384EC122DA26E600F0152F /* View */,
-				4D384ECA22DA469500F0152F /* Model */,
+				4DE0121F22F716F600F3B200 /* List */,
+				4DE0122022F7170700F3B200 /* Detail */,
 			);
 			path = Characters;
 			sourceTree = "<group>";
@@ -752,9 +750,22 @@
 			isa = PBXGroup;
 			children = (
 				4D384ECF22DB785E00F0152F /* Builder */,
+				4D628D8A22F5E61200A82624 /* Logic */,
+				4D628D8722F5CADD00A82624 /* Displayable */,
 				4D384EC122DA26E600F0152F /* View */,
+				4D384ECA22DA469500F0152F /* Model */,
 			);
 			path = List;
+			sourceTree = "<group>";
+		};
+		4DE0122022F7170700F3B200 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				4DE0122122F7268200F3B200 /* Builder */,
+				4DE0122522F729DE00F3B200 /* Model */,
+				4DE0122822F72AEC00F3B200 /* View */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 		4DE0122122F7268200F3B200 /* Builder */ = {
@@ -763,6 +774,14 @@
 				4DE0122222F7269D00F3B200 /* TLACharacterDetailModuleBuilder.swift */,
 			);
 			path = Builder;
+			sourceTree = "<group>";
+		};
+		4DE0122422F729AB00F3B200 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D384ED622DB856F00F0152F /* TLACharacter.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		4DE0122522F729DE00F3B200 /* Model */ = {

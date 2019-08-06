@@ -9,17 +9,16 @@
 import Foundation
 
 final class TLACharactersModuleTapHandler: TLAStackViewTappableHandler {
+    
+    weak var coordinator: TLACharactersListModuleOutput?
+    
     func tapped(from source: TLAStackViewTappable, with data: Any) {
-        print("This is in the destination/interactor\nsource: \(source)\ndata: \(data)")
-        
         if let character = data as? TLACharacter {
             switch character.type {
-            case .vowel:
-                print("push vowel with data \(character)")
+            case .vowel, .consonant, .toneMarker:
+                coordinator?.routeToDetail(for: character)
             case .unknown:
-                print("push unknown with data \(character)")
-            case .consonant:
-                print("push consonant with data \(character)")
+                print("unknown")
             }
         }
     }

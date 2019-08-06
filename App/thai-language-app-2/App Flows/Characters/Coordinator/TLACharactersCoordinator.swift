@@ -11,8 +11,14 @@ import UIKit
 class TLACharactersCoordinator: TLACoordinator {
     
     override func start() {
-        let charactersViewController = TLACharactersModuleBuilder.build()
-        navigationController.show(charactersViewController, sender: nil)
+        let charactersListViewController = TLACharactersModuleBuilder.build(for: self)
+        navigationController.show(charactersListViewController, sender: nil)
     }
 }
 
+extension TLACharactersCoordinator: TLACharactersListModuleOutput {
+    func routeToDetail(for character: TLACharacter) {
+        let charactersDetailViewController = TLACharacterDetailModuleBuilder.build(for: self, with: character)
+        navigationController.show(charactersDetailViewController, sender: nil)
+    }
+}
