@@ -239,6 +239,33 @@ extension TLATheme {
             
         }
         
+        enum Detail {
+            
+            enum Property {
+                
+                static func Title() -> TLATheme {
+                    let theme = TLATheme()
+                    theme.themeFont = UIFont.appBoldFont().withSize(14)
+                    theme.themeBackgroundColor = .clear
+                    theme.themeTextColor = UIColor.black
+                    theme.themeTextAlignment = NSTextAlignment.left
+                    return theme
+                }
+                
+                static func Text() -> TLATheme {
+                    let theme = TLATheme()
+                    theme.themeFont = UIFont.appRegularFont().withSize(14)
+                    theme.themeBackgroundColor = .clear
+                    theme.themeTextColor = UIColor.darkText
+                    theme.themeTextAlignment = NSTextAlignment.left
+                    theme.themeNumberOfLines = 2
+                    return theme
+                }
+                
+            }
+            
+        }
+        
     }
     
     enum Skills {
