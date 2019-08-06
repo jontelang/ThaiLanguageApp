@@ -10,6 +10,7 @@ enum TLACharacterType {
     case unknown
     case consonant
     case vowel
+    case toneMarker
 }
 
 /// A data structure representing a single thai character or a cluster of them
