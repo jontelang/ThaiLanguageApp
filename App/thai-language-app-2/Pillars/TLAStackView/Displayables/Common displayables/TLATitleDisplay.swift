@@ -8,12 +8,13 @@
 
 import UIKit
 
-struct TLATitleDisplay: TLAStackViewDisplayable {
+struct TLATitleDisplay {
     var text: String
-    
+}
+
+extension TLATitleDisplay: TLAStackViewDisplayable {
     func view() -> UIView {
         let label = TLALabel()
-        label.backgroundColor = .gray
         label.text = text
         label.theme = TLATheme.Characters.Cell.Title()
         return label
