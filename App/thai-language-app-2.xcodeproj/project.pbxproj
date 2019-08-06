@@ -87,6 +87,7 @@
 		4D6D49FC208E4E980022F61B /* TLATableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D49FB208E4E980022F61B /* TLATableViewController.swift */; };
 		4D8455A9216A04B0001E48EB /* TLACharactersCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8455A8216A04B0001E48EB /* TLACharactersCoordinator.swift */; };
 		4D8455AF216A1C13001E48EB /* TLACollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8455AE216A1C13001E48EB /* TLACollectionView.swift */; };
+		4DDEFCC522F88B5700F95A5E /* TLASeparatorDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDEFCC422F88B5700F95A5E /* TLASeparatorDisplay.swift */; };
 		4DDEFCC822F9BC3200F95A5E /* TLADebugUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDEFCC722F9BC3200F95A5E /* TLADebugUIViewController.swift */; };
 		4DDEFCCA22F9BCA600F95A5E /* TLADebugStackViewTappableHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDEFCC922F9BCA600F95A5E /* TLADebugStackViewTappableHandler.swift */; };
 		4DEFE38B209F07EA00476E4E /* TLASettingsSwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFE389209F07EA00476E4E /* TLASettingsSwitchCell.swift */; };
@@ -179,6 +180,7 @@
 		4D6D49FB208E4E980022F61B /* TLATableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLATableViewController.swift; sourceTree = "<group>"; };
 		4D8455A8216A04B0001E48EB /* TLACharactersCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLACharactersCoordinator.swift; sourceTree = "<group>"; };
 		4D8455AE216A1C13001E48EB /* TLACollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLACollectionView.swift; sourceTree = "<group>"; };
+		4DDEFCC422F88B5700F95A5E /* TLASeparatorDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLASeparatorDisplay.swift; sourceTree = "<group>"; };
 		4DDEFCC722F9BC3200F95A5E /* TLADebugUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLADebugUIViewController.swift; sourceTree = "<group>"; };
 		4DDEFCC922F9BCA600F95A5E /* TLADebugStackViewTappableHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLADebugStackViewTappableHandler.swift; sourceTree = "<group>"; };
 		4DEFE389209F07EA00476E4E /* TLASettingsSwitchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLASettingsSwitchCell.swift; sourceTree = "<group>"; };
@@ -382,6 +384,7 @@
 				4D384EDA22DB89D200F0152F /* TLATitleDisplay.swift */,
 				4D384EDC22DB89F500F0152F /* TLASubtitleDisplay.swift */,
 				4D384EDE22DB8A1A00F0152F /* TLAFillerDisplay.swift */,
+				4DDEFCC422F88B5700F95A5E /* TLASeparatorDisplay.swift */,
 			);
 			path = "Common displayables";
 			sourceTree = "<group>";
@@ -903,6 +906,7 @@
 				4D384ED122DB787300F0152F /* TLACharactersModuleBuilder.swift in Sources */,
 				4D6D49FC208E4E980022F61B /* TLATableViewController.swift in Sources */,
 				4D628D8C22F5E63300A82624 /* TLACharactersModuleTapHandler.swift in Sources */,
+				4DDEFCC522F88B5700F95A5E /* TLASeparatorDisplay.swift in Sources */,
 				4D2577AC215785B100155BF8 /* TLAReadingPracticeViewController.swift in Sources */,
 				4D5B3B92208C5EEF004C319E /* UIViewController+Storyboard.swift in Sources */,
 				4DEFE391209F13DF00476E4E /* TLASettingModel.swift in Sources */,
