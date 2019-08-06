@@ -1,5 +1,5 @@
 //
-//  TLAStackViewTappabe.swift
+//  TLAStackViewTappable.swift
 //  thai-language-app-2
 //
 //  Created by Jonathan on 8/3/19.
