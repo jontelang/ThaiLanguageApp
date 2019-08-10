@@ -21,7 +21,7 @@ class TLACharacterDisplay {
 extension TLACharacterDisplay: TLAStackViewDisplayable {
     func view() -> UIView {
         let label = TLACharacterDisplayLabel(with: character)
-        label.theme = TLATheme.Characters.List.CharacterView()
+        label.theme = TLATheme.Characters.List.Character.View()
         return label
     }
 }

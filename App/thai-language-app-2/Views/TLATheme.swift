@@ -195,46 +195,54 @@ extension TLATheme {
         
         enum List {
             
-            static func Main() -> TLATheme {
-                let theme = TLATheme()
-                theme.themeFont = UIFont.appRegularThaiFont().withSize(26)
-                theme.themeTextAlignment = NSTextAlignment.center
-                theme.themeBackgroundColor = UIColor.clear
-                theme.themeAdjustFontToSize = true
-                return theme
-            }
-            
-            static func Name() -> TLATheme {
-                let theme = TLATheme()
-                theme.themeFont = UIFont.appRegularFont().withSize(14)
-                theme.themeTextAlignment = NSTextAlignment.center
-                theme.themeBackgroundColor = UIColor.clear
-                theme.themeTextColor = UIColor.darkGray
-                return theme
-            }
-            
-            static func CharacterView() -> TLATheme {
-                let theme = TLATheme()
-                theme.themeBackgroundColor = UIColor(hexString: "#EEEEEE")
-                return theme
-            }
-
-            static func Title() -> TLATheme {
-                let theme = TLATheme()
-                theme.themeFont = UIFont.appRegularFont().withSize(24)
-                theme.themeBackgroundColor = UIColor(hexString: "#DDDDDD")
-                theme.themeTextColor = UIColor.black
-                theme.themeTextAlignment = NSTextAlignment.center
-                return theme
+            enum Character {
+                
+                static func ThaiCharacter() -> TLATheme {
+                    let theme = TLATheme()
+                    theme.themeFont = UIFont.appRegularThaiFont().withSize(26)
+                    theme.themeTextAlignment = NSTextAlignment.center
+                    theme.themeBackgroundColor = UIColor.clear
+                    theme.themeAdjustFontToSize = true
+                    return theme
+                }
+                
+                static func Name() -> TLATheme {
+                    let theme = TLATheme()
+                    theme.themeFont = UIFont.appRegularFont().withSize(14)
+                    theme.themeTextAlignment = NSTextAlignment.center
+                    theme.themeBackgroundColor = UIColor.clear
+                    theme.themeTextColor = UIColor.darkGray
+                    return theme
+                }
+                
+                static func View() -> TLATheme {
+                    let theme = TLATheme()
+                    theme.themeBackgroundColor = UIColor(hexString: "#EEEEEE")
+                    return theme
+                }
+                
             }
 
-            static func Subtitle() -> TLATheme {
-                let theme = TLATheme()
-                theme.themeFont = UIFont.appRegularThaiFont().withSize(14)
-                theme.themeBackgroundColor = UIColor(hexString: "#DDDDDD")
-                theme.themeTextColor = UIColor.black
-                theme.themeTextAlignment = NSTextAlignment.center
-                return theme
+            enum Sections {
+                
+                static func Title() -> TLATheme {
+                    let theme = TLATheme()
+                    theme.themeFont = UIFont.appRegularFont().withSize(24)
+                    theme.themeBackgroundColor = UIColor(hexString: "#DDDDDD")
+                    theme.themeTextColor = UIColor.black
+                    theme.themeTextAlignment = NSTextAlignment.center
+                    return theme
+                }
+
+                static func Subtitle() -> TLATheme {
+                    let theme = TLATheme()
+                    theme.themeFont = UIFont.appRegularThaiFont().withSize(14)
+                    theme.themeBackgroundColor = UIColor(hexString: "#DDDDDD")
+                    theme.themeTextColor = UIColor.black
+                    theme.themeTextAlignment = NSTextAlignment.center
+                    return theme
+                }
+                
             }
             
         }

@@ -16,7 +16,7 @@ extension TLATitleDisplay: TLAStackViewDisplayable {
     func view() -> UIView {
         let label = TLALabel()
         label.text = text
-        label.theme = TLATheme.Characters.List.Title()
+        label.theme = TLATheme.Characters.List.Sections.Title()
         return label
     }
 }
