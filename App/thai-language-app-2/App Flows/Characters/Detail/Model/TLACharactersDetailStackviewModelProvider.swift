@@ -15,7 +15,10 @@ import Foundation
 final class TLACharactersDetailStackviewModelProvider {
     
     static func rows(for character: TLACharacter) -> [TLADisplayRow] {
-        return buildHeader(character) + buildContent(character)
+        var sections = [TLADisplayRow]()
+        sections += buildHeader(character)
+        sections += buildContent(character)
+        return sections
     }
     
     private static func buildHeader(_ character: TLACharacter) -> [TLADisplayRow] {
@@ -28,18 +31,23 @@ final class TLACharactersDetailStackviewModelProvider {
         var rows: [TLADisplayRow] = []
         
         let characterTitle = "Character"
-        rows.append(TLADisplayRow(items: [
+        rows.append(TLADisplayRow(showsSeparator: true, items: [
             TLACharacterPropertyDisplay(propertyName: characterTitle, propertyValue: character.thaiCharacter)])
         )
         
+        let typeTitle = "Character"
+        rows.append(TLADisplayRow(showsSeparator: true, items: [
+            TLACharacterPropertyDisplay(propertyName: typeTitle, propertyValue: character.type.rawValue)])
+        )
+        
         let thaiNameInEnglishTitle = "Thai name in english"
-        rows.append(TLADisplayRow(items: [
+        rows.append(TLADisplayRow(showsSeparator: true, items: [
             TLACharacterPropertyDisplay(propertyName: thaiNameInEnglishTitle, propertyValue: character.thaiNameInEnglish)])
         )
         
         if let altCharacter = character.alternativeThaiCharacter {
             let altCharacterTitle = "Alternative character"
-            rows.append(TLADisplayRow(items: [
+            rows.append(TLADisplayRow(showsSeparator: true, items: [
                 TLACharacterPropertyDisplay(propertyName: altCharacterTitle, propertyValue: altCharacter)])
             )
         }
