@@ -6,7 +6,7 @@
 //  Copyright © 2019 Jonathan Winger Lang. All rights reserved.
 //
 
-enum TLACharacterType {
+enum TLACharacterType: String {
     case unknown
     case consonant
     case vowel
@@ -28,3 +28,8 @@ struct TLACharacter {
         self.type = type
     }
 }
+
+// We conform these to Decodable so that they are able to be used by a
+// TLAModelEntryStore<T> which loads a json and returns a <T>
+extension TLACharacter: Decodable {}
+extension TLACharacterType: Decodable {}
