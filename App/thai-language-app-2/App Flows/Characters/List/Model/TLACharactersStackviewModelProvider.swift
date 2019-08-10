@@ -15,88 +15,117 @@ import Foundation
 class TLACharactersStackviewModelProvider {
     
     static func rows() -> [TLADisplayRow] {
+        
+        var section = [TLADisplayRow]()
+        
+        section += buildConsonantRows()
+        section += [TLADisplayRow(height: 40, items: [TLAFillerDisplay()])]
+        section += buildVowelRows()
+        section += [TLADisplayRow(height: 40, items: [TLAFillerDisplay()])]        
+        section += buildToneMarksRows()
+        section += [TLADisplayRow(height: 40, items: [TLAFillerDisplay()])]
+        
+        return section
+    }
+    
+    private static func buildConsonantRows() -> [TLADisplayRow] {
+        let consonantStore = TLAModelEntryStore<TLACharacter>.init()
+        let consonants = consonantStore.getModelEntries(fileName: "TLACharacterModelStoreDataConsonants")
         return [
             TLADisplayRow(height: 50, items: [
                 TLATitleDisplay(text: "Consonants")
                 ]),
             TLADisplayRow(items: [
-                TLACharacterDisplay(character: TLACharacter("ก", name: "ko kai", type: .consonant)),
-                TLACharacterDisplay(character: TLACharacter("ข", name: "kho khai", type: .consonant)),
-                TLACharacterDisplay(character: TLACharacter("ฃ", name: "kho khuat", type: .consonant)),
+                TLACharacterDisplay(character: consonants[0]),
+                TLACharacterDisplay(character: consonants[1]),
+                TLACharacterDisplay(character: consonants[2]),
                 ]),
             TLADisplayRow(items: [
-                TLACharacterDisplay(character: TLACharacter("ค", name: "kho khwai", type: .consonant)),
-                TLACharacterDisplay(character: TLACharacter("ฅ", name: "kho khon", type: .consonant)),
-                TLACharacterDisplay(character: TLACharacter("ฆ", name: "kho ra khang", type: .consonant)),
+                TLACharacterDisplay(character: consonants[3]),
+                TLACharacterDisplay(character: consonants[4]),
+                TLACharacterDisplay(character: consonants[5]),
                 ]),
             TLADisplayRow(items: [
-                TLACharacterDisplay(character: TLACharacter("ง", name: "ngo ngu", type: .consonant)),
-                TLACharacterDisplay(character: TLACharacter("จ", name: "cho chan", type: .consonant)),
-                TLACharacterDisplay(character: TLACharacter("ฉ", name: "cho ching", type: .consonant)),
+                TLACharacterDisplay(character: consonants[6]),
+                TLACharacterDisplay(character: consonants[7]),
+                TLACharacterDisplay(character: consonants[8]),
                 ]),
             TLADisplayRow(items: [
-                TLACharacterDisplay(character: TLACharacter("ช", name: "cho chang", type: .consonant)),
-                TLACharacterDisplay(character: TLACharacter("ซ", name: "so so", type: .consonant)),
-                TLACharacterDisplay(character: TLACharacter("ฌ", name: "cho choe", type: .consonant)),
+                TLACharacterDisplay(character: consonants[9]),
+                TLACharacterDisplay(character: consonants[10]),
+                TLACharacterDisplay(character: consonants[11]),
                 ]),
             TLADisplayRow(items: [
-                TLACharacterDisplay(character: TLACharacter("ญ", name: "yo ying", type: .consonant)),
-                TLACharacterDisplay(character: TLACharacter("ฎ", name: "do cha da", type: .consonant)),
-                TLACharacterDisplay(character: TLACharacter("ฏ", name: "to pa tak", type: .consonant)),
+                TLACharacterDisplay(character: consonants[12]),
+                TLACharacterDisplay(character: consonants[13]),
+                TLACharacterDisplay(character: consonants[14]),
                 ]),
             TLADisplayRow(items: [
-                TLACharacterDisplay(character: TLACharacter("ฐ", name: "tho than", type: .consonant)),
-                TLACharacterDisplay(character: TLACharacter("ฑ", name: "tho montho", type: .consonant)),
-                TLACharacterDisplay(character: TLACharacter("ฒ", name: "tho phu-thao", type: .consonant)),
+                TLACharacterDisplay(character: consonants[15]),
+                TLACharacterDisplay(character: consonants[16]),
+                TLACharacterDisplay(character: consonants[17]),
                 ]),
             TLADisplayRow(items: [
-                TLACharacterDisplay(character: TLACharacter("ณ", name: "no nen", type: .consonant)),
-                TLACharacterDisplay(character: TLACharacter("ด", name: "do dek", type: .consonant)),
-                TLACharacterDisplay(character: TLACharacter("ต", name: "to tao", type: .consonant)),
+                TLACharacterDisplay(character: consonants[18]),
+                TLACharacterDisplay(character: consonants[19]),
+                TLACharacterDisplay(character: consonants[20]),
                 ]),
             TLADisplayRow(items: [
-                TLACharacterDisplay(character: TLACharacter("ถ", name: "tho thung", type: .consonant)),
-                TLACharacterDisplay(character: TLACharacter("ท", name: "tho thahan", type: .consonant)),
-                TLACharacterDisplay(character: TLACharacter("ธ", name: "tho thong", type: .consonant)),
+                TLACharacterDisplay(character: consonants[21]),
+                TLACharacterDisplay(character: consonants[22]),
+                TLACharacterDisplay(character: consonants[23]),
                 ]),
             TLADisplayRow(items: [
-                TLACharacterDisplay(character: TLACharacter("น", name: "no nu", type: .consonant)),
-                TLACharacterDisplay(character: TLACharacter("บ", name: "bo baimai", type: .consonant)),
-                TLACharacterDisplay(character: TLACharacter("ป", name: "po pla", type: .consonant)),
+                TLACharacterDisplay(character: consonants[24]),
+                TLACharacterDisplay(character: consonants[25]),
+                TLACharacterDisplay(character: consonants[26]),
                 ]),
             TLADisplayRow(items: [
-                TLACharacterDisplay(character: TLACharacter("ผ", name: "pho phung", type: .consonant)),
-                TLACharacterDisplay(character: TLACharacter("ฝ", name: "fo fa", type: .consonant)),
-                TLACharacterDisplay(character: TLACharacter("พ", name: "pho phan", type: .consonant)),
+                TLACharacterDisplay(character: consonants[27]),
+                TLACharacterDisplay(character: consonants[28]),
+                TLACharacterDisplay(character: consonants[29]),
                 ]),
             TLADisplayRow(items: [
-                TLACharacterDisplay(character: TLACharacter("ฟ", name: "fo fan", type: .consonant)),
-                TLACharacterDisplay(character: TLACharacter("ภ", name: "pho sam-phao", type: .consonant)),
-                TLACharacterDisplay(character: TLACharacter("ม", name: "mo ma", type: .consonant)),
+                TLACharacterDisplay(character: consonants[30]),
+                TLACharacterDisplay(character: consonants[31]),
+                TLACharacterDisplay(character: consonants[32]),
                 ]),
             TLADisplayRow(items: [
-                TLACharacterDisplay(character: TLACharacter("ย", name: "yo yak", type: .consonant)),
-                TLACharacterDisplay(character: TLACharacter("ร", name: "ro ruea", type: .consonant)),
-                TLACharacterDisplay(character: TLACharacter("ล", name: "lo ling", type: .consonant)),
+                TLACharacterDisplay(character: consonants[33]),
+                TLACharacterDisplay(character: consonants[34]),
+                TLACharacterDisplay(character: consonants[35]),
                 ]),
             TLADisplayRow(items: [
-                TLACharacterDisplay(character: TLACharacter("ว", name: "wo waen", type: .consonant)),
-                TLACharacterDisplay(character: TLACharacter("ศ", name: "so sala", type: .consonant)),
-                TLACharacterDisplay(character: TLACharacter("ษ", name: "so rue-si", type: .consonant)),
+                TLACharacterDisplay(character: consonants[36]),
+                TLACharacterDisplay(character: consonants[37]),
+                TLACharacterDisplay(character: consonants[38]),
                 ]),
             TLADisplayRow(items: [
-                TLACharacterDisplay(character: TLACharacter("ส", name: "so suea", type: .consonant)),
-                TLACharacterDisplay(character: TLACharacter("ห", name: "ho hip", type: .consonant)),
-                TLACharacterDisplay(character: TLACharacter("ฬ", name: "lo chu-la", type: .consonant)),
+                TLACharacterDisplay(character: consonants[39]),
+                TLACharacterDisplay(character: consonants[40]),
+                TLACharacterDisplay(character: consonants[41]),
                 ]),
             TLADisplayRow(items: [
-                TLACharacterDisplay(character: TLACharacter("อ", name: "o ang", type: .consonant)),
-                TLACharacterDisplay(character: TLACharacter("ฮ", name: "ho nok-huk", type: .consonant)),
+                TLACharacterDisplay(character: consonants[42]),
+                TLACharacterDisplay(character: consonants[43]),
                 TLAFillerDisplay(),
-                ]),
-            TLADisplayRow(height: 40, items: [
-                TLAFillerDisplay()
-                ]),
+                ])
+        ]
+    }
+    
+    private static func buildVowelRows() -> [TLADisplayRow] {
+        // In this specific dataset we have ALL vowels, each character per row
+        // however we don't want to display the 'alternative characters' in their
+        // own place, so we need to filter them out right here.
+        let vowelStore = TLAModelEntryStore<TLACharacter>.init()
+        let vowels = vowelStore.getModelEntries(fileName: "TLACharacterModelStoreDataVowels").filter { char in
+            if let type = char.vowelType, type == "alternative_character" {
+                return false
+            }
+            return true
+        }
+        
+        return [
             TLADisplayRow(height: 50, items: [
                 TLATitleDisplay(text: "Vowels"),
                 ]),
@@ -107,60 +136,64 @@ class TLACharactersStackviewModelProvider {
                 TLASubtitleDisplay(text: "Short"),
                 TLASubtitleDisplay(text: "Long"),
                 ]),
+            
             TLADisplayRow(items: [
-                TLACharacterDisplay(character: TLACharacter("◌ะ", name: "sara a", alt: "◌ั◌", type: .vowel)),
-                TLACharacterDisplay(character: TLACharacter("◌า", name: "sara aa", type: .vowel)),
+                TLACharacterDisplay(character: vowels[0]),
+                TLACharacterDisplay(character: vowels[1]),
                 ]),
             TLADisplayRow(items: [
-                TLACharacterDisplay(character: TLACharacter("◌ิ", name: "i", type: .vowel)),
-                TLACharacterDisplay(character: TLACharacter("◌ี", name: "ee", type: .vowel)),
+                TLACharacterDisplay(character: vowels[2]),
+                TLACharacterDisplay(character: vowels[3]),
                 ]),
             TLADisplayRow(items: [
-                TLACharacterDisplay(character: TLACharacter("◌ึ", name: "eu", type: .vowel)),
-                TLACharacterDisplay(character: TLACharacter("◌ือ", name: "euu", alt: "◌ื◌", type: .vowel)),
+                TLACharacterDisplay(character: vowels[4]),
+                TLACharacterDisplay(character: vowels[5]),
                 ]),
             TLADisplayRow(items: [
-                TLACharacterDisplay(character: TLACharacter("◌ุ", name: "u", type: .vowel)),
-                TLACharacterDisplay(character: TLACharacter("◌ุ", name: "uu", type: .vowel)),
+                TLACharacterDisplay(character: vowels[6]),
+                TLACharacterDisplay(character: vowels[7]),
                 ]),
             TLADisplayRow(items: [
-                TLACharacterDisplay(character: TLACharacter("เ◌ะ", name: "e.", alt: "เ◌็◌", type: .vowel)),
-                TLACharacterDisplay(character: TLACharacter("เ◌", name: "ee", type: .vowel)),
+                TLACharacterDisplay(character: vowels[8]),
+                TLACharacterDisplay(character: vowels[9]),
                 ]),
             TLADisplayRow(items: [
-                TLACharacterDisplay(character: TLACharacter("แ◌ะ", name: "ae.", alt: "แ◌็◌", type: .vowel)),
-                TLACharacterDisplay(character: TLACharacter("แ◌", name: "aee", type: .vowel)),
+                TLACharacterDisplay(character: vowels[10]),
+                TLACharacterDisplay(character: vowels[11]),
                 ]),
             TLADisplayRow(items: [
-                TLACharacterDisplay(character: TLACharacter("โ◌ะ", name: "oh", type: .vowel)),
-                TLACharacterDisplay(character: TLACharacter("โ◌", name: "ooh", type: .vowel)),
+                TLACharacterDisplay(character: vowels[12]),
+                TLACharacterDisplay(character: vowels[13]),
                 ]),
             TLADisplayRow(items: [
-                TLACharacterDisplay(character: TLACharacter("เ◌าะ", name: "oh.", type: .vowel)),
-                TLACharacterDisplay(character: TLACharacter("◌อ", name: "aaw", type: .vowel)),
+                TLACharacterDisplay(character: vowels[14]),
+                TLACharacterDisplay(character: vowels[15]),
                 ]),
             TLADisplayRow(items: [
-                TLACharacterDisplay(character: TLACharacter("เ◌อะ", name: "uh", type: .vowel)),
-                TLACharacterDisplay(character: TLACharacter("เ◌อ", name: "uuhr", alt: "เ◌ิ", type: .vowel)),
+                TLACharacterDisplay(character: vowels[16]),
+                TLACharacterDisplay(character: vowels[17]),
                 ]),
+            
             TLADisplayRow(height: 30, items: [
                 TLASubtitleDisplay(text: "Special"),
                 ]),
             TLADisplayRow(height: 30, items: [
                 TLASubtitleDisplay(text: "Sound length varies"),
                 ]),
+            
             TLADisplayRow(items: [
-                TLACharacterDisplay(character: TLACharacter("ใ◌", name: "ai", type: .vowel)),
+                TLACharacterDisplay(character: vowels[18]),
                 ]),
             TLADisplayRow(items: [
-                TLACharacterDisplay(character: TLACharacter("ไ◌", name: "ai", type: .vowel)),
+                TLACharacterDisplay(character: vowels[19]),
                 ]),
             TLADisplayRow(items: [
-                TLACharacterDisplay(character: TLACharacter("เ◌า", name: "ao", type: .vowel)),
+                TLACharacterDisplay(character: vowels[20]),
                 ]),
             TLADisplayRow(items: [
-                TLACharacterDisplay(character: TLACharacter(" ำ ",name: "am", type: .vowel)),
-                ]),
+                TLACharacterDisplay(character: vowels[21]),
+            ]),
+            
             TLADisplayRow(height: 30, items: [
                 TLASubtitleDisplay(text: "Dipthongs"),
                 ]),
@@ -168,33 +201,38 @@ class TLACharactersStackviewModelProvider {
                 TLASubtitleDisplay(text: "Short"),
                 TLASubtitleDisplay(text: "Long"),
                 ]),
+
             TLADisplayRow(items: [
-                TLACharacterDisplay(character: TLACharacter("เ◌ียะ", name: "ia.", type: .vowel)),
-                TLACharacterDisplay(character: TLACharacter("เ◌ีย", name: "iia", type: .vowel)),
-                ]),
-            TLADisplayRow(items: [
-                TLACharacterDisplay(character: TLACharacter("เ◌ือะ", name: "eua.", type: .vowel)),
-                TLACharacterDisplay(character: TLACharacter("เ◌ือ", name: "euua", type: .vowel)),
+                TLACharacterDisplay(character: vowels[22]),
+                TLACharacterDisplay(character: vowels[23]),
                 ]),
             TLADisplayRow(items: [
-                TLACharacterDisplay(character: TLACharacter("วัะ", name: "ua.", type: .vowel)),
-                TLACharacterDisplay(character: TLACharacter("◌ัว", name: "uua", alt: "◌ว◌", type: .vowel)),
-                ]),
-            TLADisplayRow(height: 40, items: [
-                TLAFillerDisplay()
-                ]),
-            TLADisplayRow(height: 50, items: [
-                TLATitleDisplay(text: "Tone markers"),
+                TLACharacterDisplay(character: vowels[24]),
+                TLACharacterDisplay(character: vowels[25]),
                 ]),
             TLADisplayRow(items: [
-                TLACharacterDisplay(character: TLACharacter(" ่ ", name: "mai ek", type: .toneMarker)),
-                TLACharacterDisplay(character: TLACharacter(" ้ ", name: "mai tho", type: .toneMarker)),
-                ]),
-            TLADisplayRow(items: [
-                TLACharacterDisplay(character: TLACharacter(" ๊ ", name: "mai tri", type: .toneMarker)),
-                TLACharacterDisplay(character: TLACharacter(" ๋", name: "mai chattawa", type: .toneMarker)),
+                TLACharacterDisplay(character: vowels[26]),
+                TLACharacterDisplay(character: vowels[27]),
                 ]),
         ]
     }
     
+    private static func buildToneMarksRows() -> [TLADisplayRow] {
+        let toneMarksStore = TLAModelEntryStore<TLACharacter>.init()
+        let toneMarks = toneMarksStore.getModelEntries(fileName: "TLACharacterModelStoreDataTonemarks")
+
+        return [
+            TLADisplayRow(height: 50, items: [
+                TLATitleDisplay(text: "Tone markers"),
+                ]),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: toneMarks[0]),
+                TLACharacterDisplay(character: toneMarks[1]),
+                ]),
+            TLADisplayRow(items: [
+                TLACharacterDisplay(character: toneMarks[2]),
+                TLACharacterDisplay(character: toneMarks[3]),
+                ])
+        ]
+    }
 }
