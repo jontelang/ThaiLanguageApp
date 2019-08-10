@@ -22,6 +22,8 @@
 		4D2577B52157C2E000155BF8 /* TLAReadingPracticeModelStoreData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D2577B42157C2E000155BF8 /* TLAReadingPracticeModelStoreData.json */; };
 		4D2577B72157C34600155BF8 /* TLAModelEntryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2577B62157C34600155BF8 /* TLAModelEntryStore.swift */; };
 		4D2577BA2157CACD00155BF8 /* TLAReadingPracticeModelEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2577B92157CACD00155BF8 /* TLAReadingPracticeModelEntry.swift */; };
+		4D27B39122FC73E9008DFA52 /* TLACharacterModelStoreDataVowels.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D27B38F22FC73E8008DFA52 /* TLACharacterModelStoreDataVowels.json */; };
+		4D27B39222FC73E9008DFA52 /* TLACharacterModelStoreDataTonemarks.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D27B39022FC73E9008DFA52 /* TLACharacterModelStoreDataTonemarks.json */; };
 		4D384EC022D796B400F0152F /* AutoScreenshotLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D384EBD22D7965900F0152F /* AutoScreenshotLogger.m */; };
 		4D384EC322DA271900F0152F /* TLACharacterLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D384EC222DA271900F0152F /* TLACharacterLabel.swift */; };
 		4D384EC922DA36BB00F0152F /* TLAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D384EC822DA36BB00F0152F /* TLAView.swift */; };
@@ -87,6 +89,7 @@
 		4D6D49FC208E4E980022F61B /* TLATableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6D49FB208E4E980022F61B /* TLATableViewController.swift */; };
 		4D8455A9216A04B0001E48EB /* TLACharactersCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8455A8216A04B0001E48EB /* TLACharactersCoordinator.swift */; };
 		4D8455AF216A1C13001E48EB /* TLACollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8455AE216A1C13001E48EB /* TLACollectionView.swift */; };
+		4D8D6E3722FB342A00BE140C /* TLACharacterModelStoreDataConsonants.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D8D6E3622FB342A00BE140C /* TLACharacterModelStoreDataConsonants.json */; };
 		4DDEFCC522F88B5700F95A5E /* TLASeparatorDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDEFCC422F88B5700F95A5E /* TLASeparatorDisplay.swift */; };
 		4DDEFCC822F9BC3200F95A5E /* TLADebugUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDEFCC722F9BC3200F95A5E /* TLADebugUIViewController.swift */; };
 		4DDEFCCA22F9BCA600F95A5E /* TLADebugStackViewTappableHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDEFCC922F9BCA600F95A5E /* TLADebugStackViewTappableHandler.swift */; };
@@ -114,6 +117,8 @@
 		4D2577B42157C2E000155BF8 /* TLAReadingPracticeModelStoreData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TLAReadingPracticeModelStoreData.json; sourceTree = "<group>"; };
 		4D2577B62157C34600155BF8 /* TLAModelEntryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAModelEntryStore.swift; sourceTree = "<group>"; };
 		4D2577B92157CACD00155BF8 /* TLAReadingPracticeModelEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAReadingPracticeModelEntry.swift; sourceTree = "<group>"; };
+		4D27B38F22FC73E8008DFA52 /* TLACharacterModelStoreDataVowels.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TLACharacterModelStoreDataVowels.json; sourceTree = "<group>"; };
+		4D27B39022FC73E9008DFA52 /* TLACharacterModelStoreDataTonemarks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TLACharacterModelStoreDataTonemarks.json; sourceTree = "<group>"; };
 		4D384EBC22D7965800F0152F /* thai-language-app-2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "thai-language-app-2-Bridging-Header.h"; sourceTree = "<group>"; };
 		4D384EBD22D7965900F0152F /* AutoScreenshotLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoScreenshotLogger.m; sourceTree = "<group>"; };
 		4D384EBE22D7965900F0152F /* AutoScreenshotLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoScreenshotLogger.h; sourceTree = "<group>"; };
@@ -183,6 +188,7 @@
 		4D6D49FB208E4E980022F61B /* TLATableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLATableViewController.swift; sourceTree = "<group>"; };
 		4D8455A8216A04B0001E48EB /* TLACharactersCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLACharactersCoordinator.swift; sourceTree = "<group>"; };
 		4D8455AE216A1C13001E48EB /* TLACollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLACollectionView.swift; sourceTree = "<group>"; };
+		4D8D6E3622FB342A00BE140C /* TLACharacterModelStoreDataConsonants.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TLACharacterModelStoreDataConsonants.json; sourceTree = "<group>"; };
 		4DDEFCC422F88B5700F95A5E /* TLASeparatorDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLASeparatorDisplay.swift; sourceTree = "<group>"; };
 		4DDEFCC722F9BC3200F95A5E /* TLADebugUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLADebugUIViewController.swift; sourceTree = "<group>"; };
 		4DDEFCC922F9BCA600F95A5E /* TLADebugStackViewTappableHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLADebugStackViewTappableHandler.swift; sourceTree = "<group>"; };
@@ -720,6 +726,7 @@
 		4D8455A5216A043B001E48EB /* Characters */ = {
 			isa = PBXGroup;
 			children = (
+				4D8D6E3522FB33EA00BE140C /* Resource */,
 				4DE0122422F729AB00F3B200 /* Model */,
 				4D8455A6216A045B001E48EB /* Coordinator */,
 				4DE0121F22F716F600F3B200 /* List */,
@@ -734,6 +741,16 @@
 				4D8455A8216A04B0001E48EB /* TLACharactersCoordinator.swift */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		4D8D6E3522FB33EA00BE140C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				4D27B39022FC73E9008DFA52 /* TLACharacterModelStoreDataTonemarks.json */,
+				4D27B38F22FC73E8008DFA52 /* TLACharacterModelStoreDataVowels.json */,
+				4D8D6E3622FB342A00BE140C /* TLACharacterModelStoreDataConsonants.json */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		4DDEFCC622F9BC0D00F95A5E /* Debug */ = {
@@ -876,6 +893,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D27B39222FC73E9008DFA52 /* TLACharacterModelStoreDataTonemarks.json in Resources */,
 				4D5B3BC6208CD33B004C319E /* TLAMenuUsageCell.xib in Resources */,
 				4D5B3BBC208CBFD9004C319E /* NotoSans-Bold.ttf in Resources */,
 				4D5B3B97208C747C004C319E /* NotoSans-Regular.ttf in Resources */,
@@ -894,6 +912,8 @@
 				4D3DE61120B47F4A001A01ED /* TLASkillsCell.xib in Resources */,
 				4D3DE60920B46C8E001A01ED /* TLASkillsViewController.storyboard in Resources */,
 				4D5B3B99208C7488004C319E /* NotoSerifThai-Regular.ttf in Resources */,
+				4D8D6E3722FB342A00BE140C /* TLACharacterModelStoreDataConsonants.json in Resources */,
+				4D27B39122FC73E9008DFA52 /* TLACharacterModelStoreDataVowels.json in Resources */,
 				4D58153A20AC865F00A9822C /* TLAReadingSpeedViewController.storyboard in Resources */,
 				4D5B3BCA208CDAE8004C319E /* TLAMenuLabelEntryCell.xib in Resources */,
 				4DEFE38C209F07EA00476E4E /* TLASettingsSwitchCell.xib in Resources */,
