@@ -18,7 +18,7 @@ class TLACharacterDisplayLabel: TLAView {
         let characterLabel = TLALabel()
         verticalStack.addArrangedSubview(characterLabel)
         characterLabel.text = data.thaiCharacter
-        characterLabel.theme = TLATheme.Characters.Cell.Main()
+        characterLabel.theme = TLATheme.Characters.List.Main()
         
         if let alt = data.alternativeThaiCharacter {
             characterLabel.text = "\(data.thaiCharacter) / \(alt)"
@@ -27,7 +27,7 @@ class TLACharacterDisplayLabel: TLAView {
         let characterNameLabel = TLALabel()
         verticalStack.addArrangedSubview(characterNameLabel)
         characterNameLabel.text = data.thaiNameInEnglish
-        characterNameLabel.theme = TLATheme.Characters.Cell.Name()
+        characterNameLabel.theme = TLATheme.Characters.List.Name()
         addSubview(verticalStack)
         
         let padding = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)

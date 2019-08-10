@@ -15,7 +15,7 @@ struct TLASubtitleDisplay: TLAStackViewDisplayable {
         let label = TLALabel()
         label.backgroundColor = .gray
         label.text = text
-        label.theme = TLATheme.Characters.Cell.Subtitle()
+        label.theme = TLATheme.Characters.List.Subtitle()
         return label
     }
 }

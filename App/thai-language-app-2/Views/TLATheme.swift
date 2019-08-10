@@ -193,7 +193,7 @@ extension TLATheme {
     
     enum Characters {
         
-        enum Cell {
+        enum List {
             
             static func Main() -> TLATheme {
                 let theme = TLATheme()
