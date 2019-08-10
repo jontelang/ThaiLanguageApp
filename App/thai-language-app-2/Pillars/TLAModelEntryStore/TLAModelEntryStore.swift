@@ -22,7 +22,9 @@ class TLAModelEntryStore<T: Decodable> {
         
         if let json = jsonData {
             do {
-                let models = try JSONDecoder().decode([T].self, from: json)
+                let decoder = JSONDecoder()
+                decoder.keyDecodingStrategy = .convertFromSnakeCase
+                let models = try decoder.decode([T].self, from: json)
                 return models
             }
             catch {
