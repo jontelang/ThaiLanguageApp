@@ -21,7 +21,16 @@ struct TLACharacter {
     var alternativeThaiCharacter: String?
     var type: TLACharacterType
     
-    init(_ character: String, name: String, alt: String? = nil, type: TLACharacterType = .unknown) {
+    // Temporary workaround for all characters (consonants, vowels, tone marks)
+    // sharing the same subclass despite having contextual "types" like in this
+    // case. Could be solved by either having a generic "specificType" or using
+    // different base classes per type of character. Like TLAConsonantCharacter.
+    var vowelType: String?
+    
+    init(_ character: String,
+         name: String,
+         alt: String? = nil,
+         type: TLACharacterType = .unknown) {
         self.thaiCharacter = character
         self.thaiNameInEnglish = name
         self.alternativeThaiCharacter = alt
