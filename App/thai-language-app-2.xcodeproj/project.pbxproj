@@ -25,7 +25,7 @@
 		4D27B39122FC73E9008DFA52 /* TLACharacterModelStoreDataVowels.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D27B38F22FC73E8008DFA52 /* TLACharacterModelStoreDataVowels.json */; };
 		4D27B39222FC73E9008DFA52 /* TLACharacterModelStoreDataTonemarks.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D27B39022FC73E9008DFA52 /* TLACharacterModelStoreDataTonemarks.json */; };
 		4D384EC022D796B400F0152F /* AutoScreenshotLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D384EBD22D7965900F0152F /* AutoScreenshotLogger.m */; };
-		4D384EC322DA271900F0152F /* TLACharacterLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D384EC222DA271900F0152F /* TLACharacterLabel.swift */; };
+		4D384EC322DA271900F0152F /* TLACharacterDisplayLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D384EC222DA271900F0152F /* TLACharacterDisplayLabel.swift */; };
 		4D384EC922DA36BB00F0152F /* TLAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D384EC822DA36BB00F0152F /* TLAView.swift */; };
 		4D384ECC22DA46B200F0152F /* TLACharactersStackviewModelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D384ECB22DA46B200F0152F /* TLACharactersStackviewModelProvider.swift */; };
 		4D384ECE22DA4CE000F0152F /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D384ECD22DA4CE000F0152F /* UIView+AutoLayout.swift */; };
@@ -122,7 +122,7 @@
 		4D384EBC22D7965800F0152F /* thai-language-app-2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "thai-language-app-2-Bridging-Header.h"; sourceTree = "<group>"; };
 		4D384EBD22D7965900F0152F /* AutoScreenshotLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoScreenshotLogger.m; sourceTree = "<group>"; };
 		4D384EBE22D7965900F0152F /* AutoScreenshotLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoScreenshotLogger.h; sourceTree = "<group>"; };
-		4D384EC222DA271900F0152F /* TLACharacterLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLACharacterLabel.swift; sourceTree = "<group>"; };
+		4D384EC222DA271900F0152F /* TLACharacterDisplayLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLACharacterDisplayLabel.swift; sourceTree = "<group>"; };
 		4D384EC822DA36BB00F0152F /* TLAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAView.swift; sourceTree = "<group>"; };
 		4D384ECB22DA46B200F0152F /* TLACharactersStackviewModelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLACharactersStackviewModelProvider.swift; sourceTree = "<group>"; };
 		4D384ECD22DA4CE000F0152F /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
@@ -338,7 +338,7 @@
 		4D384EC122DA26E600F0152F /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4D384EC222DA271900F0152F /* TLACharacterLabel.swift */,
+				4D384EC222DA271900F0152F /* TLACharacterDisplayLabel.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -981,7 +981,7 @@
 				4D384ED722DB856F00F0152F /* TLACharacter.swift in Sources */,
 				4D5B3BC2208CCB79004C319E /* TLATheme.swift in Sources */,
 				4D0193DE209B6304008DCDCF /* TLAContactViewController.swift in Sources */,
-				4D384EC322DA271900F0152F /* TLACharacterLabel.swift in Sources */,
+				4D384EC322DA271900F0152F /* TLACharacterDisplayLabel.swift in Sources */,
 				4D384ED122DB787300F0152F /* TLACharactersModuleBuilder.swift in Sources */,
 				4D6D49FC208E4E980022F61B /* TLATableViewController.swift in Sources */,
 				4D628D8C22F5E63300A82624 /* TLACharactersModuleTapHandler.swift in Sources */,

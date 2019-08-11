@@ -1,5 +1,5 @@
 //
-//  TLACharacterLabel.swift
+//  TLACharacterDisplayLabel.swift
 //  thai-language-app-2
 //
 //  Created by Jonathan on 7/13/19.
