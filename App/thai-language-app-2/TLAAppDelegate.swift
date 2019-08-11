@@ -44,7 +44,7 @@ class TLAAppDelegate: UIResponder, UIApplicationDelegate {
     
     func setupAppearance() {
         // Set the tintcolor as a default for items
-        window?.tintColor = UIColor.appTintColor()
+        window?.tintColor = .appTint
 
         // Removes the shadow. The 'setShadowImage' doesn't work unless we also set
         // the backgroundImage to an empty image. For one reasons or another.

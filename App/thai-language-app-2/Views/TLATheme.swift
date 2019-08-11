@@ -38,7 +38,7 @@ extension TLATheme {
         enum Button {
             static func Continue() -> TLATheme {
                 let theme = TLATheme()
-                theme.themeTextColor = UIColor.appTintColor()
+                theme.themeTextColor = .appTint
                 theme.themeFont = UIFont.appRegularFont().withSize(24.0)
                 return theme
             }
@@ -175,7 +175,7 @@ extension TLATheme {
                 }
                 static func View() -> TLATheme {
                     let theme = TLATheme()
-                    theme.themeBackgroundColor = UIColor(hexString: "#EEEEEE")
+                    theme.themeBackgroundColor = UIColor(hexString: "#EFEFEF")
                     return theme
                 }
             }
@@ -183,15 +183,15 @@ extension TLATheme {
                 static func Title() -> TLATheme {
                     let theme = TLATheme()
                     theme.themeFont = UIFont.appRegularFont().withSize(24)
-                    theme.themeBackgroundColor = UIColor(hexString: "#DDDDDD")
+                    theme.themeBackgroundColor = .white
                     theme.themeTextColor = UIColor.black
                     theme.themeTextAlignment = NSTextAlignment.center
                     return theme
                 }
                 static func Subtitle() -> TLATheme {
                     let theme = TLATheme()
-                    theme.themeFont = UIFont.appRegularThaiFont().withSize(14)
-                    theme.themeBackgroundColor = UIColor(hexString: "#DDDDDD")
+                    theme.themeFont = UIFont.appBoldFont().withSize(14)
+                    theme.themeBackgroundColor = .white
                     theme.themeTextColor = UIColor.black
                     theme.themeTextAlignment = NSTextAlignment.center
                     return theme

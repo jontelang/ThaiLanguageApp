@@ -11,8 +11,6 @@ import UIKit
 extension UIColor {
     
     /// The major tint color of the app
-    class func appTintColor() -> UIColor {
-        return UIColor(hexString: "5A88EE")
-    }
+    static let appTint = UIColor(hexString: "5A88EE")
     
 }
