@@ -140,9 +140,6 @@ class TLACharactersStackviewModelProvider {
                 TLATitleDisplay(text: "Vowels"),
                 ]),
             TLADisplayRow(height: 30, items: [
-                TLASubtitleDisplay(text: "Monopthongs"),
-                ]),
-            TLADisplayRow(height: 30, items: [
                 TLASubtitleDisplay(text: "Short"),
                 TLASubtitleDisplay(text: "Long"),
                 ]),
@@ -189,9 +186,6 @@ class TLACharactersStackviewModelProvider {
                 ]),
             
             TLADisplayRow(height: 30, items: [
-                TLASubtitleDisplay(text: "Special"),
-                ]),
-            TLADisplayRow(height: 30, items: [
                 TLASubtitleDisplay(text: "Sound length varies"),
                 ]),
             
@@ -208,9 +202,6 @@ class TLACharactersStackviewModelProvider {
                 TLACharacterDisplay(character: vowels["SARA_AM"]!),
             ]),
             
-            TLADisplayRow(height: 30, items: [
-                TLASubtitleDisplay(text: "Dipthongs"),
-                ]),
             TLADisplayRow(height: 30, items: [
                 TLASubtitleDisplay(text: "Short"),
                 TLASubtitleDisplay(text: "Long"),
