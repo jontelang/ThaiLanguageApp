@@ -64,7 +64,8 @@
         #if TARGET_OS_SIMULATOR
         [self saveToDesktop:image2];
         #else
-        [self insertImage:image2 intoAlbumNamed:@"screenshots_thai_app"];
+        NSLog(@"Skipped screenshot, because I do most dev on simulator and it takes screenshots to there.");
+        // [self insertImage:image2 intoAlbumNamed:@"screenshots_thai_app"];
         #endif
         
         NSLog(@"Took screenshot");
