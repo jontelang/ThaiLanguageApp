@@ -24,6 +24,8 @@ struct TLACharacter {
     var type: TLACharacterType
     
     var pronounciation: String?
+    var pronounciationComment: String?
+    
     var soundStart: String?
     var soundEnd: String?
     

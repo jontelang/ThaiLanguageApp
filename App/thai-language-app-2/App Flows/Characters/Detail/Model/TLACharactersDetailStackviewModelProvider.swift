@@ -31,6 +31,9 @@ final class TLACharactersDetailStackviewModelProvider {
         if let pronounciation = character.pronounciation {
             rows += buildRow(text: "Pronounciation", subtitle: pronounciation)
         }
+        if let pronounciationComment = character.pronounciationComment {
+            rows += buildRow(text: "Pronounciation comment", subtitle: pronounciationComment)
+        }
         
         return rows
     }
