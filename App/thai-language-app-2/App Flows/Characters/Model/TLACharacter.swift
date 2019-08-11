@@ -16,6 +16,7 @@ enum TLACharacterType: String {
 /// A data structure representing a single thai character or a cluster of them
 /// such as certain vowels, consonant clusters and so on.
 struct TLACharacter {
+    var identifier: String
     var thaiCharacter: String
     var thaiNameInEnglish: String
     var alternativeThaiCharacter: String?
@@ -27,10 +28,12 @@ struct TLACharacter {
     // different base classes per type of character. Like TLAConsonantCharacter.
     var vowelType: String?
     
-    init(_ character: String,
+    init(identifier: String,
+         character: String,
          name: String,
          alt: String? = nil,
          type: TLACharacterType = .unknown) {
+        self.identifier = identifier
         self.thaiCharacter = character
         self.thaiNameInEnglish = name
         self.alternativeThaiCharacter = alt
