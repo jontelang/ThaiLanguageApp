@@ -1,7 +1,7 @@
 [
     {
         "pthong" : "monophthong",
-        "name_spelling" : "สระอะ",
+        "thai_name_in_thai" : "สระอะ",
         "unicode_hex" : "0E30",
         "pronounciation" : "u in 'nut'",
         "type" : "vowel",
@@ -18,7 +18,7 @@
     },
     {
         "pthong" : "monophthong",
-        "name_spelling" : "ไม้หันอากาศ",
+        "thai_name_in_thai" : "ไม้หันอากาศ",
         "unicode_hex" : "0E31",
         "pronounciation" : "u in 'nut'",
         "type" : "vowel",
@@ -34,7 +34,7 @@
     },
     {
         "pthong" : "monophthong",
-        "name_spelling" : "สระอา",
+        "thai_name_in_thai" : "สระอา",
         "unicode_hex" : "0E32",
         "pronounciation" : "a in 'father'",
         "type" : "vowel",
@@ -49,7 +49,7 @@
     },
     {
         "pthong" : "monophthong",
-        "name_spelling" : "สระอิ",
+        "thai_name_in_thai" : "สระอิ",
         "unicode_hex" : "0E34",
         "pronounciation" : "y in 'greedy'",
         "type" : "vowel",
@@ -64,7 +64,7 @@
     },
     {
         "pthong" : "monophthong",
-        "name_spelling" : "สระอี",
+        "thai_name_in_thai" : "สระอี",
         "unicode_hex" : "0E35",
         "pronounciation" : "ee in 'see'",
         "type" : "vowel",
@@ -79,7 +79,7 @@
     },
     {
         "pthong" : "monophthong",
-        "name_spelling" : "สระอึ",
+        "thai_name_in_thai" : "สระอึ",
         "unicode_hex" : "0E36",
         "pronounciation" : "The combination of saying 'boot', but your lips are kept like 'beet'. Short.",
         "type" : "vowel",
@@ -94,7 +94,7 @@
     },
     {
         "pthong" : "monophthong",
-        "name_spelling" : "สระอือ",
+        "thai_name_in_thai" : "สระอือ",
         "unicode_hex" : "0E37",
         "pronounciation" : "The combination of saying 'boot', but your lips are kept like 'beet'. Long.",
         "type" : "vowel",
@@ -110,7 +110,7 @@
     },
     {
         "pthong" : "monophthong",
-        "name_spelling" : "สระอุ",
+        "thai_name_in_thai" : "สระอุ",
         "unicode_hex" : "0E38",
         "pronounciation" : "oo in 'look'",
         "type" : "vowel",
@@ -125,7 +125,7 @@
     },
     {
         "pthong" : "monophthong",
-        "name_spelling" : "สระอู",
+        "thai_name_in_thai" : "สระอู",
         "unicode_hex" : "0E39",
         "pronounciation" : "oo in 'too'",
         "type" : "vowel",
@@ -140,7 +140,7 @@
     },
     {
         "pthong" : "monophthong",
-        "name_spelling" : "สระเอะ",
+        "thai_name_in_thai" : "สระเอะ",
         "unicode_hex" : "N\/A",
         "pronounciation" : "e in 'neck'",
         "type" : "vowel",
@@ -155,7 +155,7 @@
     },
     {
         "pthong" : "monophthong",
-        "name_spelling" : "สระเอ",
+        "thai_name_in_thai" : "สระเอ",
         "unicode_hex" : "0E40",
         "pronounciation" : "a in 'lame'",
         "type" : "vowel",
@@ -170,7 +170,7 @@
     },
     {
         "pthong" : "monophthong",
-        "name_spelling" : "สระแอะ",
+        "thai_name_in_thai" : "สระแอะ",
         "unicode_hex" : "N\/A",
         "pronounciation" : "a in 'at'",
         "type" : "vowel",
@@ -185,7 +185,7 @@
     },
     {
         "pthong" : "monophthong",
-        "name_spelling" : "สระแอ",
+        "thai_name_in_thai" : "สระแอ",
         "unicode_hex" : "0E41",
         "pronounciation" : "a in 'ham'",
         "type" : "vowel",
@@ -200,7 +200,7 @@
     },
     {
         "pthong" : "monophthong",
-        "name_spelling" : "สระโอะ",
+        "thai_name_in_thai" : "สระโอะ",
         "unicode_hex" : "N\/A",
         "pronounciation" : "oa in 'boat'",
         "type" : "vowel",
@@ -215,7 +215,7 @@
     },
     {
         "pthong" : "monophthong",
-        "name_spelling" : "สระโอ",
+        "thai_name_in_thai" : "สระโอ",
         "unicode_hex" : "0E42",
         "pronounciation" : "o in 'go'",
         "type" : "vowel",
@@ -230,7 +230,7 @@
     },
     {
         "pthong" : "monophthong",
-        "name_spelling" : "สระเอาะ",
+        "thai_name_in_thai" : "สระเอาะ",
         "unicode_hex" : "N\/A",
         "pronounciation" : "o in 'not'",
         "type" : "vowel",
@@ -245,7 +245,7 @@
     },
     {
         "pthong" : "monophthong",
-        "name_spelling" : "สระออ",
+        "thai_name_in_thai" : "สระออ",
         "unicode_hex" : "N\/A",
         "pronounciation" : "aw in 'saw'",
         "type" : "vowel",
@@ -260,9 +260,9 @@
     },
     {
         "pthong" : "monophthong",
-        "name_spelling" : "สระเออะ",
+        "thai_name_in_thai" : "สระเออะ",
         "unicode_hex" : "N\/A",
-        "pronounciation" : "e in 'the' (not the longer 'theeee' but the short 'the.'",
+        "pronounciation" : "e in 'the' (not the longer 'theeee' but the short 'the.' but made long)",
         "type" : "vowel",
         "vowel_type" : "normal",
         "sound_length_classification" : "short",
@@ -276,7 +276,7 @@
     },
     {
         "pthong" : "monophthong",
-        "name_spelling" : "สระเออ",
+        "thai_name_in_thai" : "สระเออ",
         "unicode_hex" : "N\/A",
         "pronounciation" : "u in 'burn' (r isn't necessarily pronounced)",
         "type" : "vowel",
@@ -291,7 +291,7 @@
     },
     {
         "pthong" : "monophthong",
-        "name_spelling" : "สระใอไม้มลาย",
+        "thai_name_in_thai" : "สระใอไม้มลาย",
         "unicode_hex" : "0E43",
         "pronounciation" : "i in 'hi'",
         "type" : "vowel",
@@ -306,7 +306,7 @@
     },
     {
         "pthong" : "monophthong",
-        "name_spelling" : "สระไอไม้ม้วน",
+        "thai_name_in_thai" : "สระไอไม้ม้วน",
         "unicode_hex" : "0E44",
         "pronounciation" : "i in 'hi'",
         "type" : "vowel",
@@ -321,7 +321,7 @@
     },
     {
         "pthong" : "monophthong",
-        "name_spelling" : "สระเอา",
+        "thai_name_in_thai" : "สระเอา",
         "unicode_hex" : "N\/A",
         "pronounciation" : "ao in 'taoism'",
         "type" : "vowel",
@@ -336,7 +336,7 @@
     },
     {
         "pthong" : "monophthong",
-        "name_spelling" : "สระอำ",
+        "thai_name_in_thai" : "สระอำ",
         "unicode_hex" : "0E33",
         "pronounciation" : "u in 'sum'",
         "type" : "vowel",
@@ -351,7 +351,7 @@
     },
     {
         "pthong" : "diphthong",
-        "name_spelling" : "สระเอียะ",
+        "thai_name_in_thai" : "สระเอียะ",
         "unicode_hex" : "N\/A",
         "pronounciation" : "ia in 'asia'. Short.",
         "type" : "vowel",
@@ -367,7 +367,7 @@
 
     {
         "pthong" : "diphthong",
-        "name_spelling" : "สระเอีย",
+        "thai_name_in_thai" : "สระเอีย",
         "unicode_hex" : "N\/A",
         "pronounciation" : "ia in 'mamma mia'. Long.",
         "type" : "vowel",
@@ -382,7 +382,7 @@
     },
     {
         "pthong" : "diphthong",
-        "name_spelling" : "สระเอือะ",
+        "thai_name_in_thai" : "สระเอือะ",
         "unicode_hex" : "N\/A",
         "pronounciation" : "'oo a' in 'too alone'. Short.",
         "type" : "vowel",
@@ -397,7 +397,7 @@
     },
     {
         "pthong" : "diphthong",
-        "name_spelling" : "สระเอือ",
+        "thai_name_in_thai" : "สระเอือ",
         "unicode_hex" : "N\/A",
         "pronounciation" : "'oo a' in 'too alone'. Long.",
         "type" : "vowel",
@@ -412,7 +412,7 @@
     },
     {
         "pthong" : "diphthong",
-        "name_spelling" : "สระอัวะ",
+        "thai_name_in_thai" : "สระอัวะ",
         "unicode_hex" : "N\/A",
         "pronounciation" : "ua in 'quantity'. Short.",
         "type" : "vowel",
@@ -427,7 +427,7 @@
     },
     {
         "pthong" : "diphthong",
-        "name_spelling" : "สระอัว",
+        "thai_name_in_thai" : "สระอัว",
         "unicode_hex" : "N\/A",
         "pronounciation" : "ua in 'quantity'. Long.",
         "type" : "vowel",

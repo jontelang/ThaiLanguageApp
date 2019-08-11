@@ -5,7 +5,7 @@
     "alphabet_position" : 1,
     "frequency_comment" : "",
     "identifier" : "MAI_EK",
-    "name_spelling" : "ไม้เอก",
+    "thai_name_in_thai" : "ไม้เอก",
     "type" : "toneMarker",
     "thai_name_in_english" : "mai ek",
     "unicode_position" : "0E48"
@@ -16,7 +16,7 @@
     "alphabet_position" : 2,
     "frequency_comment" : "",
     "identifier" : "MAI_THO",
-    "name_spelling" : "ไม้โท",
+    "thai_name_in_thai" : "ไม้โท",
     "type" : "toneMarker",
     "thai_name_in_english" : "mai tho",
     "unicode_position" : "0E49"
@@ -27,7 +27,7 @@
     "alphabet_position" : 3,
     "frequency_comment" : "",
     "identifier" : "MAI_TRI",
-    "name_spelling" : "ไม้ตรี",
+    "thai_name_in_thai" : "ไม้ตรี",
     "type" : "toneMarker",
     "thai_name_in_english" : "mai tri",
     "unicode_position" : "0E4A"
@@ -38,7 +38,7 @@
     "alphabet_position" : 4,
     "frequency_comment" : "",
     "identifier" : "MAI_CHATTAWA",
-    "name_spelling" : "ไม้จัตวา",
+    "thai_name_in_thai" : "ไม้จัตวา",
     "type" : "toneMarker",
     "thai_name_in_english" : "mai chattawa",
     "unicode_position" : "0E4B"

@@ -15,43 +15,29 @@ import Foundation
 final class TLACharactersDetailStackviewModelProvider {
     
     static func rows(for character: TLACharacter) -> [TLADisplayRow] {
-        var sections = [TLADisplayRow]()
-        sections += buildHeader(character)
-        sections += buildContent(character)
-        return sections
-    }
-    
-    private static func buildHeader(_ character: TLACharacter) -> [TLADisplayRow] {
-        return [TLADisplayRow(height: 50, items: [
-            TLATitleDisplay(text: character.thaiCharacter)
-            ])]
-    }
-    
-    private static func buildContent(_ character: TLACharacter) -> [TLADisplayRow] {
         var rows: [TLADisplayRow] = []
         
-        let characterTitle = "Character"
-        rows.append(TLADisplayRow(showsSeparator: true, items: [
-            TLACharacterPropertyDisplay(propertyName: characterTitle, propertyValue: character.thaiCharacter)])
-        )
-        
-        let typeTitle = "Character"
-        rows.append(TLADisplayRow(showsSeparator: true, items: [
-            TLACharacterPropertyDisplay(propertyName: typeTitle, propertyValue: character.type.rawValue)])
-        )
-        
-        let thaiNameInEnglishTitle = "Thai name in english"
-        rows.append(TLADisplayRow(showsSeparator: true, items: [
-            TLACharacterPropertyDisplay(propertyName: thaiNameInEnglishTitle, propertyValue: character.thaiNameInEnglish)])
-        )
+        rows += buildRow(text: "Character", subtitle: character.thaiCharacter)
+        rows += buildRow(text: "Name (in english, transliterated)", subtitle: character.thaiNameInEnglish)
+        rows += buildRow(text: "Name (in thai)", subtitle: character.thaiNameInThai)
+        rows += buildRow(text: "Type", subtitle: character.type.rawValue)
         
         if let altCharacter = character.alternativeThaiCharacter {
-            let altCharacterTitle = "Alternative character"
-            rows.append(TLADisplayRow(showsSeparator: true, items: [
-                TLACharacterPropertyDisplay(propertyName: altCharacterTitle, propertyValue: altCharacter)])
-            )
+            rows += buildRow(text: "Alternative character", subtitle: altCharacter)
+        }
+        if let start = character.soundStart, let end = character.soundEnd {
+            rows += buildRow(text: "Pronounciation at start / at end", subtitle: start + " / " + end)
+        }
+        if let pronounciation = character.pronounciation {
+            rows += buildRow(text: "Pronounciation", subtitle: pronounciation)
         }
         
         return rows
+    }
+    
+    private static func buildRow(text: String, subtitle: String) -> [TLADisplayRow] {
+        return [TLADisplayRow(showsSeparator: true, items: [
+            TLACharacterPropertyDisplay(propertyName: text, propertyValue: subtitle)])
+        ]
     }
 }
