@@ -20,7 +20,6 @@ final class TLACharactersDetailStackviewModelProvider {
         rows += buildRow(text: "Character", subtitle: character.thaiCharacter)
         rows += buildRow(text: "Name (in english, transliterated)", subtitle: character.thaiNameInEnglish)
         rows += buildRow(text: "Name (in thai)", subtitle: character.thaiNameInThai)
-        rows += buildRow(text: "Type", subtitle: character.type.rawValue)
         
         if let altCharacter = character.alternativeThaiCharacter {
             rows += buildRow(text: "Alternative character", subtitle: altCharacter)
