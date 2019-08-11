@@ -11,6 +11,8 @@ import UIKit
 /// This is a wrapper to be able to display a TLACharacter model in a TLAStackView
 class TLACharacterDisplay {
     var character: TLACharacter
+    
+    // This is just an internal var made for the 'TLAStackViewTappable' protocol
     private var _tappableHandler: TLAStackViewTappableHandler?
     
     init(character: TLACharacter) {
