@@ -18,6 +18,11 @@ final class TLACharactersDetailStackviewModelProvider {
         var rows: [TLADisplayRow] = []
         
         rows += buildRow(text: "Character", subtitle: character.thaiCharacter)
+        
+        if let toneClass = character.toneClass {
+            rows += buildRow(text: "Class", subtitle: toneClass)
+        }
+        
         rows += buildRow(text: "Name (in english, transliterated)", subtitle: character.thaiNameInEnglish)
         rows += buildRow(text: "Name (in thai)", subtitle: character.thaiNameInThai)
         

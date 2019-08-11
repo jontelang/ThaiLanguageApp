@@ -23,6 +23,8 @@ struct TLACharacter {
     var alternativeThaiCharacter: String?
     var type: TLACharacterType
     
+    var toneClass: String?
+    
     var pronounciation: String?
     var pronounciationComment: String?
     
