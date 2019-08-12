@@ -14,7 +14,7 @@ protocol TLACharactersListModuleOutput: class {
 
 final class TLACharactersListModuleBuilder {
     
-    static func build(for coordinator: TLACharactersCoordinator) -> UIViewController {
+    static func build(for coordinator: TLACharactersListModuleOutput) -> UIViewController {
         let displayRows = TLACharactersStackviewModelProvider.rows()
         let tapHandler = TLACharactersModuleTapHandler()
         tapHandler.coordinator = coordinator

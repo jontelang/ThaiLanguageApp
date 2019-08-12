@@ -735,8 +735,7 @@
 				4D8D6E3522FB33EA00BE140C /* Resource */,
 				4DE0122422F729AB00F3B200 /* Model */,
 				4D8455A6216A045B001E48EB /* Coordinator */,
-				4DE0121F22F716F600F3B200 /* List */,
-				4DE0122022F7170700F3B200 /* Detail */,
+				4D9CBB612301B058006748A8 /* Screens */,
 			);
 			path = Characters;
 			sourceTree = "<group>";
@@ -774,6 +773,15 @@
 				4D9CBB5B23017908006748A8 /* TLACharactersDetailModuleTapHandler.swift */,
 			);
 			path = Logic;
+			sourceTree = "<group>";
+		};
+		4D9CBB612301B058006748A8 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				4DE0121F22F716F600F3B200 /* List */,
+				4DE0122022F7170700F3B200 /* Detail */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 		4DDEFCC622F9BC0D00F95A5E /* Debug */ = {
