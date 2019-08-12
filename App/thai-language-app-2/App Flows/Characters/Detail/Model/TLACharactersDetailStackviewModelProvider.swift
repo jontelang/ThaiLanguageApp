@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 //
 // TODO: This is kind of a model but also a view related code.. how to split? need a split?
@@ -17,7 +18,7 @@ final class TLACharactersDetailStackviewModelProvider {
     static func rows(for character: TLACharacter) -> [TLADisplayRow] {
         var rows: [TLADisplayRow] = []
         
-        rows += buildRow(text: "Character", subtitle: character.thaiCharacter)
+        rows += [buildHeader(character)]
         
         if let toneClass = character.toneClass {
             rows += buildRow(text: "Class", subtitle: toneClass)
@@ -46,5 +47,30 @@ final class TLACharactersDetailStackviewModelProvider {
         return [TLADisplayRow(showsSeparator: true, items: [
             TLACharacterPropertyDisplay(propertyName: text, propertyValue: subtitle)])
         ]
+    }
+    
+    private static func buildHeader(_ character: TLACharacter) -> TLADisplayRow {
+        // Default cases
+        var height: CGFloat = 100.0
+        var insets: UIEdgeInsets = .zero
+        
+        switch character.characterHeight {
+            case .tall, .high:
+                height = 120.0
+                insets = UIEdgeInsets(top: 25, left: 0, bottom: 0, right: 0)
+            case .verytall:
+                height = 140.0
+                insets = UIEdgeInsets(top: 50, left: 0, bottom: 0, right: 0)
+            case .low:
+                height = 120.0
+                insets = UIEdgeInsets(top: 0, left: 0, bottom: 20, right: 0)
+            case .normal:
+                break
+        }
+        
+        return TLADisplayRow(height: height, items: [
+            TLACharactersDetailGiantDisplay(text: character.thaiCharacter,
+                                            characterInsets: insets)]
+        )
     }
 }
