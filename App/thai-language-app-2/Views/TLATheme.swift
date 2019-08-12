@@ -241,7 +241,7 @@ extension TLATheme {
                 }
                 static func Text() -> TLATheme {
                     let theme = TLATheme()
-                    theme.themeFont = UIFont.appRegularThaiFont().withSize(14)
+                    theme.themeFont = UIFont.appRegularThaiFont().withSize(18)
                     theme.themeBackgroundColor = .clear
                     theme.themeTextColor = UIColor.darkText
                     theme.themeTextAlignment = NSTextAlignment.left
