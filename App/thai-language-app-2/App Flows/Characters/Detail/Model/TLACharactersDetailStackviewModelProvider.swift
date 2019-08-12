@@ -20,25 +20,49 @@ final class TLACharactersDetailStackviewModelProvider {
         
         rows += [buildHeader(character)]
         
-        rows += buildRow(text: "Character", subtitle: character.thaiCharacter)
-        rows += buildRow(text: "Name (in english, transliterated)", subtitle: character.thaiNameInEnglish)
-        rows += buildRow(text: "Name (in thai)", subtitle: character.thaiNameInThai)
-        rows += buildRow(text: "Alternative character", subtitle: character.alternativeThaiCharacter)
+        rows += buildRow(text: "Character",
+                         subtitle: character.thaiCharacter,
+                         identifier: "CHARACTER")
+        
+        rows += buildRow(text: "Name (in english, transliterated)",
+                         subtitle: character.thaiNameInEnglish,
+                         identifier: "NAME_IN_ENGLISH")
+        
+        rows += buildRow(text: "Name (in thai)",
+                         subtitle: character.thaiNameInThai,
+                         identifier: "NAME_IN_THAI")
+        
+        rows += buildRow(text: "Alternative character",
+                         subtitle: character.alternativeThaiCharacter,
+                         identifier: "ALT_CHARACTER")
         
         if let start = character.soundStart, let end = character.soundEnd {
-            rows += buildRow(text: "Pronounciation at start / at end", subtitle: start + " / " + end)
+            rows += buildRow(text: "Pronounciation at start / at end",
+                             subtitle: start + " / " + end,
+                             identifier: "SOUNDS")
         }
-        rows += buildRow(text: "Pronounciation", subtitle: character.pronounciation)
-        rows += buildRow(text: "Pronounciation comment", subtitle: character.pronounciationComment)
-        rows += buildRow(text: "Class", subtitle: character.toneClass)
+        
+        rows += buildRow(text: "Pronounciation",
+                         subtitle: character.pronounciation,
+                         identifier: "PRONOUNCIATION")
+        
+        rows += buildRow(text: "Pronounciation comment",
+                         subtitle: character.pronounciationComment,
+                         identifier: "PRONOUNCIATION_COMMENT")
+        
+        rows += buildRow(text: "Class",
+                         subtitle: character.toneClass,
+                         identifier: "CLASS")
         
         return rows
     }
     
-    private static func buildRow(text: String, subtitle: String?) -> [TLADisplayRow] {
+    private static func buildRow(text: String, subtitle: String?, identifier: String) -> [TLADisplayRow] {
         if let subtitle = subtitle {
             return [TLADisplayRow(showsSeparator: true, items: [
-                TLACharacterPropertyDisplay(propertyName: text, propertyValue: subtitle)])
+                TLACharacterPropertyDisplay(propertyName: text,
+                                            propertyValue: subtitle,
+                                            propertyIdentifier: identifier)])
             ]
         }
         return [] // Add nothing

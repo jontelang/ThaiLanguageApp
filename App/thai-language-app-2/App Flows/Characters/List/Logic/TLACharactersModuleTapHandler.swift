@@ -22,4 +22,8 @@ final class TLACharactersModuleTapHandler: TLAStackViewTappableHandler {
             }
         }
     }
+    
+    func tapped(from source: TLAStackViewTappable) {
+        // No need to implement
+    }
 }

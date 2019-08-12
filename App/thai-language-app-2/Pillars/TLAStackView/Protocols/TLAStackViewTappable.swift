@@ -18,6 +18,14 @@ import Foundation
     /// Note: I could implement something like associated objects, maybe?
     var tappableHandler: TLAStackViewTappableHandler? { get set }
     
+    /// This -can- be used to uniquely identify a tapped 'TLAStackViewTappable'
+    /// entry. If you do not need it, you may return an empty string.
+    ///
+    /// Note: If this is ONLY required in one screen, we may consider simply
+    /// adding a string to that particular object, to not have to implement this
+    /// getter in many different classes without it being used.
+    var tappableIdentifier: String { get }
+    
     /// This method is supposed to only be implemented to pass forward the data
     /// of the object conforming to this protocol into the functions defined in
     /// the protocol TLAStackViewTappableHandler

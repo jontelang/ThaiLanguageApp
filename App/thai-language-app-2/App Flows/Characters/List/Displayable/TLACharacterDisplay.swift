@@ -29,6 +29,10 @@ extension TLACharacterDisplay: TLAStackViewDisplayable {
 }
 
 @objc extension TLACharacterDisplay: TLAStackViewTappable {
+    var tappableIdentifier: String {
+        return "NOT_NEEDED"
+    }
+    
     var tappableHandler: TLAStackViewTappableHandler? {
         get { return _tappableHandler }
         set { _tappableHandler = newValue }

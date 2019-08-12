@@ -12,4 +12,5 @@ import Foundation
 /// handler implemented yet. Essentially a no op.
 class TLADebugStackViewTappableHandler: TLAStackViewTappableHandler {
     func tapped(from source: TLAStackViewTappable, with data: Any) { }
+    func tapped(from source: TLAStackViewTappable) { }
 }
