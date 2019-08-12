@@ -1,5 +1,5 @@
 //
-//  TLACharactersModuleBuilder.swift
+//  TLACharactersListModuleBuilder.swift
 //  thai-language-app-2
 //
 //  Created by Jonathan on 7/14/19.
@@ -12,7 +12,7 @@ protocol TLACharactersListModuleOutput: class {
     func routeToDetail(for character: TLACharacter)
 }
 
-final class TLACharactersModuleBuilder {
+final class TLACharactersListModuleBuilder {
     
     static func build(for coordinator: TLACharactersCoordinator) -> UIViewController {
         let displayRows = TLACharactersStackviewModelProvider.rows()
