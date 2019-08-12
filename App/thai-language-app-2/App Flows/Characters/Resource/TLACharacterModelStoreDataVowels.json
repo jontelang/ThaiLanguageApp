@@ -310,7 +310,7 @@
     },
     {
         "pthong" : "monophthong",
-        "thai_name_in_thai" : "สระใอไม้มลาย",
+        "thai_name_in_thai" : "สระไอไม้ม้วน",
         "unicode_hex" : "0E43",
         "pronounciation" : "i in 'hi'",
         "type" : "vowel",
@@ -326,7 +326,7 @@
     },
     {
         "pthong" : "monophthong",
-        "thai_name_in_thai" : "สระไอไม้ม้วน",
+        "thai_name_in_thai" : "สระใอไม้มลาย",
         "unicode_hex" : "0E44",
         "pronounciation" : "i in 'hi'",
         "type" : "vowel",
