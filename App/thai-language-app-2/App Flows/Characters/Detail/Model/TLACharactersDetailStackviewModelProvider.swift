@@ -20,33 +20,28 @@ final class TLACharactersDetailStackviewModelProvider {
         
         rows += [buildHeader(character)]
         
-        if let toneClass = character.toneClass {
-            rows += buildRow(text: "Class", subtitle: toneClass)
-        }
-        
+        rows += buildRow(text: "Character", subtitle: character.thaiCharacter)
+        rows += buildRow(text: "Class", subtitle: character.toneClass)
         rows += buildRow(text: "Name (in english, transliterated)", subtitle: character.thaiNameInEnglish)
         rows += buildRow(text: "Name (in thai)", subtitle: character.thaiNameInThai)
+        rows += buildRow(text: "Alternative character", subtitle: character.alternativeThaiCharacter)
         
-        if let altCharacter = character.alternativeThaiCharacter {
-            rows += buildRow(text: "Alternative character", subtitle: altCharacter)
-        }
         if let start = character.soundStart, let end = character.soundEnd {
             rows += buildRow(text: "Pronounciation at start / at end", subtitle: start + " / " + end)
         }
-        if let pronounciation = character.pronounciation {
-            rows += buildRow(text: "Pronounciation", subtitle: pronounciation)
-        }
-        if let pronounciationComment = character.pronounciationComment {
-            rows += buildRow(text: "Pronounciation comment", subtitle: pronounciationComment)
-        }
+        rows += buildRow(text: "Pronounciation", subtitle: character.pronounciation)
+        rows += buildRow(text: "Pronounciation comment", subtitle: character.pronounciationComment)
         
         return rows
     }
     
-    private static func buildRow(text: String, subtitle: String) -> [TLADisplayRow] {
-        return [TLADisplayRow(showsSeparator: true, items: [
-            TLACharacterPropertyDisplay(propertyName: text, propertyValue: subtitle)])
-        ]
+    private static func buildRow(text: String, subtitle: String?) -> [TLADisplayRow] {
+        if let subtitle = subtitle {
+            return [TLADisplayRow(showsSeparator: true, items: [
+                TLACharacterPropertyDisplay(propertyName: text, propertyValue: subtitle)])
+            ]
+        }
+        return [] // Add nothing
     }
     
     private static func buildHeader(_ character: TLACharacter) -> TLADisplayRow {
