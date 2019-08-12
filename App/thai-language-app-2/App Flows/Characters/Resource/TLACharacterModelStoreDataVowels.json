@@ -309,7 +309,6 @@
         "character_height" : "normal"
     },
     {
-        "pthong" : "monophthong",
         "thai_name_in_thai" : "สระไอไม้ม้วน",
         "unicode_hex" : "0E43",
         "pronounciation" : "i in 'hi'",
@@ -325,7 +324,6 @@
         "character_height" : "verytall"
     },
     {
-        "pthong" : "monophthong",
         "thai_name_in_thai" : "สระใอไม้มลาย",
         "unicode_hex" : "0E44",
         "pronounciation" : "i in 'hi'",
@@ -341,7 +339,6 @@
         "character_height" : "verytall"
     },
     {
-        "pthong" : "monophthong",
         "thai_name_in_thai" : "สระเอา",
         "unicode_hex" : "N\/A",
         "pronounciation" : "ao in 'taoism'",
@@ -357,7 +354,6 @@
         "character_height" : "normal"
     },
     {
-        "pthong" : "monophthong",
         "thai_name_in_thai" : "สระอำ",
         "unicode_hex" : "0E33",
         "pronounciation" : "u in 'sum'",
