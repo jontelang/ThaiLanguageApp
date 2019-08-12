@@ -40,6 +40,8 @@ struct TLACharacter {
     var soundStart: String?
     var soundEnd: String?
     
+    var pthong: String?
+    
     // Temporary workaround for all characters (consonants, vowels, tone marks)
     // sharing the same subclass despite having contextual "types" like in this
     // case. Could be solved by either having a generic "specificType" or using

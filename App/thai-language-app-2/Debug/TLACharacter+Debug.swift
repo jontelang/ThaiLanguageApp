@@ -24,5 +24,6 @@ extension TLACharacter {
         soundStart = "g-"
         soundEnd = "-k"
         vowelType = "not a vowel"
+        pthong = "diphthong"
     }
 }
