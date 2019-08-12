@@ -59,7 +59,7 @@ extension TLACharacterPropertyDisplay: TLAStackViewTappable {
     
     func tapped() {
         if let handler = _tappableHandler {
-            handler.tapped(from: self, with: "??")
+            handler.tapped(from: self)
         }
     }
 }
