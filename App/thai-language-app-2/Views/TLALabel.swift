@@ -25,4 +25,12 @@ class TLALabel: UILabel {
         }
     }
     
+    /// Used to offset the text if needed
+    /// TODO: Should move to another class?
+    var textDrawInsets: UIEdgeInsets = .zero
+    
+    override func drawText(in rect: CGRect) {
+        super.drawText(in: UIEdgeInsetsInsetRect(rect, textDrawInsets))
+    }
+    
 }

@@ -217,6 +217,16 @@ extension TLATheme {
             }
         }
         enum Detail {
+            enum Header {
+                static func Text() -> TLATheme {
+                    let theme = TLATheme()
+                    theme.themeFont = UIFont.appRegularThaiFont().withSize(100)
+                    theme.themeBackgroundColor = UIColor(hexString: "#EFEFEF")
+                    theme.themeTextColor = UIColor.black
+                    theme.themeTextAlignment = NSTextAlignment.center
+                    return theme
+                }
+            }
             enum Property {
                 static func Title() -> TLATheme {
                     let theme = TLATheme()
