@@ -10,13 +10,13 @@ import Foundation
 
 final class TLACharactersDetailModuleTapHandler: TLAStackViewTappableHandler {
     
-    weak var coordinator: TLACharactersListModuleOutput?
+    weak var coordinator: TLACharactersDetailModuleOutput?
     
     func tapped(from source: TLAStackViewTappable, with data: Any) {
         // No need to implement
     }
     
     func tapped(from source: TLAStackViewTappable) {
-        print(source.tappableIdentifier)
+        coordinator?.routeToInformation(for: source.tappableIdentifier)
     }
 }

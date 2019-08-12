@@ -54,6 +54,10 @@ final class TLACharactersDetailStackviewModelProvider {
                          subtitle: character.toneClass,
                          identifier: "CLASS")
         
+        rows += buildRow(text: "Pthong",
+                         subtitle: character.pthong,
+                         identifier: "PTHONG")
+        
         return rows
     }
     

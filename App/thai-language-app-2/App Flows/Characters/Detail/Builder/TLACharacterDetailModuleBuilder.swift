@@ -8,6 +8,10 @@
 
 import UIKit
 
+protocol TLACharactersDetailModuleOutput: class {
+    func routeToInformation(for informationIdentifier: String)
+}
+
 final class TLACharacterDetailModuleBuilder {
     
     static func build(for coordinator: TLACharactersCoordinator, with character: TLACharacter) -> UIViewController {

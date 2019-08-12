@@ -22,3 +22,9 @@ extension TLACharactersCoordinator: TLACharactersListModuleOutput {
         navigationController.show(charactersDetailViewController, sender: nil)
     }
 }
+
+extension TLACharactersCoordinator: TLACharactersDetailModuleOutput {
+    func routeToInformation(for informationIdentifier: String) {
+        print(informationIdentifier)
+    }
+}
