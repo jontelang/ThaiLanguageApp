@@ -759,6 +759,7 @@
 			isa = PBXGroup;
 			children = (
 				4D9CBB582301419F006748A8 /* TLACharactersDetailGiantHeaderDisplay.swift */,
+				4DE0122922F72B0A00F3B200 /* TLACharacterPropertyDisplay.swift */,
 			);
 			path = Displayable;
 			sourceTree = "<group>";
@@ -791,7 +792,6 @@
 				4DE0122122F7268200F3B200 /* Builder */,
 				4DE0122522F729DE00F3B200 /* Model */,
 				4D9CBB5723014177006748A8 /* Displayable */,
-				4DE0122822F72AEC00F3B200 /* View */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -818,14 +818,6 @@
 				4DE0122622F72A0A00F3B200 /* TLACharactersDetailStackviewModelProvider.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		4DE0122822F72AEC00F3B200 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				4DE0122922F72B0A00F3B200 /* TLACharacterPropertyDisplay.swift */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		4DEFE388209F07B200476E4E /* Cells */ = {
