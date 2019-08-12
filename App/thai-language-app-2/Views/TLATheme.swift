@@ -180,22 +180,40 @@ extension TLATheme {
                 }
             }
             enum Sections {
-                static func Title() -> TLATheme {
-                    let theme = TLATheme()
-                    theme.themeFont = UIFont.appRegularFont().withSize(24)
-                    theme.themeBackgroundColor = .white
-                    theme.themeTextColor = UIColor.black
-                    theme.themeTextAlignment = NSTextAlignment.center
-                    return theme
+                enum Title {
+                    static func Text() -> TLATheme {
+                        let theme = TLATheme()
+                        theme.themeFont = UIFont.appRegularFont().withSize(24)
+                        theme.themeBackgroundColor = .white
+                        theme.themeTextColor = UIColor.black
+                        theme.themeTextAlignment = NSTextAlignment.center
+                        return theme
+                    }
+                    static func Border() -> TLATheme {
+                        let theme = TLATheme()
+                        theme.themeBackgroundColor = .appTint
+                        theme.themeRadius = 2.0
+                        return theme
+                    }
                 }
-                static func Subtitle() -> TLATheme {
-                    let theme = TLATheme()
-                    theme.themeFont = UIFont.appBoldFont().withSize(14)
-                    theme.themeBackgroundColor = .white
-                    theme.themeTextColor = UIColor.black
-                    theme.themeTextAlignment = NSTextAlignment.center
-                    return theme
+                enum Subtitle {
+                    static func Text() -> TLATheme {
+                        let theme = TLATheme()
+                        theme.themeFont = UIFont.appBoldFont().withSize(14)
+                        theme.themeBackgroundColor = .white
+                        theme.themeTextColor = UIColor.black
+                        theme.themeTextAlignment = NSTextAlignment.center
+                        return theme
+                    }
+                    static func Border() -> TLATheme {
+                        let theme = TLATheme()
+                        theme.themeBackgroundColor = .lightGray
+                        theme.themeRadius = 2.0
+                        return theme
+                    }
                 }
+                
+                
             }
         }
         enum Detail {
