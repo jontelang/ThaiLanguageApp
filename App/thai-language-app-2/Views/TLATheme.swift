@@ -212,8 +212,11 @@ extension TLATheme {
                         return theme
                     }
                 }
-                
-                
+                static func Separator() -> TLATheme {
+                    let theme = TLATheme()
+                    theme.themeBackgroundColor = UIColor(hexString: "#EFEFEF")
+                    return theme
+                }
             }
         }
         enum Detail {

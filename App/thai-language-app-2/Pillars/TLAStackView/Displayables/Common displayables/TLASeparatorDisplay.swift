@@ -11,8 +11,8 @@ import UIKit
 /// Purpose: Act as a 1pt high separator between two `TLADisplayRows`.
 struct TLASeparatorDisplay: TLAStackViewDisplayable {
     func view() -> UIView {
-        let view = UIView()
-        view.backgroundColor = .gray
+        let view = TLAView()
+        view.theme = TLATheme.Characters.List.Sections.Separator()
         view.pinHeight(1.0)
         return view
     }
