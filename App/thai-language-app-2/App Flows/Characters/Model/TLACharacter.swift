@@ -6,6 +6,14 @@
 //  Copyright © 2019 Jonathan Winger Lang. All rights reserved.
 //
 
+enum TLACharacterHeight: String {
+    case normal
+    case low
+    case tall
+    case verytall
+    case high
+}
+
 enum TLACharacterType: String {
     case unknown
     case consonant
@@ -22,6 +30,7 @@ struct TLACharacter {
     var thaiNameInThai: String
     var alternativeThaiCharacter: String?
     var type: TLACharacterType
+    var characterHeight: TLACharacterHeight
     
     var toneClass: String?
     
@@ -41,4 +50,5 @@ struct TLACharacter {
 // We conform these to Decodable so that they are able to be used by a
 // TLAModelEntryStore<T> which loads a json and returns a <T>
 extension TLACharacter: Decodable {}
+extension TLACharacterHeight: Decodable {}
 extension TLACharacterType: Decodable {}

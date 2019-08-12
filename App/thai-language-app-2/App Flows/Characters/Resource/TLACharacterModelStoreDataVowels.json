@@ -14,7 +14,8 @@
         "thai_character" : "◌ะ",
         "alternative_thai_character" : "◌ั◌",
         "unicode_order" : "1",
-        "thai_name_in_english" : "sara a"
+        "thai_name_in_english" : "sara a",
+        "character_height" : "normal"
     },
     {
         "pthong" : "monophthong",
@@ -30,7 +31,8 @@
         "usage_comment" : "This is the same as 'sara a' just in a different form. Example: 'sara a' becomes 'mai han akat' when it is placed between two consonants like กัน.",
         "thai_character" : "◌ั◌",
         "unicode_order" : "2",
-        "thai_name_in_english" : "mai han akat"
+        "thai_name_in_english" : "mai han akat",
+        "character_height" : "high"
     },
     {
         "pthong" : "monophthong",
@@ -45,7 +47,8 @@
         "sound_length" : "long",
         "thai_character" : "◌า",
         "unicode_order" : "3",
-        "thai_name_in_english" : "sara aa"
+        "thai_name_in_english" : "sara aa",
+        "character_height" : "normal"
     },
     {
         "pthong" : "monophthong",
@@ -60,7 +63,8 @@
         "sound_length" : "short",
         "thai_character" : "◌ิ",
         "unicode_order" : "5",
-        "thai_name_in_english" : "sara i"
+        "thai_name_in_english" : "sara i",
+        "character_height" : "high"
     },
     {
         "pthong" : "monophthong",
@@ -75,7 +79,8 @@
         "sound_length" : "long",
         "thai_character" : "◌ี",
         "unicode_order" : "6",
-        "thai_name_in_english" : "sara ii"
+        "thai_name_in_english" : "sara ii",
+        "character_height" : "high"
     },
     {
         "pthong" : "monophthong",
@@ -90,7 +95,8 @@
         "sound_length" : "short",
         "thai_character" : "◌ึ",
         "unicode_order" : "7",
-        "thai_name_in_english" : "sara ue"
+        "thai_name_in_english" : "sara ue",
+        "character_height" : "high"
     },
     {
         "pthong" : "monophthong",
@@ -106,7 +112,8 @@
         "thai_character" : "◌ือ",
         "alternative_thai_character" : "◌ื◌",
         "unicode_order" : "8",
-        "thai_name_in_english" : "sara uue"
+        "thai_name_in_english" : "sara uue",
+        "character_height" : "high"
     },
     {
         "pthong" : "monophthong",
@@ -121,7 +128,8 @@
         "sound_length" : "short",
         "thai_character" : "◌ุ",
         "unicode_order" : "9",
-        "thai_name_in_english" : "sara u"
+        "thai_name_in_english" : "sara u",
+        "character_height" : "low"
     },
     {
         "pthong" : "monophthong",
@@ -136,7 +144,8 @@
         "sound_length" : "long",
         "thai_character" : "◌ู",
         "unicode_order" : "10",
-        "thai_name_in_english" : "sara uu"
+        "thai_name_in_english" : "sara uu",
+        "character_height" : "low"
     },
     {
         "pthong" : "monophthong",
@@ -151,7 +160,8 @@
         "sound_length" : "short",
         "thai_character" : "เ◌ะ",
         "unicode_order" : "N\/A",
-        "thai_name_in_english" : "sara eh"
+        "thai_name_in_english" : "sara eh",
+        "character_height" : "normal"
     },
     {
         "pthong" : "monophthong",
@@ -166,7 +176,8 @@
         "sound_length" : "long",
         "thai_character" : "เ◌",
         "unicode_order" : "11",
-        "thai_name_in_english" : "sara eeh"
+        "thai_name_in_english" : "sara eeh",
+        "character_height" : "normal"
     },
     {
         "pthong" : "monophthong",
@@ -181,7 +192,8 @@
         "sound_length" : "short",
         "thai_character" : "แ◌ะ",
         "unicode_order" : "N\/A",
-        "thai_name_in_english" : "sara ae"
+        "thai_name_in_english" : "sara ae",
+        "character_height" : "normal"
     },
     {
         "pthong" : "monophthong",
@@ -196,7 +208,8 @@
         "sound_length" : "long",
         "thai_character" : "แ◌",
         "unicode_order" : "12",
-        "thai_name_in_english" : "sara aae"
+        "thai_name_in_english" : "sara aae",
+        "character_height" : "normal"
     },
     {
         "pthong" : "monophthong",
@@ -211,7 +224,8 @@
         "sound_length" : "short",
         "thai_character" : "โ◌ะ",
         "unicode_order" : "N\/A",
-        "thai_name_in_english" : "sara o"
+        "thai_name_in_english" : "sara o",
+        "character_height" : "verytall"
     },
     {
         "pthong" : "monophthong",
@@ -226,7 +240,8 @@
         "sound_length" : "long",
         "thai_character" : "โ◌",
         "unicode_order" : "13",
-        "thai_name_in_english" : "sara oo"
+        "thai_name_in_english" : "sara oo",
+        "character_height" : "verytall"
     },
     {
         "pthong" : "monophthong",
@@ -241,7 +256,8 @@
         "sound_length" : "short",
         "thai_character" : "เ◌าะ",
         "unicode_order" : "N\/A",
-        "thai_name_in_english" : "sara aw"
+        "thai_name_in_english" : "sara aw",
+        "character_height" : "normal"
     },
     {
         "pthong" : "monophthong",
@@ -256,7 +272,8 @@
         "sound_length" : "long",
         "thai_character" : "◌อ",
         "unicode_order" : "N\/A",
-        "thai_name_in_english" : "sara aaw"
+        "thai_name_in_english" : "sara aaw",
+        "character_height" : "normal"
     },
     {
         "pthong" : "monophthong",
@@ -272,7 +289,8 @@
         "thai_character" : "เ◌อะ",
         "alternative_thai_character" : "เ◌ิ◌",
         "unicode_order" : "N\/A",
-        "thai_name_in_english" : "sara er"
+        "thai_name_in_english" : "sara er",
+        "character_height" : "normal"
     },
     {
         "pthong" : "monophthong",
@@ -287,7 +305,8 @@
         "sound_length" : "long",
         "thai_character" : "เ◌อ",
         "unicode_order" : "N\/A",
-        "thai_name_in_english" : "sara eer"
+        "thai_name_in_english" : "sara eer",
+        "character_height" : "normal"
     },
     {
         "pthong" : "monophthong",
@@ -302,7 +321,8 @@
         "sound_length" : "short",
         "thai_character" : "ใ◌",
         "unicode_order" : "14",
-        "thai_name_in_english" : "sara ai mai muan"
+        "thai_name_in_english" : "sara ai mai muan",
+        "character_height" : "verytall"
     },
     {
         "pthong" : "monophthong",
@@ -317,7 +337,8 @@
         "sound_length" : "varies",
         "thai_character" : "ไ◌",
         "unicode_order" : "15",
-        "thai_name_in_english" : "sara ai mai malai"
+        "thai_name_in_english" : "sara ai mai malai",
+        "character_height" : "verytall"
     },
     {
         "pthong" : "monophthong",
@@ -332,7 +353,8 @@
         "sound_length" : "varies",
         "thai_character" : "เ◌า",
         "unicode_order" : "N\/A",
-        "thai_name_in_english" : "sara ao"
+        "thai_name_in_english" : "sara ao",
+        "character_height" : "normal"
     },
     {
         "pthong" : "monophthong",
@@ -347,7 +369,8 @@
         "sound_length" : "varies",
         "thai_character" : "◌ํา",
         "unicode_order" : "4",
-        "thai_name_in_english" : "sara am"
+        "thai_name_in_english" : "sara am",
+        "character_height" : "high"
     },
     {
         "pthong" : "diphthong",
@@ -362,7 +385,8 @@
         "sound_length" : "short",
         "thai_character" : "เ◌ียะ",
         "unicode_order" : "N\/A",
-        "thai_name_in_english" : "sara ia"
+        "thai_name_in_english" : "sara ia",
+        "character_height" : "high"
     },
 
     {
@@ -378,7 +402,8 @@
         "sound_length" : "long",
         "thai_character" : "เ◌ีย",
         "unicode_order" : "N\/A",
-        "thai_name_in_english" : "sara iia"
+        "thai_name_in_english" : "sara iia",
+        "character_height" : "high"
     },
     {
         "pthong" : "diphthong",
@@ -393,7 +418,8 @@
         "sound_length" : "short",
         "thai_character" : "เ◌ือะ",
         "unicode_order" : "N\/A",
-        "thai_name_in_english" : "sara uea"
+        "thai_name_in_english" : "sara uea",
+        "character_height" : "high"
     },
     {
         "pthong" : "diphthong",
@@ -408,7 +434,8 @@
         "sound_length" : "long",
         "thai_character" : "เ◌ือ",
         "unicode_order" : "N\/A",
-        "thai_name_in_english" : "sara uuea"
+        "thai_name_in_english" : "sara uuea",
+        "character_height" : "high"
     },
     {
         "pthong" : "diphthong",
@@ -423,7 +450,8 @@
         "sound_length" : "short",
         "thai_character" : "◌ัวะ",
         "unicode_order" : "N\/A",
-        "thai_name_in_english" : "sara oa"
+        "thai_name_in_english" : "sara oa",
+        "character_height" : "high"
     },
     {
         "pthong" : "diphthong",
@@ -438,6 +466,7 @@
         "sound_length" : "long",
         "thai_character" : "◌ัว",
         "unicode_order" : "N\/A",
-        "thai_name_in_english" : "sara ooa"
+        "thai_name_in_english" : "sara ooa",
+        "character_height" : "high"
     },
 ]

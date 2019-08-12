@@ -8,7 +8,8 @@
     "thai_name_in_thai" : "ไม้เอก",
     "type" : "toneMarker",
     "thai_name_in_english" : "mai ek",
-    "unicode_position" : "0E48"
+    "unicode_position" : "0E48",
+    "character_height" : "high"
   },
   {
     "frequency" : "common",
@@ -19,7 +20,8 @@
     "thai_name_in_thai" : "ไม้โท",
     "type" : "toneMarker",
     "thai_name_in_english" : "mai tho",
-    "unicode_position" : "0E49"
+    "unicode_position" : "0E49",
+    "character_height" : "high"
   },
   {
     "frequency" : "uncommon",
@@ -30,7 +32,8 @@
     "thai_name_in_thai" : "ไม้ตรี",
     "type" : "toneMarker",
     "thai_name_in_english" : "mai tri",
-    "unicode_position" : "0E4A"
+    "unicode_position" : "0E4A",
+    "character_height" : "high"
   },
   {
     "frequency" : "uncommon",
@@ -41,6 +44,7 @@
     "thai_name_in_thai" : "ไม้จัตวา",
     "type" : "toneMarker",
     "thai_name_in_english" : "mai chattawa",
-    "unicode_position" : "0E4B"
+    "unicode_position" : "0E4B",
+    "character_height" : "high"
   }
 ]

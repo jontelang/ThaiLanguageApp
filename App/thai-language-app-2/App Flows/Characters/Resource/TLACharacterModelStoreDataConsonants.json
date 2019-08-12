@@ -16,7 +16,8 @@
     "thai_character" : "ก",
     "sound_end" : "-k",
     "frequency" : "common",
-    "tone_class" : "mid"
+    "tone_class" : "mid",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "kho khai",
@@ -35,7 +36,8 @@
     "thai_character" : "ข",
     "sound_end" : "-k",
     "frequency" : "common",
-    "tone_class" : "high"
+    "tone_class" : "high",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "kho khuat",
@@ -54,7 +56,8 @@
     "thai_character" : "ฃ",
     "sound_end" : "-k",
     "frequency" : "obsolete",
-    "tone_class" : "high"
+    "tone_class" : "high",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "kho khwai",
@@ -73,7 +76,8 @@
     "thai_character" : "ค",
     "sound_end" : "-k",
     "frequency" : "common",
-    "tone_class" : "low"
+    "tone_class" : "low",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "kho khon",
@@ -92,7 +96,8 @@
     "thai_character" : "ฅ",
     "sound_end" : "-k",
     "frequency" : "obsolete",
-    "tone_class" : "low"
+    "tone_class" : "low",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "kho ra khang",
@@ -111,7 +116,8 @@
     "thai_character" : "ฆ",
     "sound_end" : "-k",
     "frequency" : "uncommon",
-    "tone_class" : "low"
+    "tone_class" : "low",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "ngo ngu",
@@ -130,7 +136,8 @@
     "thai_character" : "ง",
     "sound_end" : "-ng",
     "frequency" : "common",
-    "tone_class" : "low"
+    "tone_class" : "low",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "cho chan",
@@ -150,7 +157,8 @@
     "thai_character" : "จ",
     "sound_end" : "-t",
     "frequency" : "common",
-    "tone_class" : "mid"
+    "tone_class" : "mid",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "cho ching",
@@ -169,7 +177,8 @@
     "thai_character" : "ฉ",
     "sound_end" : "-",
     "frequency" : "uncommon",
-    "tone_class" : "high"
+    "tone_class" : "high",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "cho chang",
@@ -188,7 +197,8 @@
     "thai_character" : "ช",
     "sound_end" : "-t",
     "frequency" : "fairlycommon",
-    "tone_class" : "low"
+    "tone_class" : "low",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "so so",
@@ -207,7 +217,8 @@
     "thai_character" : "ซ",
     "sound_end" : "-t",
     "frequency" : "fairlycommon",
-    "tone_class" : "low"
+    "tone_class" : "low",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "cho choe",
@@ -227,7 +238,8 @@
     "thai_character" : "ฌ",
     "sound_end" : "-",
     "frequency" : "uncommon",
-    "tone_class" : "low"
+    "tone_class" : "low",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "yo ying",
@@ -246,7 +258,8 @@
     "thai_character" : "ญ",
     "sound_end" : "-n",
     "frequency" : "uncommon",
-    "tone_class" : "low"
+    "tone_class" : "low",
+    "character_height" : "low"
   },
   {
     "thai_name_in_english" : "do cha da",
@@ -265,7 +278,8 @@
     "thai_character" : "ฎ",
     "sound_end" : "-t",
     "frequency" : "uncommon",
-    "tone_class" : "mid"
+    "tone_class" : "mid",
+    "character_height" : "low"
   },
   {
     "thai_name_in_english" : "to pa tak",
@@ -284,7 +298,8 @@
     "thai_character" : "ฏ",
     "sound_end" : "-t",
     "frequency" : "uncommon",
-    "tone_class" : "mid"
+    "tone_class" : "mid",
+    "character_height" : "low"
   },
   {
     "thai_name_in_english" : "tho than",
@@ -303,7 +318,8 @@
     "thai_character" : "ฐ",
     "sound_end" : "-t",
     "frequency" : "uncommon",
-    "tone_class" : "high"
+    "tone_class" : "high",
+    "character_height" : "low"
   },
   {
     "thai_name_in_english" : "tho montho",
@@ -322,7 +338,8 @@
     "thai_character" : "ฑ",
     "sound_end" : "-t",
     "frequency" : "obsolete",
-    "tone_class" : "low"
+    "tone_class" : "low",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "tho phu-thao",
@@ -341,7 +358,8 @@
     "thai_character" : "ฒ",
     "sound_end" : "-t",
     "frequency" : "uncommon",
-    "tone_class" : "low"
+    "tone_class" : "low",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "no nen",
@@ -360,7 +378,8 @@
     "thai_character" : "ณ",
     "sound_end" : "-n",
     "frequency" : "uncommon",
-    "tone_class" : "low"
+    "tone_class" : "low",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "do dek",
@@ -379,7 +398,8 @@
     "thai_character" : "ด",
     "sound_end" : "-t",
     "frequency" : "common",
-    "tone_class" : "mid"
+    "tone_class" : "mid",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "to tao",
@@ -398,7 +418,8 @@
     "thai_character" : "ต",
     "sound_end" : "-t",
     "frequency" : "common",
-    "tone_class" : "mid"
+    "tone_class" : "mid",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "tho thung",
@@ -417,7 +438,8 @@
     "thai_character" : "ถ",
     "sound_end" : "-t",
     "frequency" : "fairlycommon",
-    "tone_class" : "high"
+    "tone_class" : "high",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "tho thahan",
@@ -436,7 +458,8 @@
     "thai_character" : "ท",
     "sound_end" : "-t",
     "frequency" : "common",
-    "tone_class" : "low"
+    "tone_class" : "low",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "tho thong",
@@ -455,7 +478,8 @@
     "thai_character" : "ธ",
     "sound_end" : "-t",
     "frequency" : "fairlycommon",
-    "tone_class" : "low"
+    "tone_class" : "low",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "no nu",
@@ -474,7 +498,8 @@
     "thai_character" : "น",
     "sound_end" : "-n",
     "frequency" : "common",
-    "tone_class" : "low"
+    "tone_class" : "low",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "bo baimai",
@@ -493,7 +518,8 @@
     "thai_character" : "บ",
     "sound_end" : "-p",
     "frequency" : "common",
-    "tone_class" : "mid"
+    "tone_class" : "mid",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "po pla",
@@ -512,7 +538,8 @@
     "thai_character" : "ป",
     "sound_end" : "-p",
     "frequency" : "common",
-    "tone_class" : "mid"
+    "tone_class" : "mid",
+    "character_height" : "tall"
   },
   {
     "thai_name_in_english" : "pho phueng",
@@ -531,7 +558,8 @@
     "thai_character" : "ผ",
     "sound_end" : "-",
     "frequency" : "common",
-    "tone_class" : "high"
+    "tone_class" : "high",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "fo fa",
@@ -550,7 +578,8 @@
     "thai_character" : "ฝ",
     "sound_end" : "-",
     "frequency" : "fairlycommon",
-    "tone_class" : "high"
+    "tone_class" : "high",
+    "character_height" : "tall"
   },
   {
     "thai_name_in_english" : "pho phan",
@@ -569,7 +598,8 @@
     "thai_character" : "พ",
     "sound_end" : "-p",
     "frequency" : "fairlycommon",
-    "tone_class" : "low"
+    "tone_class" : "low",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "fo fan",
@@ -588,7 +618,8 @@
     "thai_character" : "ฟ",
     "sound_end" : "-p",
     "frequency" : "fairlycommon",
-    "tone_class" : "low"
+    "tone_class" : "low",
+    "character_height" : "tall"
   },
   {
     "thai_name_in_english" : "pho sam-phao",
@@ -607,7 +638,8 @@
     "thai_character" : "ภ",
     "sound_end" : "-p",
     "frequency" : "fairlycommon",
-    "tone_class" : "low"
+    "tone_class" : "low",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "mo ma",
@@ -626,7 +658,8 @@
     "thai_character" : "ม",
     "sound_end" : "-m",
     "frequency" : "common",
-    "tone_class" : "low"
+    "tone_class" : "low",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "yo yak",
@@ -645,7 +678,8 @@
     "thai_character" : "ย",
     "sound_end" : "-y",
     "frequency" : "common",
-    "tone_class" : "low"
+    "tone_class" : "low",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "ro ruea",
@@ -664,7 +698,8 @@
     "thai_character" : "ร",
     "sound_end" : "-n",
     "frequency" : "common",
-    "tone_class" : "low"
+    "tone_class" : "low",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "lo ling",
@@ -683,7 +718,8 @@
     "thai_character" : "ล",
     "sound_end" : "-n",
     "frequency" : "common",
-    "tone_class" : "low"
+    "tone_class" : "low",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "wo waen",
@@ -702,7 +738,8 @@
     "thai_character" : "ว",
     "sound_end" : "-w",
     "frequency" : "common",
-    "tone_class" : "low"
+    "tone_class" : "low",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "so sala",
@@ -721,7 +758,8 @@
     "thai_character" : "ศ",
     "sound_end" : "-t",
     "frequency" : "uncommon",
-    "tone_class" : "high"
+    "tone_class" : "high",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "so rue-si",
@@ -740,7 +778,8 @@
     "thai_character" : "ษ",
     "sound_end" : "-t",
     "frequency" : "uncommon",
-    "tone_class" : "high"
+    "tone_class" : "high",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "so suea",
@@ -759,7 +798,8 @@
     "thai_character" : "ส",
     "sound_end" : "-t",
     "frequency" : "fairlycommon",
-    "tone_class" : "high"
+    "tone_class" : "high",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "ho hip",
@@ -778,7 +818,8 @@
     "thai_character" : "ห",
     "sound_end" : "-",
     "frequency" : "common",
-    "tone_class" : "high"
+    "tone_class" : "high",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "lo chu-la",
@@ -797,7 +838,8 @@
     "thai_character" : "ฬ",
     "sound_end" : "-n",
     "frequency" : "uncommon",
-    "tone_class" : "low"
+    "tone_class" : "low",
+    "character_height" : "tall"
   },
   {
     "thai_name_in_english" : "o ang",
@@ -816,7 +858,8 @@
     "thai_character" : "อ",
     "sound_end" : "-",
     "frequency" : "common",
-    "tone_class" : "mid"
+    "tone_class" : "mid",
+    "character_height" : "normal"
   },
   {
     "thai_name_in_english" : "ho nok-huk",
@@ -835,6 +878,7 @@
     "thai_character" : "ฮ",
     "sound_end" : "-",
     "frequency" : "fairlycommon",
-    "tone_class" : "low"
+    "tone_class" : "low",
+    "character_height" : "normal"
   }
 ]
