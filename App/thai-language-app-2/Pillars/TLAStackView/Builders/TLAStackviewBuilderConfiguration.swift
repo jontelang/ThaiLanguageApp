@@ -15,5 +15,5 @@ struct TLAStackviewBuilderConfiguration {
     
     /// Horizontal padding between the encompassing UIScrollView and the actual
     /// TLAStackview that is returned.
-    var internalPadding: UIEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
+    var internalInsets: UIEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
 }

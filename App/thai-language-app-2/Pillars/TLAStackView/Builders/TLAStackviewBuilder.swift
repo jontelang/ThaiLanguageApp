@@ -60,7 +60,7 @@ class TLAStackviewBuilder {
         let scrollView = UIScrollView()
         scrollView.backgroundColor = .white
         scrollView.addSubview(stackview)
-        stackview.centerXIn(scrollView, insets: configuration.internalPadding)
+        stackview.centerXIn(scrollView, insets: configuration.internalInsets)
         return scrollView
     }
     
