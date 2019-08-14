@@ -25,6 +25,14 @@ extension TLACharactersCoordinator: TLACharactersListModuleOutput {
 
 extension TLACharactersCoordinator: TLACharactersDetailModuleOutput {
     func routeToInformation(for informationIdentifier: String) {
-        print(informationIdentifier)
+        let informationViewController = TLAInformationModuleBuilder.build(for: self, with: informationIdentifier)
+        informationViewController.modalPresentationStyle = .overCurrentContext
+        navigationController.present(informationViewController, animated: false, completion: nil)
+    }
+}
+
+extension TLACharactersCoordinator: TLAInformationModuleOutput {
+    func dismissPls() { // TODO: Change name!
+        navigationController.dismiss(animated: false, completion: nil)
     }
 }

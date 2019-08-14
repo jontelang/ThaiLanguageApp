@@ -251,6 +251,42 @@ extension TLATheme {
             }
         }
     }
+    enum Information {
+        static func Title() -> TLATheme {
+            let theme = TLATheme()
+            theme.themeFont = UIFont.appBoldFont().withSize(24)
+            theme.themeTextColor = .darkText
+            theme.themeTextAlignment = .left
+            theme.themeBackgroundColor = .clear
+            theme.themeNumberOfLines = 0
+            return theme
+        }
+        static func Text() -> TLATheme {
+            let theme = TLATheme()
+            theme.themeFont = UIFont.appRegularThaiFont().withSize(18)
+            theme.themeTextColor = .darkText
+            theme.themeTextAlignment = .left
+            theme.themeBackgroundColor = .clear
+            theme.themeNumberOfLines = 0
+            return theme
+        }
+        enum Link {
+            static func Text() -> TLATheme {
+                let theme = TLATheme()
+                theme.themeFont = UIFont.appBoldFont().withSize(16)
+                theme.themeTextColor = .darkText
+                theme.themeBackgroundColor = .clear
+                theme.themeNumberOfLines = 0
+                return theme
+            }
+            static func View() -> TLATheme {
+                let theme = TLATheme()
+                theme.themeBackgroundColor = UIColor(hexString: "#EFEFEF")
+                theme.themeRadius = 4.0
+                return theme
+            }
+        }
+    }
     enum Skills {
         enum Label {
             static func Title() -> TLATheme {

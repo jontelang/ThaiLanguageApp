@@ -93,7 +93,14 @@
 		4D9CBB592301419F006748A8 /* TLACharactersDetailGiantHeaderDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9CBB582301419F006748A8 /* TLACharactersDetailGiantHeaderDisplay.swift */; };
 		4D9CBB5C23017908006748A8 /* TLACharactersDetailModuleTapHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9CBB5B23017908006748A8 /* TLACharactersDetailModuleTapHandler.swift */; };
 		4D9CBB5E23018799006748A8 /* TLACharacter+Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9CBB5D23018799006748A8 /* TLACharacter+Debug.swift */; };
+		4D9CBB642301B098006748A8 /* TLAInformationModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9CBB632301B098006748A8 /* TLAInformationModuleBuilder.swift */; };
+		4D9CBB6723031003006748A8 /* information_test.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D9CBB6623031002006748A8 /* information_test.json */; };
 		4D9CBB6A23044CBF006748A8 /* TLAStackviewBuilderConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9CBB6923044CBF006748A8 /* TLAStackviewBuilderConfiguration.swift */; };
+		4D9CBB6D23045210006748A8 /* TLAInformationLinkDisplayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9CBB6C23045210006748A8 /* TLAInformationLinkDisplayable.swift */; };
+		4D9CBB6F2304523E006748A8 /* TLAInformationTitleDisplayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9CBB6E2304523E006748A8 /* TLAInformationTitleDisplayable.swift */; };
+		4D9CBB712304527A006748A8 /* TLAInformationTextDisplayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9CBB702304527A006748A8 /* TLAInformationTextDisplayable.swift */; };
+		4D9CBB7323045C0A006748A8 /* TLAInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9CBB7223045C0A006748A8 /* TLAInformation.swift */; };
+		4D9CBB7523045DDC006748A8 /* TLAInformationStackviewModelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9CBB7423045DDC006748A8 /* TLAInformationStackviewModelProvider.swift */; };
 		4DDEFCC522F88B5700F95A5E /* TLASeparatorDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDEFCC422F88B5700F95A5E /* TLASeparatorDisplay.swift */; };
 		4DDEFCC822F9BC3200F95A5E /* TLADebugUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDEFCC722F9BC3200F95A5E /* TLADebugUIViewController.swift */; };
 		4DDEFCCA22F9BCA600F95A5E /* TLADebugStackViewTappableHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDEFCC922F9BCA600F95A5E /* TLADebugStackViewTappableHandler.swift */; };
@@ -196,7 +203,14 @@
 		4D9CBB582301419F006748A8 /* TLACharactersDetailGiantHeaderDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLACharactersDetailGiantHeaderDisplay.swift; sourceTree = "<group>"; };
 		4D9CBB5B23017908006748A8 /* TLACharactersDetailModuleTapHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLACharactersDetailModuleTapHandler.swift; sourceTree = "<group>"; };
 		4D9CBB5D23018799006748A8 /* TLACharacter+Debug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TLACharacter+Debug.swift"; sourceTree = "<group>"; };
+		4D9CBB632301B098006748A8 /* TLAInformationModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAInformationModuleBuilder.swift; sourceTree = "<group>"; };
+		4D9CBB6623031002006748A8 /* information_test.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = information_test.json; sourceTree = "<group>"; };
 		4D9CBB6923044CBF006748A8 /* TLAStackviewBuilderConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAStackviewBuilderConfiguration.swift; sourceTree = "<group>"; };
+		4D9CBB6C23045210006748A8 /* TLAInformationLinkDisplayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAInformationLinkDisplayable.swift; sourceTree = "<group>"; };
+		4D9CBB6E2304523E006748A8 /* TLAInformationTitleDisplayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAInformationTitleDisplayable.swift; sourceTree = "<group>"; };
+		4D9CBB702304527A006748A8 /* TLAInformationTextDisplayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAInformationTextDisplayable.swift; sourceTree = "<group>"; };
+		4D9CBB7223045C0A006748A8 /* TLAInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAInformation.swift; sourceTree = "<group>"; };
+		4D9CBB7423045DDC006748A8 /* TLAInformationStackviewModelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAInformationStackviewModelProvider.swift; sourceTree = "<group>"; };
 		4DDEFCC422F88B5700F95A5E /* TLASeparatorDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLASeparatorDisplay.swift; sourceTree = "<group>"; };
 		4DDEFCC722F9BC3200F95A5E /* TLADebugUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLADebugUIViewController.swift; sourceTree = "<group>"; };
 		4DDEFCC922F9BCA600F95A5E /* TLADebugStackViewTappableHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLADebugStackViewTappableHandler.swift; sourceTree = "<group>"; };
@@ -778,13 +792,60 @@
 			path = Logic;
 			sourceTree = "<group>";
 		};
+		4D9CBB602301B04C006748A8 /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				4D9CBB622301B077006748A8 /* Builder */,
+				4D9CBB6523030FD8006748A8 /* Resource */,
+				4D9CBB6B230451FC006748A8 /* Displayable */,
+				4D9CBB682303104B006748A8 /* Model */,
+			);
+			path = Information;
+			sourceTree = "<group>";
+		};
 		4D9CBB612301B058006748A8 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
 				4DE0121F22F716F600F3B200 /* List */,
 				4DE0122022F7170700F3B200 /* Detail */,
+				4D9CBB602301B04C006748A8 /* Information */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		4D9CBB622301B077006748A8 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				4D9CBB632301B098006748A8 /* TLAInformationModuleBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		4D9CBB6523030FD8006748A8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				4D9CBB6623031002006748A8 /* information_test.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		4D9CBB682303104B006748A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D9CBB7223045C0A006748A8 /* TLAInformation.swift */,
+				4D9CBB7423045DDC006748A8 /* TLAInformationStackviewModelProvider.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D9CBB6B230451FC006748A8 /* Displayable */ = {
+			isa = PBXGroup;
+			children = (
+				4D9CBB6C23045210006748A8 /* TLAInformationLinkDisplayable.swift */,
+				4D9CBB6E2304523E006748A8 /* TLAInformationTitleDisplayable.swift */,
+				4D9CBB702304527A006748A8 /* TLAInformationTextDisplayable.swift */,
+			);
+			path = Displayable;
 			sourceTree = "<group>";
 		};
 		4DDEFCC622F9BC0D00F95A5E /* Debug */ = {
@@ -927,6 +988,7 @@
 				4D5B3B97208C747C004C319E /* NotoSans-Regular.ttf in Resources */,
 				4D5B3B94208C62D0004C319E /* TLAOnboardingViewController.storyboard in Resources */,
 				4D58153E20AC8AE300A9822C /* TLAReadingSpeedModelStoreData.json in Resources */,
+				4D9CBB6723031003006748A8 /* information_test.json in Resources */,
 				4D2577B52157C2E000155BF8 /* TLAReadingPracticeModelStoreData.json in Resources */,
 				4D5B3BAB208C8549004C319E /* TLAMenuViewController.storyboard in Resources */,
 				4D5B3BB8208CBCE1004C319E /* TLAMenuWelcomeCell.xib in Resources */,
@@ -967,6 +1029,7 @@
 				4D5B3BAF208CB4DC004C319E /* TLAMenuCoordinator.swift in Sources */,
 				4D5B3B8A208C5C3A004C319E /* TLAAppCoordinator.swift in Sources */,
 				4D384EC922DA36BB00F0152F /* TLAView.swift in Sources */,
+				4D9CBB642301B098006748A8 /* TLAInformationModuleBuilder.swift in Sources */,
 				4D2577BA2157CACD00155BF8 /* TLAReadingPracticeModelEntry.swift in Sources */,
 				4D5B3B9E208C76D7004C319E /* TLALabel.swift in Sources */,
 				4D5B3BA1208C7D9F004C319E /* TLAButton.swift in Sources */,
@@ -977,6 +1040,8 @@
 				4D1DA27E215BD90C00C58625 /* TLANavigationController.swift in Sources */,
 				4D1DA281215BD95400C58625 /* NavigationHidable.swift in Sources */,
 				4D3DE60720B46C6A001A01ED /* TLASkillsViewController.swift in Sources */,
+				4D9CBB7323045C0A006748A8 /* TLAInformation.swift in Sources */,
+				4D9CBB6D23045210006748A8 /* TLAInformationLinkDisplayable.swift in Sources */,
 				4D0193D9209B6070008DCDCF /* TLASettingsViewController.swift in Sources */,
 				4DE0122322F7269D00F3B200 /* TLACharacterDetailModuleBuilder.swift in Sources */,
 				4DDEFCCA22F9BCA600F95A5E /* TLADebugStackViewTappableHandler.swift in Sources */,
@@ -1002,9 +1067,11 @@
 				4D384EC022D796B400F0152F /* AutoScreenshotLogger.m in Sources */,
 				4D384ED922DB892300F0152F /* TLACharacterDisplay.swift in Sources */,
 				4D2577AA2157851700155BF8 /* TLAReadingPracticeCoordinator.swift in Sources */,
+				4D9CBB6F2304523E006748A8 /* TLAInformationTitleDisplayable.swift in Sources */,
 				4D384EDB22DB89D200F0152F /* TLATitleDisplay.swift in Sources */,
 				4D129E7020B1C93D00488202 /* TLAReadingSpeedModel.swift in Sources */,
 				4D628D8622F5CA3100A82624 /* TLAStackViewTappable.swift in Sources */,
+				4D9CBB7523045DDC006748A8 /* TLAInformationStackviewModelProvider.swift in Sources */,
 				4D384EE722DB8D3B00F0152F /* TLAStackviewBuilder.swift in Sources */,
 				4D3DE60C20B47548001A01ED /* TLAReadingSpeedCoordinator.swift in Sources */,
 				4D58154220AC8B7300A9822C /* TLASkillsCoordinator.swift in Sources */,
@@ -1026,6 +1093,7 @@
 				4D5B3BC9208CDAE8004C319E /* TLAMenuLabelEntryCell.swift in Sources */,
 				4D4A5F792157F3F600AE5719 /* TLAVerticalButton.swift in Sources */,
 				4DE0122722F72A0A00F3B200 /* TLACharactersDetailStackviewModelProvider.swift in Sources */,
+				4D9CBB712304527A006748A8 /* TLAInformationTextDisplayable.swift in Sources */,
 				4D5B3BC5208CD33B004C319E /* TLAMenuUsageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
