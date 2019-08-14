@@ -32,6 +32,17 @@ extension UIView {
         ])
     }
     
+    func centerXIn(_ view: UIView, insets: UIEdgeInsets = .zero) {
+        translatesAutoresizingMaskIntoConstraints = false
+        let widthAdjustment = (insets.left + insets.right) * -1
+        NSLayoutConstraint.activate([
+            centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            widthAnchor.constraint(equalTo: view.widthAnchor, constant: widthAdjustment),
+            topAnchor.constraint(equalTo: view.topAnchor, constant: insets.top),
+            bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -insets.bottom)
+            ])
+    }
+    
     func pinHeight(_ height: CGFloat) {
         translatesAutoresizingMaskIntoConstraints = false
         heightAnchor.constraint(equalToConstant: height).isActive = true

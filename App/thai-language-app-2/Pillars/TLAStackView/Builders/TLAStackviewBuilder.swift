@@ -8,13 +8,17 @@
 
 import UIKit
 
+/// Purpose: To convert an array of [TLADisplayRows] to actual UIViews, at the
+/// same time hooking up tap handlers.
 class TLAStackviewBuilder {
     
-    static func buildView(displayRows: [TLADisplayRow], tapHandler: TLAStackViewTappableHandler) -> UIScrollView {
+    static func buildView(displayRows: [TLADisplayRow],
+                          tapHandler: TLAStackViewTappableHandler,
+                          configuration: TLAStackviewBuilderConfiguration = TLAStackviewBuilderConfiguration()) -> UIScrollView {
         let stackview = TLAStackView()
         stackview.alignment = .center
         stackview.axis = .vertical
-        stackview.spacing = 1
+        stackview.spacing = configuration.rowSpacing
         stackview.storedRows = displayRows
         
         for row in displayRows {
@@ -56,7 +60,7 @@ class TLAStackviewBuilder {
         let scrollView = UIScrollView()
         scrollView.backgroundColor = .white
         scrollView.addSubview(stackview)
-        stackview.centerXIn(scrollView, padding: 10.0)
+        stackview.centerXIn(scrollView, insets: configuration.internalPadding)
         return scrollView
     }
     
