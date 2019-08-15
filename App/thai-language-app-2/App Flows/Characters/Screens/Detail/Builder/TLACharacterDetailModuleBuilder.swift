@@ -9,7 +9,7 @@
 import UIKit
 
 protocol TLACharactersDetailModuleOutput: class {
-    func routeToInformation(for informationIdentifier: String)
+    func tappedProperty(with identifier: String)
 }
 
 final class TLACharacterDetailModuleBuilder {

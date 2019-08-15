@@ -15,7 +15,7 @@ import UIKit
 final class TLAInformationModuleBuilder {
     
     static func build(for coordinator: TLAInformationModuleOutput, with identifier: String) -> UIViewController {
-        let displayRows = TLAInformationStackviewModelProvider.rows(for: "information_test")
+        let displayRows = TLAInformationStackviewModelProvider.rows(for: identifier)
         
         // We need some spacing between the rows here to make some of them look
         // like actual \n as otherwise some paragraphs are smushed together. An

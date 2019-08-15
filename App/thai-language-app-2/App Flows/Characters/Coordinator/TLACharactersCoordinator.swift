@@ -24,7 +24,22 @@ extension TLACharactersCoordinator: TLACharactersListModuleOutput {
 }
 
 extension TLACharactersCoordinator: TLACharactersDetailModuleOutput {
-    func routeToInformation(for informationIdentifier: String) {
+    func tappedProperty(with identifier: String) {
+        // We manually map the identifier to the information identifier to make it
+        // less "magical", where for example a tappable item inside the character
+        // detail would have a `tappableIdentifier` that automatically would map to
+        // a information identifier (as in the actual .json name). By doing it manually
+        // we can make sure the files actually exist and we can also map tapping
+        // an identifier like "NAME" to information "INFO_UPGRADE_TO_PRO" and so on.
+        var informationIdentifier = ""
+        switch identifier {
+            case "NAME_IN_ENGLISH":
+                informationIdentifier = "information_test"
+            default:
+                fatalError("Error please add a route from the tappable item!")
+                break
+        }
+        
         let informationViewController = TLAInformationModuleBuilder.build(for: self, with: informationIdentifier)
         informationViewController.modalPresentationStyle = .overCurrentContext
         navigationController.present(informationViewController, animated: false, completion: nil)

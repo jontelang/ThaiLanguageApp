@@ -17,6 +17,6 @@ final class TLACharactersDetailModuleTapHandler: TLAStackViewTappableHandler {
     }
     
     func tapped(from source: TLAStackViewTappable) {
-        coordinator?.routeToInformation(for: source.tappableIdentifier)
+        coordinator?.tappedProperty(with: source.tappableIdentifier)
     }
 }
