@@ -254,7 +254,7 @@ extension TLATheme {
     enum Information {
         static func Title() -> TLATheme {
             let theme = TLATheme()
-            theme.themeFont = UIFont.appBoldFont().withSize(24)
+            theme.themeFont = UIFont.appBoldFont().withSize(20)
             theme.themeTextColor = .darkText
             theme.themeTextAlignment = .left
             theme.themeBackgroundColor = .clear
@@ -264,7 +264,7 @@ extension TLATheme {
         static func Text() -> TLATheme {
             let theme = TLATheme()
             theme.themeFont = UIFont.appRegularThaiFont().withSize(18)
-            theme.themeTextColor = .darkText
+            theme.themeTextColor = .bodyText
             theme.themeTextAlignment = .left
             theme.themeBackgroundColor = .clear
             theme.themeNumberOfLines = 0

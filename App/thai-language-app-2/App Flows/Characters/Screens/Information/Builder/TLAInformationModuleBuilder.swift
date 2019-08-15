@@ -22,7 +22,7 @@ final class TLAInformationModuleBuilder {
         // actual fix for this would be to either make all text/paragraphs individual
         // entries rather than using \n.
         var configuration = TLAStackviewBuilderConfiguration()
-        configuration.rowSpacing = 15
+        configuration.rowSpacing = 10
         configuration.internalInsets = UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20)
         
         let stackview = TLAStackviewBuilder.buildView(displayRows: displayRows,
