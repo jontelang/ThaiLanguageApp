@@ -94,7 +94,7 @@
 		4D9CBB5C23017908006748A8 /* TLACharactersDetailModuleTapHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9CBB5B23017908006748A8 /* TLACharactersDetailModuleTapHandler.swift */; };
 		4D9CBB5E23018799006748A8 /* TLACharacter+Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9CBB5D23018799006748A8 /* TLACharacter+Debug.swift */; };
 		4D9CBB642301B098006748A8 /* TLAInformationModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9CBB632301B098006748A8 /* TLAInformationModuleBuilder.swift */; };
-		4D9CBB6723031003006748A8 /* information_test.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D9CBB6623031002006748A8 /* information_test.json */; };
+		4D9CBB6723031003006748A8 /* information_name_in_english.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D9CBB6623031002006748A8 /* information_name_in_english.json */; };
 		4D9CBB6A23044CBF006748A8 /* TLAStackviewBuilderConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9CBB6923044CBF006748A8 /* TLAStackviewBuilderConfiguration.swift */; };
 		4D9CBB6D23045210006748A8 /* TLAInformationLinkDisplayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9CBB6C23045210006748A8 /* TLAInformationLinkDisplayable.swift */; };
 		4D9CBB6F2304523E006748A8 /* TLAInformationTitleDisplayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9CBB6E2304523E006748A8 /* TLAInformationTitleDisplayable.swift */; };
@@ -108,6 +108,7 @@
 		4DE0122722F72A0A00F3B200 /* TLACharactersDetailStackviewModelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE0122622F72A0A00F3B200 /* TLACharactersDetailStackviewModelProvider.swift */; };
 		4DE0122A22F72B0A00F3B200 /* TLACharacterPropertyDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE0122922F72B0A00F3B200 /* TLACharacterPropertyDisplay.swift */; };
 		4DE172C6230AF8EB00B2F23E /* TLAInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE172C5230AF8EB00B2F23E /* TLAInformationViewController.swift */; };
+		4DE172C8230B011D00B2F23E /* information_name_in_thai.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DE172C7230B011D00B2F23E /* information_name_in_thai.json */; };
 		4DEFE38B209F07EA00476E4E /* TLASettingsSwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFE389209F07EA00476E4E /* TLASettingsSwitchCell.swift */; };
 		4DEFE38C209F07EA00476E4E /* TLASettingsSwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DEFE38A209F07EA00476E4E /* TLASettingsSwitchCell.xib */; };
 		4DEFE391209F13DF00476E4E /* TLASettingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFE390209F13DF00476E4E /* TLASettingModel.swift */; };
@@ -205,7 +206,7 @@
 		4D9CBB5B23017908006748A8 /* TLACharactersDetailModuleTapHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLACharactersDetailModuleTapHandler.swift; sourceTree = "<group>"; };
 		4D9CBB5D23018799006748A8 /* TLACharacter+Debug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TLACharacter+Debug.swift"; sourceTree = "<group>"; };
 		4D9CBB632301B098006748A8 /* TLAInformationModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAInformationModuleBuilder.swift; sourceTree = "<group>"; };
-		4D9CBB6623031002006748A8 /* information_test.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = information_test.json; sourceTree = "<group>"; };
+		4D9CBB6623031002006748A8 /* information_name_in_english.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = information_name_in_english.json; sourceTree = "<group>"; };
 		4D9CBB6923044CBF006748A8 /* TLAStackviewBuilderConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAStackviewBuilderConfiguration.swift; sourceTree = "<group>"; };
 		4D9CBB6C23045210006748A8 /* TLAInformationLinkDisplayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAInformationLinkDisplayable.swift; sourceTree = "<group>"; };
 		4D9CBB6E2304523E006748A8 /* TLAInformationTitleDisplayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAInformationTitleDisplayable.swift; sourceTree = "<group>"; };
@@ -219,6 +220,7 @@
 		4DE0122622F72A0A00F3B200 /* TLACharactersDetailStackviewModelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLACharactersDetailStackviewModelProvider.swift; sourceTree = "<group>"; };
 		4DE0122922F72B0A00F3B200 /* TLACharacterPropertyDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLACharacterPropertyDisplay.swift; sourceTree = "<group>"; };
 		4DE172C5230AF8EB00B2F23E /* TLAInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAInformationViewController.swift; sourceTree = "<group>"; };
+		4DE172C7230B011D00B2F23E /* information_name_in_thai.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = information_name_in_thai.json; sourceTree = "<group>"; };
 		4DEFE389209F07EA00476E4E /* TLASettingsSwitchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLASettingsSwitchCell.swift; sourceTree = "<group>"; };
 		4DEFE38A209F07EA00476E4E /* TLASettingsSwitchCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TLASettingsSwitchCell.xib; sourceTree = "<group>"; };
 		4DEFE390209F13DF00476E4E /* TLASettingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLASettingModel.swift; sourceTree = "<group>"; };
@@ -827,7 +829,8 @@
 		4D9CBB6523030FD8006748A8 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				4D9CBB6623031002006748A8 /* information_test.json */,
+				4D9CBB6623031002006748A8 /* information_name_in_english.json */,
+				4DE172C7230B011D00B2F23E /* information_name_in_thai.json */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -999,7 +1002,7 @@
 				4D5B3B97208C747C004C319E /* NotoSans-Regular.ttf in Resources */,
 				4D5B3B94208C62D0004C319E /* TLAOnboardingViewController.storyboard in Resources */,
 				4D58153E20AC8AE300A9822C /* TLAReadingSpeedModelStoreData.json in Resources */,
-				4D9CBB6723031003006748A8 /* information_test.json in Resources */,
+				4D9CBB6723031003006748A8 /* information_name_in_english.json in Resources */,
 				4D2577B52157C2E000155BF8 /* TLAReadingPracticeModelStoreData.json in Resources */,
 				4D5B3BAB208C8549004C319E /* TLAMenuViewController.storyboard in Resources */,
 				4D5B3BB8208CBCE1004C319E /* TLAMenuWelcomeCell.xib in Resources */,
@@ -1010,6 +1013,7 @@
 				4D5B3B7A208C5796004C319E /* Assets.xcassets in Resources */,
 				4D0193E0209B631B008DCDCF /* TLAContactViewController.storyboard in Resources */,
 				4D4CE9C4208F925700971EB3 /* TLAMenuAppVersionCell.xib in Resources */,
+				4DE172C8230B011D00B2F23E /* information_name_in_thai.json in Resources */,
 				4D3DE61120B47F4A001A01ED /* TLASkillsCell.xib in Resources */,
 				4D3DE60920B46C8E001A01ED /* TLASkillsViewController.storyboard in Resources */,
 				4D5B3B99208C7488004C319E /* NotoSerifThai-Regular.ttf in Resources */,

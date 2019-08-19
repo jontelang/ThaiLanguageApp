@@ -1,0 +1,42 @@
+[
+    {
+        "type" : "title",
+        "text" : "Name (in Thai)"
+    },
+    {
+        "type" : "text",
+        "text" : "That a thai character has a name is somewhat of a lie. There is no name other than the character itself."
+    },
+    {
+        "type" : "text",
+        "text" : "What we mean with giving a character a name is simply associating the character with a word so that we know which character we are talking about. Much like we do in english when we say “M as in Monkey”."
+    },
+    {
+        "type" : "text",
+        "text" : "Let’s look at a few examples. Both thai and english."
+    },
+    {
+        "type" : "text",
+        "text" : "ก ไก่ - go gai - c, chicken\nม ม้า - mo maa - h, horse"
+    },
+    {
+        "type" : "text",
+        "text" : "This is extra important in thai because there are multiple characters that sound exactly the same."
+    },
+    {
+        "type" : "text",
+        "text" : "ผ ผึ้ง - pho pheung - b, bee\nพ พาน - pho phan - t, tray\nภ สำเภา - pho sam-phao - s, sailboat"
+    },
+    {
+        "type" : "text",
+        "text" : "Now you might wonder why there are characters that sound the same. The short answer is for historical reasons."
+    },
+    {
+        "type" : "text",
+        "text" : ".. and if you want the long answer, you can read the dedicated lesson for just that."
+    },
+    {
+        "type" : "link",
+        "text" : "Tap to Read: \"Characters With the Same Sound, Why Do They Exist?\""
+    }
+]
