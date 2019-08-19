@@ -34,7 +34,7 @@ extension TLACharactersCoordinator: TLACharactersDetailModuleOutput {
         var informationIdentifier = ""
         switch identifier {
             case "NAME_IN_ENGLISH":
-                informationIdentifier = "information_test"
+                informationIdentifier = "information_name_in_english"
             default:
                 fatalError("Error please add a route from the tappable item!")
                 break

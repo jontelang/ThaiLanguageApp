@@ -9,8 +9,17 @@
 import UIKit
 
 /// Purpose: To display a link in an 'information' view
-struct TLAInformationLinkDisplayable {
+final class TLAInformationLinkDisplayable {
     var link: String
+    
+    // This is just an internal var made for the 'TLAStackViewTappable' protocol
+    private var _tappableHandler: TLAStackViewTappableHandler?
+    private var _tappableIdentifier: String
+    
+    init(link: String, tappableIdentifier: String) {
+        self.link = link
+        _tappableIdentifier = tappableIdentifier
+    }
 }
 
 extension TLAInformationLinkDisplayable: TLAStackViewDisplayable {
@@ -26,5 +35,22 @@ extension TLAInformationLinkDisplayable: TLAStackViewDisplayable {
         label.pinTo(view, padding: UIEdgeInsets(top: 8, left: 10, bottom: 10, right: 40))
         
         return view
+    }
+}
+
+extension TLAInformationLinkDisplayable: TLAStackViewTappable {
+    var tappableIdentifier: String {
+        return _tappableIdentifier
+    }
+    
+    var tappableHandler: TLAStackViewTappableHandler? {
+        get { return _tappableHandler }
+        set { _tappableHandler = newValue }
+    }
+    
+    func tapped() {
+        if let handler = _tappableHandler {
+            handler.tapped(from: self)
+        }
     }
 }

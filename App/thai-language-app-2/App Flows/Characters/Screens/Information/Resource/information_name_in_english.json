@@ -37,7 +37,18 @@
     },
     {
         "type" : "link",
-        "text" : "tap to open"
+        "text" : "tap to open link 1",
+        "identifier" : "link_1"
+    },
+    {
+        "type" : "link",
+        "text" : "tap to open link 2",
+        "identifier" : "link_2"
+    },
+    {
+        "type" : "link",
+        "text" : "tap to open link 3",
+        "identifier" : "link_3"
     },
     {
         "type" : "text",

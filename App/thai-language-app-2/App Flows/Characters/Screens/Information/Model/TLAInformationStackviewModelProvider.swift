@@ -30,7 +30,11 @@ final class TLAInformationStackviewModelProvider {
             case .text:
                 rows += [TLADisplayRow(items: [TLAInformationTextDisplayable(text: information.text)])]
             case .link:
-                rows += [TLADisplayRow(items: [TLAInformationLinkDisplayable(link: information.text)])]
+                guard let identifier = information.identifier else {
+                    fatalError("Found a .link in information without identifier")
+                }
+                let linkDisplayable = TLAInformationLinkDisplayable(link: information.text, tappableIdentifier: identifier)
+                rows += [TLADisplayRow(items: [linkDisplayable])]
             }
         }
         
