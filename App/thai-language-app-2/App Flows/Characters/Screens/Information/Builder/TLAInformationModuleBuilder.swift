@@ -30,11 +30,7 @@ final class TLAInformationModuleBuilder {
                                                       configuration: configuration)
         
         // Build the actual view controller
-        let viewController = UIViewController()
-        viewController.view.addSubview(stackview)
-        viewController.view.backgroundColor = UIColor.black.withAlphaComponent(0.5)
-        stackview.pinTo(viewController.view, padding: UIEdgeInsets(top: 100, left: 20, bottom: 60, right: 20))
-        stackview.layer.cornerRadius = 4.0
+        let viewController = TLAInformationViewController(with: stackview)
         
         // Make sure it is dismissable
         let cancelTap = UITapGestureRecognizer(target: coordinator, action: #selector(TLAInformationModuleOutput.dismissPls))

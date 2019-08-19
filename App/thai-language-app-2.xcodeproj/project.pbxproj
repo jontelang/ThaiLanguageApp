@@ -107,6 +107,7 @@
 		4DE0122322F7269D00F3B200 /* TLACharacterDetailModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE0122222F7269D00F3B200 /* TLACharacterDetailModuleBuilder.swift */; };
 		4DE0122722F72A0A00F3B200 /* TLACharactersDetailStackviewModelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE0122622F72A0A00F3B200 /* TLACharactersDetailStackviewModelProvider.swift */; };
 		4DE0122A22F72B0A00F3B200 /* TLACharacterPropertyDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE0122922F72B0A00F3B200 /* TLACharacterPropertyDisplay.swift */; };
+		4DE172C6230AF8EB00B2F23E /* TLAInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE172C5230AF8EB00B2F23E /* TLAInformationViewController.swift */; };
 		4DEFE38B209F07EA00476E4E /* TLASettingsSwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFE389209F07EA00476E4E /* TLASettingsSwitchCell.swift */; };
 		4DEFE38C209F07EA00476E4E /* TLASettingsSwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DEFE38A209F07EA00476E4E /* TLASettingsSwitchCell.xib */; };
 		4DEFE391209F13DF00476E4E /* TLASettingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFE390209F13DF00476E4E /* TLASettingModel.swift */; };
@@ -217,6 +218,7 @@
 		4DE0122222F7269D00F3B200 /* TLACharacterDetailModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLACharacterDetailModuleBuilder.swift; sourceTree = "<group>"; };
 		4DE0122622F72A0A00F3B200 /* TLACharactersDetailStackviewModelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLACharactersDetailStackviewModelProvider.swift; sourceTree = "<group>"; };
 		4DE0122922F72B0A00F3B200 /* TLACharacterPropertyDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLACharacterPropertyDisplay.swift; sourceTree = "<group>"; };
+		4DE172C5230AF8EB00B2F23E /* TLAInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAInformationViewController.swift; sourceTree = "<group>"; };
 		4DEFE389209F07EA00476E4E /* TLASettingsSwitchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLASettingsSwitchCell.swift; sourceTree = "<group>"; };
 		4DEFE38A209F07EA00476E4E /* TLASettingsSwitchCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TLASettingsSwitchCell.xib; sourceTree = "<group>"; };
 		4DEFE390209F13DF00476E4E /* TLASettingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLASettingModel.swift; sourceTree = "<group>"; };
@@ -799,6 +801,7 @@
 				4D9CBB6523030FD8006748A8 /* Resource */,
 				4D9CBB6B230451FC006748A8 /* Displayable */,
 				4D9CBB682303104B006748A8 /* Model */,
+				4DE172C4230AF8D800B2F23E /* View */,
 			);
 			path = Information;
 			sourceTree = "<group>";
@@ -904,6 +907,14 @@
 				4DE0122622F72A0A00F3B200 /* TLACharactersDetailStackviewModelProvider.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		4DE172C4230AF8D800B2F23E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4DE172C5230AF8EB00B2F23E /* TLAInformationViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		4DEFE388209F07B200476E4E /* Cells */ = {
@@ -1055,6 +1066,7 @@
 				4D4CE9BE208F8FD200971EB3 /* TLATableViewCellEntry.swift in Sources */,
 				4D5B3BB7208CBCE1004C319E /* TLAMenuWelcomeCell.swift in Sources */,
 				4D6D49F8208E47840022F61B /* TLATableView.swift in Sources */,
+				4DE172C6230AF8EB00B2F23E /* TLAInformationViewController.swift in Sources */,
 				4D5B3B86208C57FA004C319E /* TLACoordinator.swift in Sources */,
 				4D5B3BA9208C8523004C319E /* TLAMenuViewController.swift in Sources */,
 				4D628D8422F5C9A000A82624 /* TLAStackView.swift in Sources */,

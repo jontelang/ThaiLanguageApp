@@ -286,6 +286,20 @@ extension TLATheme {
                 return theme
             }
         }
+        enum Screen {
+            enum Background {
+                static func AnimatedOut() -> TLATheme {
+                    let theme = TLATheme()
+                    theme.themeBackgroundColor = UIColor.black.withAlphaComponent(0.0)
+                    return theme
+                }
+                static func AnimatedIn() -> TLATheme {
+                    let theme = TLATheme()
+                    theme.themeBackgroundColor = UIColor.black.withAlphaComponent(0.3)
+                    return theme
+                }
+            }
+        }
     }
     enum Skills {
         enum Label {
