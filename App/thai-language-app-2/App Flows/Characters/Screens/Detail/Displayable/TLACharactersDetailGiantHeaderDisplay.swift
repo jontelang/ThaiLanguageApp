@@ -19,6 +19,14 @@ extension TLACharactersDetailGiantDisplay: TLAStackViewDisplayable {
         label.text = text
         label.theme = TLATheme.Characters.Detail.Header.Text()
         label.textDrawInsets = characterInsets // Should this be in theme?
+        
+        let border = TLAView() // Make themable?
+        label.addSubview(border)
+        border.pinBottomTo(label)
+        border.pinXAxisTo(label)
+        border.pinHeight(2)
+        border.theme = TLATheme.Characters.Detail.Header.Border()
+        
         return label
     }
 }

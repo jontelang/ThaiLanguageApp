@@ -21,8 +21,8 @@ extension TLATitleDisplay: TLAStackViewDisplayable {
         let label = TLALabel()
         label.text = text
         label.theme = TLATheme.Characters.List.Sections.Title.Text()
-        
-        let border = TLAView()
+
+        let border = TLAView() // Make themable?
         label.addSubview(border)
         border.pinBottomTo(label)
         border.pinXAxisTo(label)

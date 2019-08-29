@@ -224,9 +224,15 @@ extension TLATheme {
                 static func Text() -> TLATheme {
                     let theme = TLATheme()
                     theme.themeFont = UIFont.appRegularThaiFont().withSize(100)
-                    theme.themeBackgroundColor = UIColor(hexString: "#EFEFEF")
+                    theme.themeBackgroundColor = .white
                     theme.themeTextColor = UIColor.black
                     theme.themeTextAlignment = NSTextAlignment.center
+                    return theme
+                }
+                static func Border() -> TLATheme {
+                    let theme = TLATheme()
+                    theme.themeBackgroundColor = .appTint
+                    theme.themeRadius = 2.0
                     return theme
                 }
             }
@@ -252,14 +258,22 @@ extension TLATheme {
         }
     }
     enum Information {
-        static func Title() -> TLATheme {
-            let theme = TLATheme()
-            theme.themeFont = UIFont.appBoldFont().withSize(20)
-            theme.themeTextColor = .darkText
-            theme.themeTextAlignment = .left
-            theme.themeBackgroundColor = .clear
-            theme.themeNumberOfLines = 0
-            return theme
+        enum Title {
+            static func Text() -> TLATheme {
+                let theme = TLATheme()
+                theme.themeFont = UIFont.appBoldFont().withSize(20)
+                theme.themeTextColor = .darkText
+                theme.themeTextAlignment = .left
+                theme.themeBackgroundColor = .clear
+                theme.themeNumberOfLines = 0
+                return theme
+            }
+            static func Border() -> TLATheme {
+                let theme = TLATheme()
+                theme.themeBackgroundColor = .appTint
+                theme.themeRadius = 2.0
+                return theme
+            }
         }
         static func Text() -> TLATheme {
             let theme = TLATheme()

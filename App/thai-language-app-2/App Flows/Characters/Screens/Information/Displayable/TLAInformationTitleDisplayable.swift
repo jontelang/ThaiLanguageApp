@@ -15,9 +15,21 @@ struct TLAInformationTitleDisplayable {
 
 extension TLAInformationTitleDisplayable: TLAStackViewDisplayable {
     func view() -> UIView {
+        let view = TLAView()
+        
         let label = TLALabel()
         label.text = title
-        label.theme = TLATheme.Information.Title()
-        return label
+        label.theme = TLATheme.Information.Title.Text()
+        view.addSubview(label)
+        label.pinTo(view, padding: UIEdgeInsetsMake(0, 0, 10, 0))
+        
+        let border = TLAView() // Make themable?
+        view.addSubview(border)
+        border.pinBottomTo(view)
+        border.pinXAxisTo(view)
+        border.pinHeight(2)
+        border.theme = TLATheme.Information.Title.Border()
+        
+        return view
     }
 }
