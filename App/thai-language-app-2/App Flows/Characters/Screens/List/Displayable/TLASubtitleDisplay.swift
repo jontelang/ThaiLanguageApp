@@ -19,7 +19,6 @@ struct TLASubtitleDisplay {
 extension TLASubtitleDisplay: TLAStackViewDisplayable {
     func view() -> UIView {
         let label = TLALabel()
-        label.backgroundColor = .gray
         label.text = text
         label.theme = TLATheme.Characters.List.Sections.Subtitle.Text()
         
