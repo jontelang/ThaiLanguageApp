@@ -49,7 +49,7 @@ extension TLACharactersCoordinator: TLACharactersDetailModuleOutput {
 }
 
 extension TLACharactersCoordinator: TLAInformationModuleOutput {
-    func dismissPls() { // TODO: Change name!
+    func tappedOutsideInformationPopup() {
         navigationController.dismiss(animated: false, completion: nil)
     }
 }

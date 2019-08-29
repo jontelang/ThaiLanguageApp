@@ -9,7 +9,7 @@
 import UIKit
 
 @objc protocol TLAInformationModuleOutput: class {
-    func dismissPls()
+    func tappedOutsideInformationPopup()
 }
 
 final class TLAInformationModuleBuilder {
@@ -25,16 +25,17 @@ final class TLAInformationModuleBuilder {
         configuration.rowSpacing = 10
         configuration.internalInsets = UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20)
         
-        let stackview = TLAStackviewBuilder.buildView(displayRows: displayRows,
-                                                      tapHandler: TLADebugStackViewTappableHandler(),
-                                                      configuration: configuration)
+        let stackview = TLAStackviewBuilder.buildView(
+            displayRows: displayRows,
+            tapHandler: TLADebugStackViewTappableHandler(),
+            configuration: configuration
+        )
         
         // Build the actual view controller
-        let viewController = TLAInformationViewController(with: stackview)
-        
-        // Make sure it is dismissable
-        let cancelTap = UITapGestureRecognizer(target: coordinator, action: #selector(TLAInformationModuleOutput.dismissPls))
-        viewController.view.addGestureRecognizer(cancelTap)
+        let viewController = TLAInformationViewController(
+            with: stackview,
+            delegate: coordinator
+        )
         
         return viewController
     }
