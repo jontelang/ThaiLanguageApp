@@ -14,6 +14,7 @@ class TLATheme: NSObject {
     var themeBackgroundColor: UIColor?
     var themeFont: UIFont?
     var themeRadius: CGFloat = 0.0
+    var themeAlpha: CGFloat = 1.0
     
     // UILabel specific
     var themeNumberOfLines = 1
@@ -305,11 +306,13 @@ extension TLATheme {
                 static func AnimatedOut() -> TLATheme {
                     let theme = TLATheme()
                     theme.themeBackgroundColor = UIColor.black.withAlphaComponent(0.0)
+                    theme.themeAlpha = 0.0
                     return theme
                 }
                 static func AnimatedIn() -> TLATheme {
                     let theme = TLATheme()
                     theme.themeBackgroundColor = UIColor.black.withAlphaComponent(0.3)
+                    theme.themeAlpha = 1.0
                     return theme
                 }
             }

@@ -15,6 +15,7 @@ class TLAView: UIView {
         didSet {
             backgroundColor = theme?.themeBackgroundColor
             layer.cornerRadius = theme?.themeRadius ?? 0.0
+            alpha = theme?.themeAlpha ?? 1.0
         }
     }
     
