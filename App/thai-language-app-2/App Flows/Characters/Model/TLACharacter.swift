@@ -27,6 +27,8 @@ struct TLACharacter {
     var identifier: String
     var thaiCharacter: String
     var thaiNameInEnglish: String
+    var nameMeaningThai: String?
+    var nameMeaningEnglish: String?
     var thaiNameInThai: String
     var alternativeThaiCharacter: String?
     var type: TLACharacterType

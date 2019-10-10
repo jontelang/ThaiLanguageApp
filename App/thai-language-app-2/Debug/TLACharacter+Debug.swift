@@ -15,6 +15,8 @@ extension TLACharacter {
         thaiCharacter = "ก"
         thaiNameInEnglish = "Ko Kai"
         thaiNameInThai = "ก ไก่"
+        nameMeaningEnglish = "Chicken"
+        nameMeaningThai = "ไก่"
         alternativeThaiCharacter = "alt ก"
         type = .consonant
         characterHeight = .normal

@@ -32,6 +32,12 @@ final class TLACharactersDetailStackviewModelProvider {
                          subtitle: character.thaiNameInThai,
                          identifier: "NAME_IN_THAI")
         
+        if let meaningEnglish = character.nameMeaningEnglish, let meaningThai = character.nameMeaningThai {
+            rows += buildRow(text: "Meaning of name",
+                             subtitle: "\(meaningEnglish) / \(meaningThai)",
+                             identifier: "THAI_NAME_MEANING")
+        }
+        
         rows += buildRow(text: "Alternative character",
                          subtitle: character.alternativeThaiCharacter,
                          identifier: "ALT_CHARACTER")
