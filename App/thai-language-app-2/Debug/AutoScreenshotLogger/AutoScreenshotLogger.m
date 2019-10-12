@@ -135,7 +135,8 @@
 + (void)saveToDesktop:(UIImage*)image {
     NSFileManager *fileManager = [NSFileManager defaultManager];
     NSData *myImageData = UIImagePNGRepresentation(image);
-    NSString *path = [NSString stringWithFormat:@"/Users/jontelang/Dropbox/Projekt/thai-language-app-2/Screenshots/screenshot_%f.png", [[NSDate date] timeIntervalSince1970]];
+    NSString *path = [NSString stringWithFormat:@"/Users/jontelang/Library/Mobile Documents/com~apple~CloudDocs/Projekt/thai-language-app-2/Screenshots/screenshot_%f.png", [[NSDate date] timeIntervalSince1970]];
+    NSLog(@"path: %@", path);
     [fileManager createFileAtPath:path contents:myImageData attributes:nil];
 }
 
